@@ -175,6 +175,44 @@ export class TabsPage {
 ```
 
 ## Step9
+再进一步开发之前，一般我们会定义一些`css工具样式`,来方便后续的开发，比如`margin`、`padding`的值。
+在`.\src\app`目录下，又一个`app.scss`这个`sass`文件是用来定义`全局css样式`的，我们可以将一些通用的`css工具样式`定义同级目录下的独立的scss文件，并import到app.scss内。
+```bash
+// app.scss
+...
+@import 'margin.scss';
+@import 'padding.scss';
+...
+```
+
+```bash
+// margin.scss
+.margin-section {margin-bottom: 1.6rem;}
+.no-margin {margin: 0;}
+.margin {margin: 0.8rem;}
+.margin-top {margin-top: 0.8rem;}
+.margin-right {margin-right: 0.8rem;}
+.margin-bottom {margin-bottom: 0.8rem;}
+.margin-left {margin-left: 0.8rem;}
+.margin-horizontal {margin-left: 0.8rem; margin-right: 0.8rem;}
+.margin-vertical {margin-top: 0.8rem; margin-bottom: 0.8rem;}
+```
+
+```bash
+// padding.scss
+.padding-section {padding-bottom: 16px;}
+.no-padding {padding: 0;}
+.padding {padding: 0.8rem;}
+.padding-top {padding-top: 0.8rem;}
+.padding-right {padding-right: 0.8rem;}
+.padding-bottom {padding-bottom: 0.8rem;}
+.padding-left {padding-left: 0.8rem;}
+.padding-horizontal {padding-left: 0.8rem;padding-right: 0.8rem;}
+.padding-vertical {padding-top: 0.8rem;padding-bottom: 0.8rem;}
+```
+
+
+## Step10
 
 根据设计稿，实现"首页"效果。具体详见`.\src\home`文件夹。
 <br>
