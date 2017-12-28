@@ -174,5 +174,3 @@ export class TabsPage {
   <ion-tab tabIcon="contact" tabTitle="我的" [root]="tab4"></ion-tab>
 </ion-tabs>`
 ```
-=======
->>>>>>> 4b73ec30f10344855866439440669c9ff1c9a519
