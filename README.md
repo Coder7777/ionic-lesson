@@ -22,7 +22,8 @@ npm install
 ```
 进入项目目录，执行`npm install`,请开启vpn，静待安装完成。若中途安装失败，可删除`.\RealEstate`目录下的`node_module`文件夹，然后重新执行`npm install`,总有一次会成功的 `-_-|||`
 
-`此处有坑,高能预警!`<br>
+`此处有坑,高能预警!`
+<br>
 由于macOS的权限控制原因，`npm install`安装过程可能会出现`没有权限`的异常，导致安装中断。使用`--unsafe-prem`参数，可以顺利的安装完成。
 
 ```bash
