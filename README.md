@@ -133,7 +133,6 @@ ionic serve
 ```
 
 执行该命令，将项目在浏览器内跑起来。`ionic serve`命令可跟多个参数常用的有`--port 9000`让项目跑在9000端口上, `--nobrowser`跑起来，但并不会自动打开浏览器。
-<<<<<<< HEAD
 
 ## Step8
 ```bash
@@ -174,3 +173,7 @@ export class TabsPage {
   <ion-tab tabIcon="contact" tabTitle="我的" [root]="tab4"></ion-tab>
 </ion-tabs>`
 ```
+
+## Step9
+
+根据设计稿，实现"首页"效果。具体详见`.\src\home`文件夹。
