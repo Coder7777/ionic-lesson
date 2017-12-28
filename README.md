@@ -137,19 +137,19 @@ ionic serve
 
 ## Step8
 ```bash
-# 首页
+// 首页
 ionic g page Home  
-# 消息
+// 消息
 ionic g page Message
-# 看房
+// 看房
 ionic g page Appointment
-# 我的
+// 我的
 ionic g page MyCenter
 ```
 创建新的四个页面，并修改`tabs.ts`和`tabs.html`,如下：
 
 ```bash
-# tabs.ts
+// tabs.ts
 export class TabsPage {
   tab1: any = "HomePage";
   tab2: any = "MessagePage";
@@ -166,7 +166,7 @@ export class TabsPage {
 ```
 
 ```bash
-# tabs.html
+// tabs.html
 <ion-tabs>
   <ion-tab tabIcon="home" tabTitle="首页" [root]="tab1"></ion-tab>
   <ion-tab tabIcon="mail" tabTitle="消息" [root]="tab2"></ion-tab>
