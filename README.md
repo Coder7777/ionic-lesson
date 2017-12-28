@@ -176,7 +176,8 @@ export class TabsPage {
 
 ## Step9
 再进一步开发之前，一般我们会定义一些`css工具样式`,来方便后续的开发，比如`margin`、`padding`的值。
-在`.\src\app`目录下，又一个`app.scss`这个`sass`文件是用来定义`全局css样式`的，我们可以将一些通用的`css工具样式`定义同级目录下的独立的scss文件，并import到app.scss内。
+在`.\src\app`目录下，有一个`app.scss`这个`sass`文件是用来定义`全局css样式`的，我们可以将一些通用的`css工具样式`定义同级目录下的独立的scss文件，并import到app.scss内。
+<br>
 ```bash
 // app.scss
 ...

@@ -7,19 +7,478 @@
 <ion-header>
 
   <ion-navbar color="primary">
+
     <ion-searchbar placeholder="请输入小区或商圈"></ion-searchbar>
+
     <ion-buttons start>
       <button ion-button>
-        <ion-label>福州
+        <ion-label class="no-margin-horizontal">福州
           <ion-icon name="arrow-down"></ion-icon>
         </ion-label>
       </button>
     </ion-buttons>
+
   </ion-navbar>
 
 </ion-header>
 
+<ion-content #main class="bg-content">
+  <ion-slides [style.height.px]='height' pager>
+    <ion-slide>
+      <img src="assets/ui/slides/slide1.png" alt="">
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/ui/slides/slide1.png" alt="">
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/ui/slides/slide1.png" alt="">
+    </ion-slide>
+  </ion-slides>
 
-<ion-content padding>
+  <ion-grid class="module-section no-padding bg-component margin-bottom">
+    <ion-row>
+      <ion-col>
+        <img src="assets/ui/module-icon/1.png" alt="">
+        <p>二手房</p>
+      </ion-col>
+      <ion-col>
+        <img src="assets/ui/module-icon/2.png" alt="">
+        <p>新房</p>
+      </ion-col>
+      <ion-col>
+        <img src="assets/ui/module-icon/3.png" alt="">
+        <p>租房</p>
+      </ion-col>
+      <ion-col>
+        <img src="assets/ui/module-icon/4.png" alt="">
+        <p>地图找房</p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <img src="assets/ui/module-icon/5.png" alt="">
+        <p>找经纪人</p>
+      </ion-col>
+      <ion-col>
+        <img src="assets/ui/module-icon/6.png" alt="">
+        <p>评估</p>
+      </ion-col>
+      <ion-col>
+        <img src="assets/ui/module-icon/7.png" alt="">
+        <p>贷款计算</p>
+      </ion-col>
+      <ion-col>
+        <img src="assets/ui/module-icon/8.png" alt="">
+        <p>更多</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <div class="section-wrapper bg-component margin-bottom">
+    <div class="section-header">
+      <span class="section-title">
+        房产百科
+      </span>
+      <span class="section-sub-title">
+        专业的买房攻略
+      </span>
+    </div>
+    <div class="section-body">
+      <ion-grid class="no-padding real-estate-info">
+        <ion-row>
+          <ion-col>
+            <img src="assets/ui/real-estate-info/1.png" alt="">
+            <p>海西资讯</p>
+          </ion-col>
+          <ion-col>
+            <img src="assets/ui/real-estate-info/2.png" alt="">
+            <p>购房常识</p>
+          </ion-col>
+          <ion-col>
+            <img src="assets/ui/real-estate-info/3.png" alt="">
+            <p>相关法规</p>
+          </ion-col>
+          <ion-col>
+            <img src="assets/ui/real-estate-info/4.png" alt="">
+            <p>导购</p>
+          </ion-col>
+          <ion-col>
+            <img src="assets/ui/real-estate-info/5.png" alt="">
+            <p>扫一扫</p>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <div class="xs-flex-item">
+              <div>
+                <h1 text-left>
+                  买房流程
+                </h1>
+                <p>
+                  攻略在手买房不愁
+                </p>
+              </div>
+              <div>
+                <img src="assets/ui/real-estate-info/5.png" alt="">
+              </div>
+            </div>
+          </ion-col>
+          <ion-col>
+            <div class="xs-flex-item">
+              <div>
+                <h1 text-left>公积金</h1>
+                <p>公积金政策解读</p>
+              </div>
+              <div>
+                <img src="assets/ui/real-estate-info/5.png" alt="">
+              </div>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </div>
+
+  <div class="section-wrapper bg-component  margin-bottom">
+    <div class="section-header">
+      <div class="xs-flex-item">
+        <div>
+          <span class="section-title">
+            为您推荐二手房
+          </span>
+        </div>
+        <div>
+          <span class="section-sub-title">
+            更多>>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="section-body">
+      <ion-list no-margin>
+        <div class="xs-item-wrapper">
+          <div class="xs-item-img">
+            <img src="assets/ui/second-hand-house-img/1.png" alt="">
+          </div>
+          <div class="xs-item-detail">
+            <h1>旭日新城电梯豪装小三房首付58万</h1>
+            <p>87㎡ / 2房2厅 / 朝南</p>
+            <div class="xs-flex-item">
+              <div>
+                <span>龙城春天</span>
+              </div>
+              <div>
+                <span>13573元/㎡</span>
+              </div>
+            </div>
+            <div class="xs-feature">
+              <span>满5年</span>
+              <span>认证房源</span>
+              <span>随时看房</span>
+              <span>交通便利</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="xs-item-wrapper">
+          <div class="xs-item-img">
+            <img src="assets/ui/second-hand-house-img/1.png" alt="">
+          </div>
+          <div class="xs-item-detail">
+            <h1>旭日新城电梯豪装小三房首付58万</h1>
+            <p>87㎡ / 2房2厅 / 朝南</p>
+            <div class="xs-flex-item">
+              <div>
+                <span>龙城春天</span>
+              </div>
+              <div>
+                <span>13573元/㎡</span>
+              </div>
+            </div>
+            <div class="xs-feature">
+              <span>满5年</span>
+              <span>认证房源</span>
+              <span>随时看房</span>
+              <span>交通便利</span>
+            </div>
+          </div>
+        </div>
+        <div class="xs-item-wrapper">
+          <div class="xs-item-img">
+            <img src="assets/ui/second-hand-house-img/1.png" alt="">
+          </div>
+          <div class="xs-item-detail">
+            <h1>旭日新城电梯豪装小三房首付58万</h1>
+            <p>87㎡ / 2房2厅 / 朝南</p>
+            <div class="xs-flex-item">
+              <div>
+                <span>龙城春天</span>
+              </div>
+              <div>
+                <span>13573元/㎡</span>
+              </div>
+            </div>
+            <div class="xs-feature">
+              <span>满5年</span>
+              <span>认证房源</span>
+              <span>随时看房</span>
+              <span>交通便利</span>
+            </div>
+          </div>
+        </div>
+        <div class="xs-item-wrapper">
+          <div class="xs-item-img">
+            <img src="assets/ui/second-hand-house-img/1.png" alt="">
+          </div>
+          <div class="xs-item-detail">
+            <h1>旭日新城电梯豪装小三房首付58万</h1>
+            <p>87㎡ / 2房2厅 / 朝南</p>
+            <div class="xs-flex-item">
+              <div>
+                <span>龙城春天</span>
+              </div>
+              <div>
+                <span>13573元/㎡</span>
+              </div>
+            </div>
+            <div class="xs-feature">
+              <span>满5年</span>
+              <span>认证房源</span>
+              <span>随时看房</span>
+              <span>交通便利</span>
+            </div>
+          </div>
+        </div>
+      </ion-list>
+    </div>
+  </div>
+
+  <div class="section-wrapper bg-component  margin-bottom">
+    <div class="section-header">
+      <div class="xs-flex-item">
+        <div>
+          <span class="section-title">
+            为您推荐二手房
+          </span>
+        </div>
+        <div>
+          <span class="section-sub-title">
+            更多>>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="section-body">
+      <ion-list no-margin>
+        <div class="xs-item-wrapper">
+          <div class="xs-item-img">
+            <img src="assets/ui/second-hand-house-img/1.png" alt="">
+          </div>
+          <div class="xs-item-detail">
+            <h1>旭日新城电梯豪装小三房首付58万</h1>
+            <p>87㎡ / 2房2厅 / 朝南</p>
+            <div class="xs-flex-item">
+              <div>
+                <span>龙城春天</span>
+              </div>
+              <div>
+                <span>13573元/㎡</span>
+              </div>
+            </div>
+            <div class="xs-feature">
+              <span>满5年</span>
+              <span>认证房源</span>
+              <span>随时看房</span>
+              <span>交通便利</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="xs-item-wrapper">
+          <div class="xs-item-img">
+            <img src="assets/ui/second-hand-house-img/1.png" alt="">
+          </div>
+          <div class="xs-item-detail">
+            <h1>旭日新城电梯豪装小三房首付58万</h1>
+            <p>87㎡ / 2房2厅 / 朝南</p>
+            <div class="xs-flex-item">
+              <div>
+                <span>龙城春天</span>
+              </div>
+              <div>
+                <span>13573元/㎡</span>
+              </div>
+            </div>
+            <div class="xs-feature">
+              <span>满5年</span>
+              <span>认证房源</span>
+              <span>随时看房</span>
+              <span>交通便利</span>
+            </div>
+          </div>
+        </div>
+        <div class="xs-item-wrapper">
+          <div class="xs-item-img">
+            <img src="assets/ui/second-hand-house-img/1.png" alt="">
+          </div>
+          <div class="xs-item-detail">
+            <h1>旭日新城电梯豪装小三房首付58万</h1>
+            <p>87㎡ / 2房2厅 / 朝南</p>
+            <div class="xs-flex-item">
+              <div>
+                <span>龙城春天</span>
+              </div>
+              <div>
+                <span>13573元/㎡</span>
+              </div>
+            </div>
+            <div class="xs-feature">
+              <span>满5年</span>
+              <span>认证房源</span>
+              <span>随时看房</span>
+              <span>交通便利</span>
+            </div>
+          </div>
+        </div>
+        <div class="xs-item-wrapper">
+          <div class="xs-item-img">
+            <img src="assets/ui/second-hand-house-img/1.png" alt="">
+          </div>
+          <div class="xs-item-detail">
+            <h1>旭日新城电梯豪装小三房首付58万</h1>
+            <p>87㎡ / 2房2厅 / 朝南</p>
+            <div class="xs-flex-item">
+              <div>
+                <span>龙城春天</span>
+              </div>
+              <div>
+                <span>13573元/㎡</span>
+              </div>
+            </div>
+            <div class="xs-feature">
+              <span>满5年</span>
+              <span>认证房源</span>
+              <span>随时看房</span>
+              <span>交通便利</span>
+            </div>
+          </div>
+        </div>
+      </ion-list>
+    </div>
+  </div>
+
+  <div class="section-wrapper bg-component  margin-bottom">
+    <div class="section-header">
+      <div class="xs-flex-item">
+        <div>
+          <span class="section-title">
+            为您推荐二手房
+          </span>
+        </div>
+        <div>
+          <span class="section-sub-title">
+            更多>>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="section-body">
+      <ion-list no-margin>
+        <div class="xs-item-wrapper">
+          <div class="xs-item-img">
+            <img src="assets/ui/second-hand-house-img/1.png" alt="">
+          </div>
+          <div class="xs-item-detail">
+            <h1>旭日新城电梯豪装小三房首付58万</h1>
+            <p>87㎡ / 2房2厅 / 朝南</p>
+            <div class="xs-flex-item">
+              <div>
+                <span>龙城春天</span>
+              </div>
+              <div>
+                <span>13573元/㎡</span>
+              </div>
+            </div>
+            <div class="xs-feature">
+              <span>满5年</span>
+              <span>认证房源</span>
+              <span>随时看房</span>
+              <span>交通便利</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="xs-item-wrapper">
+          <div class="xs-item-img">
+            <img src="assets/ui/second-hand-house-img/1.png" alt="">
+          </div>
+          <div class="xs-item-detail">
+            <h1>旭日新城电梯豪装小三房首付58万</h1>
+            <p>87㎡ / 2房2厅 / 朝南</p>
+            <div class="xs-flex-item">
+              <div>
+                <span>龙城春天</span>
+              </div>
+              <div>
+                <span>13573元/㎡</span>
+              </div>
+            </div>
+            <div class="xs-feature">
+              <span>满5年</span>
+              <span>认证房源</span>
+              <span>随时看房</span>
+              <span>交通便利</span>
+            </div>
+          </div>
+        </div>
+        <div class="xs-item-wrapper">
+          <div class="xs-item-img">
+            <img src="assets/ui/second-hand-house-img/1.png" alt="">
+          </div>
+          <div class="xs-item-detail">
+            <h1>旭日新城电梯豪装小三房首付58万</h1>
+            <p>87㎡ / 2房2厅 / 朝南</p>
+            <div class="xs-flex-item">
+              <div>
+                <span>龙城春天</span>
+              </div>
+              <div>
+                <span>13573元/㎡</span>
+              </div>
+            </div>
+            <div class="xs-feature">
+              <span>满5年</span>
+              <span>认证房源</span>
+              <span>随时看房</span>
+              <span>交通便利</span>
+            </div>
+          </div>
+        </div>
+        <div class="xs-item-wrapper">
+          <div class="xs-item-img">
+            <img src="assets/ui/second-hand-house-img/1.png" alt="">
+          </div>
+          <div class="xs-item-detail">
+            <h1>旭日新城电梯豪装小三房首付58万</h1>
+            <p>87㎡ / 2房2厅 / 朝南</p>
+            <div class="xs-flex-item">
+              <div>
+                <span>龙城春天</span>
+              </div>
+              <div>
+                <span>13573元/㎡</span>
+              </div>
+            </div>
+            <div class="xs-feature">
+              <span>满5年</span>
+              <span>认证房源</span>
+              <span>随时看房</span>
+              <span>交通便利</span>
+            </div>
+          </div>
+        </div>
+      </ion-list>
+    </div>
+  </div>
 
 </ion-content>
