@@ -177,3 +177,5 @@ export class TabsPage {
 ## Step9
 
 根据设计稿，实现"首页"效果。具体详见`.\src\home`文件夹。
+
+<img src="https://github.com/Coder7777/ionic-lesson/blob/lesson-1/UI/home_spec.png"/>
