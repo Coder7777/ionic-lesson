@@ -1,0 +1,21 @@
+<!-- Generated template for the XsHouseItemComponent component -->
+<div class="xs-item-wrapper" *ngFor="let item of items;">
+  <div class="xs-item-img">
+    <img src="{{item.imgUrl}}" alt="">
+  </div>
+  <div class="xs-item-detail">
+    <h1>{{item.description}}</h1>
+    <p>{{item.buildArea}}㎡ / {{item.room}}房{{item.hall}}厅 / {{item.face}}</p>
+    <div class="xs-flex-item">
+      <div>
+        <span>{{item.projectName}}</span>
+      </div>
+      <div>
+        <span>{{item.unitPrice}}元/㎡</span>
+      </div>
+    </div>
+    <div>
+      <xs-tag [item]="feature" *ngFor="let feature of item.feature;"></xs-tag>
+    </div>
+  </div>
+</div>

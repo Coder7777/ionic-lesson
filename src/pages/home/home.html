@@ -119,7 +119,7 @@
                 </p>
               </div>
               <div>
-                <img src="assets/ui/real-estate-info/6.png" alt="">
+                <img src="assets/ui/real-estate-info/6.jpg" alt="">
               </div>
             </div>
           </ion-col>
@@ -130,7 +130,7 @@
                 <p>公积金政策解读</p>
               </div>
               <div>
-                <img src="assets/ui/real-estate-info/7.png" alt="">
+                <img src="assets/ui/real-estate-info/7.jpg" alt="">
               </div>
             </div>
           </ion-col>
@@ -139,7 +139,7 @@
     </div>
   </div>
 
-  <div class="section-wrapper bg-component  margin-bottom">
+  <!-- <div class="section-wrapper bg-component  margin-bottom">
     <div class="section-header">
       <div class="xs-flex-item">
         <div>
@@ -365,7 +365,7 @@
         </div>
       </ion-list>
     </div>
-  </div>
+  </div> -->
 
   <div class="section-wrapper bg-component  margin-bottom">
     <div class="section-header">
@@ -384,99 +384,27 @@
     </div>
     <div class="section-body">
       <ion-list no-margin>
-        <div class="xs-item-wrapper">
+        <!-- <div class="xs-item-wrapper" *ngFor="let secondHandHouse of secondHandHouses;">
           <div class="xs-item-img">
-            <img src="assets/ui/second-hand-house-img/1.png" alt="">
+            <img src="{{secondHandHouse.imgUrl}}" alt="">
           </div>
           <div class="xs-item-detail">
-            <h1>旭日新城电梯豪装小三房首付58万</h1>
-            <p>87㎡ / 2房2厅 / 朝南</p>
+            <h1>{{secondHandHouse.description}}</h1>
+            <p>{{secondHandHouse.BuildArea}}㎡ / {{secondHandHouse.room}}房{{secondHandHouse.hall}}厅 / 朝南</p>
             <div class="xs-flex-item">
               <div>
-                <span>龙城春天</span>
+                <span>{{secondHandHouse.projectName}}</span>
               </div>
               <div>
                 <span>13573元/㎡</span>
               </div>
             </div>
             <div class="xs-feature">
-              <span>满5年</span>
-              <span>认证房源</span>
-              <span>随时看房</span>
-              <span>交通便利</span>
+              <span *ngFor="let feature of secondHandHouse.feature">{{feature.text}}</span>
             </div>
           </div>
-        </div>
-
-        <div class="xs-item-wrapper">
-          <div class="xs-item-img">
-            <img src="assets/ui/second-hand-house-img/1.png" alt="">
-          </div>
-          <div class="xs-item-detail">
-            <h1>旭日新城电梯豪装小三房首付58万</h1>
-            <p>87㎡ / 2房2厅 / 朝南</p>
-            <div class="xs-flex-item">
-              <div>
-                <span>龙城春天</span>
-              </div>
-              <div>
-                <span>13573元/㎡</span>
-              </div>
-            </div>
-            <div class="xs-feature">
-              <span>满5年</span>
-              <span>认证房源</span>
-              <span>随时看房</span>
-              <span>交通便利</span>
-            </div>
-          </div>
-        </div>
-        <div class="xs-item-wrapper">
-          <div class="xs-item-img">
-            <img src="assets/ui/second-hand-house-img/1.png" alt="">
-          </div>
-          <div class="xs-item-detail">
-            <h1>旭日新城电梯豪装小三房首付58万</h1>
-            <p>87㎡ / 2房2厅 / 朝南</p>
-            <div class="xs-flex-item">
-              <div>
-                <span>龙城春天</span>
-              </div>
-              <div>
-                <span>13573元/㎡</span>
-              </div>
-            </div>
-            <div class="xs-feature">
-              <span>满5年</span>
-              <span>认证房源</span>
-              <span>随时看房</span>
-              <span>交通便利</span>
-            </div>
-          </div>
-        </div>
-        <div class="xs-item-wrapper">
-          <div class="xs-item-img">
-            <img src="assets/ui/second-hand-house-img/1.png" alt="">
-          </div>
-          <div class="xs-item-detail">
-            <h1>旭日新城电梯豪装小三房首付58万</h1>
-            <p>87㎡ / 2房2厅 / 朝南</p>
-            <div class="xs-flex-item">
-              <div>
-                <span>龙城春天</span>
-              </div>
-              <div>
-                <span>13573元/㎡</span>
-              </div>
-            </div>
-            <div class="xs-feature">
-              <span>满5年</span>
-              <span>认证房源</span>
-              <span>随时看房</span>
-              <span>交通便利</span>
-            </div>
-          </div>
-        </div>
+        </div> -->
+        <xs-house-item [items]="secondHandHouses"></xs-house-item>
       </ion-list>
     </div>
   </div>

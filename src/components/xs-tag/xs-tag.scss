@@ -1,0 +1,27 @@
+xs-tag {
+    .tag {
+        display: inline-block;
+        padding: 0.1rem 0.4rem;
+        font-size: 1.2rem;
+        color: white;
+        border-radius: 3px;
+        margin-right: 5px;
+        background-color: green;
+    }
+    .color1 {
+        color: #dbc02e;
+        background-color: #faf3e0;
+    }
+    .color2 {
+        color: #59c6d3;
+        background-color: #e1f5f8;
+    }
+    .color3 {
+        color: #33be85;
+        background-color: #e1f5ed;
+    }
+    .color4 {
+        color: #fb8c78;
+        background-color: #fff1e1;
+    }
+}

@@ -1,12 +1,49 @@
 # Lesson-1
-本节课主要完成项目基础构件的从零搭建的过程。
+本节课主要完成组件化及HTTP请求。
 
 ## Step1 
 
 ```bash
-npm install -g cordova ionic
+ionic g provider webapi
 ```
-如果该步骤安装失败，则进入`C:\Users\你的名字\AppData\Roaming`删除`npm`及`npm-cache`两个目录，再次重新执行。请勿使用`cnpm`安装，在`lazy load`方面，`cnpm`安装的项目会有问题。
+
+创建一个名为WebapiProvider的服务，用于承载Ajax请求的封装。在`.\src\provider\webapi.ts`内引入Angular的Http及相关模块。
+
+```bash
+import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+```
+封装`GET`、`POST`、`PUT`、`DELETE`自定义函数
+
+```bash
+
+```
+
+由于ionic创建的模板，并没有默认将Http模块包含到项目内，所以我们需要手动对`.\src\app\app.module.ts`添加Http模块引用,并修改`@NgModule`在`imports`数组属性内添加`HttpClientModule`。
+
+```bash
+import { HttpClientModule } from '@angular/common/http';
+...
+@NgModule({
+  ...
+  imports: [
+    BrowserModule,
+    HttpClientModule,
+    IonicModule.forRoot(MyApp)
+  ],
+  bootstrap: [IonicApp],
+  entryComponents: [
+    ...
+  ],
+  providers: [
+    ...
+  ]
+})
+```
+
+至此，我们的ionic应用就已经具备了与服务器交互的能力了。
+<br>
+`备注：ionic g 命令会根据大小写将文件名用减号分隔如过取名为WebApi,最后将会生成一个web-api.ts文件`
 
 ## Step2
 ```bash

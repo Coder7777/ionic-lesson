@@ -74,55 +74,55 @@ page-home {
             }
         }
     }
-    .xs-item-wrapper {
-        border-bottom: 0.55px solid #e5e5e5;
-        min-height: 107px;
-        position: relative;
-        padding-top: 12px;
-        padding-bottom: 12px;
-        .xs-item-img {
-            position: absolute;
-            width: 110px;
-            height: 83px;
-        }
-        .xs-item-detail {
-            margin-left: 122px;
-            color: #999;
-            .xs-flex-item {
-                padding: 0;
-                margin-bottom: 6px;
-                height: auto;
-                font-size: 1.3rem;
-                background-color: transparent;
-            }
-            h1 {
-                color: #333;
-                margin-top: 0;
-                margin-bottom: 6px;
-                font-weight: 600;
-                font-size: 1.6rem;
-            }
-            p {
-                margin-top: 0;
-                margin-bottom: 6px;
-                font-size: 1.3rem;
-            }
-            .xs-feature {
-                span {
-                    display: inline-block; // margin-bottom: 4px;
-                    padding: 0.1rem 0.4rem;
-                    font-size: 1.2rem;
-                    color: white;
-                    border-radius: 3px;
-                    margin-right: 5px;
-                    background-color: red;
-                }
-            }
-        }
-    }
-    .xs-item-wrapper:last-child {
-        border-bottom: none;
-    }
+    // .xs-item-wrapper {
+    //     border-bottom: 0.55px solid #e5e5e5;
+    //     min-height: 107px;
+    //     position: relative;
+    //     padding-top: 12px;
+    //     padding-bottom: 12px;
+    //     .xs-item-img {
+    //         position: absolute;
+    //         width: 110px;
+    //         height: 83px;
+    //     }
+    //     .xs-item-detail {
+    //         margin-left: 122px;
+    //         color: #999;
+    //         .xs-flex-item {
+    //             padding: 0;
+    //             margin-bottom: 6px;
+    //             height: auto;
+    //             font-size: 1.3rem;
+    //             background-color: transparent;
+    //         }
+    //         h1 {
+    //             color: #333;
+    //             margin-top: 0;
+    //             margin-bottom: 6px;
+    //             font-weight: 600;
+    //             font-size: 1.6rem;
+    //         }
+    //         p {
+    //             margin-top: 0;
+    //             margin-bottom: 6px;
+    //             font-size: 1.3rem;
+    //         }
+    //         .xs-feature {
+    //             span {
+    //                 display: inline-block; // margin-bottom: 4px;
+    //                 padding: 0.1rem 0.4rem;
+    //                 font-size: 1.2rem;
+    //                 color: white;
+    //                 border-radius: 3px;
+    //                 margin-right: 5px;
+    //                 background-color: red;
+    //             }
+    //         }
+    //     }
+    // }
+    // .xs-item-wrapper:last-child {
+    //     border-bottom: none;
+    // }
     @media screen and(max-width:320px) {
         .module-section {
             ion-row {
