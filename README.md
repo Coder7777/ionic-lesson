@@ -34,9 +34,9 @@ sudo npm install --unsafe-prem
 
 ## Step4
 删除`tabs`模板默认的强类型页面加载方式，改为通过页面名称的字符串常量来加载页面。
-<br>在使用上体现为。这么做的好处在于降低各页面间的耦合，降低页面变动时要修改的代码量,使用时不需要再通过`import`，可直接使用类名。
+<br>这么做的好处在于降低各页面间的耦合，降低页面变动时要修改的代码量,使用时不需要再通过`import`，可直接使用类名。
 <br>
-要修改的页面有`tabs`、`app.component.ts`。对于`tabs`模板，可将`pages`文件夹内的`所有文件`删除，并将`app.module.ts`、`app.component.ts`内对被删除的页面的import及各种声明均已予删除。
+要修改的页面有`tabs`、`app.component.ts`。对于`tabs`模板，可将`pages`文件夹内除`tabs`文件夹外的`所有文件夹`删除，并将`app.module.ts`、`app.component.ts`内对被删除的页面的import及各种声明均已予删除。
 
 ```bash
 //before app.module.ts
