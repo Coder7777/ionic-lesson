@@ -22,15 +22,15 @@
 </ion-header>
 
 <ion-content #main class="bg-content">
-  <ion-slides [style.height.px]='height' pager>
-    <ion-slide>
-      <img src="assets/ui/slides/slide1.png" alt="">
+  <ion-slides [style.height.px]='height' zoom=true pager loop=true>
+    <ion-slide [style.height.px]='height'>
+      <ion-img width="100%" [height]="height" src="assets/ui/slides/slide1.png"></ion-img>
     </ion-slide>
-    <ion-slide>
-      <img src="assets/ui/slides/slide1.png" alt="">
+    <ion-slide [style.height.px]='height'>
+      <ion-img width="100%" [height]="height" src="assets/ui/slides/slide2.png"></ion-img>
     </ion-slide>
-    <ion-slide>
-      <img src="assets/ui/slides/slide1.png" alt="">
+    <ion-slide [style.height.px]='height'>
+      <ion-img width="100%" [height]="height" src="assets/ui/slides/slide3.png"></ion-img>
     </ion-slide>
   </ion-slides>
 
