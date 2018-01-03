@@ -2,7 +2,11 @@
 
 这是一套基于[ionic](https://ionicframework.com/)企业内训的项目。
 <br>
-每节课程位一个branch，每个branch下的README.md为该节课程的文字教程。请自行切换，首次下载后，应在项目的根目录执行
+每节课程位一个branch，每个branch下的README.md为该节课程的文字教程。
+<br>
+请自行切换，首次下载后，应在项目的根目录执行以下命令。
+<br>
+
 ```bash 
 'for wim'
 npm install
