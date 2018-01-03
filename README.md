@@ -10,8 +10,8 @@
 <br>
 
 ```bash
-开发工具: Visual Studio Code
-环境&技术: Nodejs, Npm, Cordova, Angular, Ionic3
+IDE: Visual Studio Code
+环境: Nodejs, Npm, Cordova, Angular, Ionic3, Json-Server
 ```
 
 `chensz.ca#gmail.com`
