@@ -11,7 +11,7 @@ import { Component, Input } from '@angular/core';
   templateUrl: 'xs-house-item.html'
 })
 export class XsHouseItemComponent {
-  @Input("items") items: Array<any> = new Array<any>();
+  @Input("item") item: any = {};
 
   constructor() {
     console.log('Hello XsHouseItemComponent Component');

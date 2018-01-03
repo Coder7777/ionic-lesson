@@ -1,5 +1,5 @@
 import { Output } from './../common/common';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injector, Injectable } from '@angular/core';
 
 /*
@@ -16,11 +16,24 @@ export class WebapiProvider {
     console.log('Hello WebapiProvider Provider');
   }
 
-  protected baseGet(controller: string): Promise<Output> {
-    return new Promise<Output>((resolve, reject) => {
-      this.http.get(this.baseUrl + controller).subscribe(
+  public get(queryString: string): Promise<any> {
+    let that = this;
+    return new Promise<any>((resolve, reject) => {
+      this.http.get(this.baseUrl + this.controller + queryString).subscribe(
         (response) => {
-          resolve(response as Output);
+          resolve(response as any);
+        });
+    })
+  }
+
+  public post(json: any): Promise<any> {
+    let that = this;
+    return new Promise<any>((resolve, reject) => {
+      let headers: HttpHeaders = new HttpHeaders();
+      headers.append("Content-Type", "application/json");
+      this.http.post(this.baseUrl + this.controller, json, { headers: headers }).subscribe(
+        (response) => {
+          resolve(response as any);
         });
     })
   }
@@ -31,18 +44,11 @@ export class SecondHandHouse extends WebapiProvider {
     super(http);
     this.controller = "SecondHandHouse";
   }
+}
 
-  public get(queryString?: string): Promise<Output> {
-    return new Promise<Output>((resolve, reject) => {
-      this.baseGet(this.controller + queryString).then(
-        (response) => {
-          console.log(response);
-          resolve(response)
-        },
-        (error) => {
-
-        }
-      );
-    });
+export class NewHouse extends WebapiProvider {
+  constructor(public http: HttpClient) {
+    super(http);
+    this.controller = "NewHouse";
   }
 }
