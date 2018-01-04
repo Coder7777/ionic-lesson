@@ -11,10 +11,11 @@ import { Component, Input } from '@angular/core';
   templateUrl: 'xs-house-item.html'
 })
 export class XsHouseItemComponent {
-  @Input("item") item: any = {};
+  @Input("item") item: any = {}; 
 
-  constructor() {
+  constructor() { 
     console.log('Hello XsHouseItemComponent Component');
   }
 
 }
+   

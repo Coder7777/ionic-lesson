@@ -12,13 +12,20 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
-.bg-content {
-    // background-color: #eeeeee;
-    background-color: red;
+.xs-list-item-margin-top {
+    margin-top: 37px;
 }
 
-.bg-component {
+.xs-bg-content {
+    background-color: #eeeeee;
+}
+
+.xs-bg-component {
     background-color: #fff;
+}
+
+.xs-list-item-bottom-line {
+    border-bottom: 0.55px solid #e5e5e5;
 }
 
 .xs-flex-item {

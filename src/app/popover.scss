@@ -1,0 +1,43 @@
+// xs-popover通用样式 开始
+.xs-popover-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    min-height: 44.55px;
+    max-height: 250px;
+    li {
+        padding: 1.2rem 0 1.2rem 1.6rem;
+        border-bottom: 0.55px solid rgba(0, 0, 0, 0.3);
+        text-align: left;
+    }
+    li:last-child {
+        border-bottom: none;
+        text-align: left;
+    }
+}
+
+.xs-popover-flag {
+    height: 7px;
+    width: 13px;
+    border-width: 0.55px;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+    margin-bottom: 5px;
+}
+
+.xs-popover-flag-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    height: 17px;
+    width: 23px;
+}
+
+.xs-popover-full {
+    .popover-content {
+        left: 0% !important;
+        width: 100%;
+        border-radius: 4px;
+    }
+}

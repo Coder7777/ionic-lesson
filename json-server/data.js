@@ -4,6 +4,7 @@ faker.locale = "zh_CN";
 
 function generateSecondHandHouse() {
     var secondHandHouse = [];
+    var districts = ['鼓楼区', '马尾区', '仓山区', '晋安区', '台江区'];
     for (let id = 1; id <= 50; id++) {
         secondHandHouse.push(
             {
@@ -13,8 +14,9 @@ function generateSecondHandHouse() {
                 "location": faker.address.streetAddress(true),
                 "projectID": id,
                 "id": id,
-                "face": "朝南",
-                "totalPrice": "2500000",
+                "face": "朝南", 
+                "district": districts[id % 5],
+                "totalPrice": faker.random.number({ min: 1500000, max: 2500000 }),
                 "unitPrice": faker.random.number({ min: 8000, max: 13000 }),
                 "room": faker.random.number({ min: 1, max: 4 }),
                 "washRoom": faker.random.number({ min: 1, max: 4 }),
@@ -46,6 +48,7 @@ function generateSecondHandHouse() {
 
 function generateNewHouse() {
     var newHouse = [];
+    var districts = ['鼓楼区', '马尾区', '仓山区', '晋安区', '台江区'];
     for (let id = 0; id < 50; id++) {
         var firstName = faker.name.findName();
         var lastName = faker.name.lastName();
@@ -60,7 +63,8 @@ function generateNewHouse() {
                 "projectID": id,
                 "id": id,
                 "face": "朝南",
-                "totalPrice": "2500000",
+                "district": districts[id % 5],
+                "totalPrice": faker.random.number({ min: 1500000, max: 2500000 }),
                 "unitPrice": faker.random.number({ min: 8000, max: 13000 }),
                 "room": faker.random.number({ min: 1, max: 4 }),
                 "washRoom": faker.random.number({ min: 1, max: 4 }),

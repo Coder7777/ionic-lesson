@@ -5,8 +5,18 @@ xs-tag {
         font-size: 1.2rem;
         color: white;
         border-radius: 3px;
-        margin-right: 5px;
-        background-color: green;
+        margin: 0 5px 0 0;
+    }
+    @media screen and (max-width:320px) {
+        .tag {
+            display: inline-block;
+            padding: 0.1rem 0.2rem;
+            font-size: 1.2rem;
+            color: white;
+            border-radius: 3px;
+            margin-right: 3px;
+            margin: 0 5px 4px 0;
+        }
     }
     .color1 {
         color: #dbc02e;

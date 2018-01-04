@@ -43,6 +43,10 @@ export class HomePage {
     );
   }
 
+  pushSecondHandHousePage(){
+    this.navCtrl.push("SecondHandHousePage");
+  }
+
   updateNewHouseList() {
     let that = this;
     let json = {

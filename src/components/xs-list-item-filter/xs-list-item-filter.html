@@ -1,0 +1,18 @@
+<!-- Generated template for the XsListItemFilterComponent component -->
+<div class="xs-list-item-filter">
+  <div class="xs-flex-item category-container">
+    <div class="category-item" *ngFor="let category of categories;" (click)="categoryClick($event,category)" tappable [ngClass]="{'item-actived': category.selected,'item-unactived':!category.selected}">
+      <div>
+        <span>{{category.selected || category.text}}</span>
+        <i *ngIf="category.type=='list'" class="fa fa-caret-down" aria-hidden="true"></i>
+        <div class="orderby" *ngIf="category.type=='orderby'">
+          <p class="fa fa-caret-up" [ngClass]="{'active':category.tag.orderby=='asc','unactive':category.tag.orderby!='asc'}" aria-hidden="true"></p>
+          <p class="fa fa-caret-down" [ngClass]="{'active':category.tag.orderby=='desc','unactive':category.tag.orderby!='desc'}" aria-hidden="true"></p>
+        </div>
+        <i *ngIf="category.type=='button'" class="fa fa-filter" aria-hidden="true"></i>
+      </div>
+    </div>
+  </div>
+  <div #mainPopover>
+  </div>
+</div>

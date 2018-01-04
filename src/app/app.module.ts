@@ -20,7 +20,9 @@ import { CommonProvider } from '../providers/common/common';
     CommonModule,
     HttpModule,
     HttpClientModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp,{
+      backButtonText: ""
+    })
   ],
   bootstrap: [IonicApp],
   entryComponents: [

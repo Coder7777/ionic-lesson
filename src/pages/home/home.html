@@ -7,7 +7,6 @@
 <ion-header>
 
   <ion-navbar color="primary">
-
     <ion-searchbar placeholder="请输入小区或商圈"></ion-searchbar>
     <ion-buttons start>
       <button ion-button>
@@ -16,27 +15,26 @@
         </ion-label>
       </button>
     </ion-buttons>
-
   </ion-navbar>
 
 </ion-header>
 
-<ion-content #main class="bg-content">
+<ion-content #main class="xs-bg-content">
   <ion-slides [style.height.px]='height' zoom=true pager loop=true>
     <ion-slide [style.height.px]='height'>
       <ion-img width="100%" [height]="height" src="assets/ui/slides/slide1.png"></ion-img>
     </ion-slide>
     <ion-slide [style.height.px]='height'>
-      <ion-img width="100%" [height]="height" src="assets/ui/slides/slide2.png"></ion-img>
+      <ion-img width="100%" [height]="height" src="assets/ui/slides/slide1.png"></ion-img>
     </ion-slide>
     <ion-slide [style.height.px]='height'>
-      <ion-img width="100%" [height]="height" src="assets/ui/slides/slide3.png"></ion-img>
+      <ion-img width="100%" [height]="height" src="assets/ui/slides/slide1.png"></ion-img>
     </ion-slide>
   </ion-slides>
 
-  <ion-grid class="module-section no-padding bg-component margin-bottom">
+  <ion-grid class="module-section no-padding xs-bg-component margin-bottom">
     <ion-row>
-      <ion-col>
+      <ion-col tappable (click)="pushSecondHandHousePage()">
         <img src="assets/ui/module-icon/1.png" alt="">
         <p>二手房</p>
       </ion-col>
@@ -73,7 +71,7 @@
     </ion-row>
   </ion-grid>
 
-  <div class="section-wrapper bg-component margin-bottom">
+  <div class="section-wrapper xs-bg-component margin-bottom">
     <div class="section-header">
       <span class="section-title">
         房产百科
@@ -138,7 +136,7 @@
     </div>
   </div>
 
-  <div class="section-wrapper bg-component  margin-bottom">
+  <div class="section-wrapper xs-bg-component  margin-bottom padding-horizontal">
     <div class="section-header">
       <div class="xs-flex-item">
         <div>
@@ -160,7 +158,7 @@
     </div>
   </div>
 
-  <div class="section-wrapper bg-component  margin-bottom">
+  <div class="section-wrapper xs-bg-component  margin-bottom padding-horizontal">
     <div class="section-header">
       <div class="xs-flex-item">
         <div>

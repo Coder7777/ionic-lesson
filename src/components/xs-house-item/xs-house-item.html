@@ -1,11 +1,14 @@
 <!-- Generated template for the XsHouseItemComponent component -->
-<div class="xs-item-wrapper">
+<div class="xs-item-wrapper xs-list-item-bottom-line">
   <div class="xs-item-img">
     <img src="{{item.imgUrl}}" alt="">
   </div>
   <div class="xs-item-detail">
     <h1>{{item.description}}</h1>
-    <p>{{item.buildArea}}㎡ / {{item.room}}房{{item.hall}}厅 / {{item.face}}</p>
+    <div class="xs-flex-item">
+      <p>{{item.district}} / {{item.buildArea}}㎡ / {{item.room}}房{{item.hall}}厅 / {{item.face}}</p>
+      <p class="total-price">{{item.totalPrice | priceFormat:10000}}万</p>
+    </div>
     <div class="xs-flex-item">
       <div>
         <span>{{item.projectName}}</span>
