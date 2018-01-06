@@ -9,11 +9,11 @@
   <ion-navbar color="primary">
     <ion-searchbar placeholder="请输入小区或商圈名" debounce=450 [(ngModel)]='searchText' (ionInput)="search($event)"></ion-searchbar>
     <ion-buttons end>
-      <button ion-button>
-        <ion-icon icon-only name="ios-navigate-outline"></ion-icon>
+      <button ion-button icon-only>
+        <ion-icon name="ios-navigate-outline"></ion-icon>
       </button>
-      <button ion-button>
-        <ion-icon icon-only name="ios-chatbubbles-outline"></ion-icon>
+      <button ion-button icon-only>
+        <ion-icon name="ios-chatbubbles-outline"></ion-icon>
       </button>
     </ion-buttons>
   </ion-navbar>
@@ -27,7 +27,7 @@
   </div>
   <div class="padding-horizontal xs-list-item-margin-top">
     <ion-list>
-      <xs-house-item [item]="secondHandHouse" *ngFor="let secondHandHouse of secondHandHouses"></xs-house-item>
+      <xs-house-item [item]="secondHandHouse" (click)="pushSecondHandHouseDetailPage(secondHandHouse)" *ngFor="let secondHandHouse of secondHandHouses"></xs-house-item>
     </ion-list>
     <ion-infinite-scroll (ionInfinite)="$event.waitFor(doInfinite($event))">
       <ion-infinite-scroll-content></ion-infinite-scroll-content>

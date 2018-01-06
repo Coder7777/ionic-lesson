@@ -1,23 +1,46 @@
-<!--
-  Generated template for the XsListItemFilterMorePopoverPage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
+  <ion-navbar>
 
-  <ion-navbar color="primary">
-    <ion-title>更多筛选功能</ion-title>
-    <ion-buttons start>
-      <button ion-button navPop>
-        <ion-icon icon-only name="md-close"></ion-icon>
-      </button>
-    </ion-buttons>
   </ion-navbar>
-
 </ion-header>
-
-
 <ion-content>
+  <ion-list>
 
+    <ion-list-header>
+      Header
+    </ion-list-header>
+
+    <ion-item>
+      Item
+    </ion-item>
+
+    <ion-item detail-push>
+      Item with Detail Arrow
+    </ion-item>
+
+    <button ion-item (click)="buttonClick()">
+      Button Item
+    </button>
+
+    <ion-item-divider>
+      Item Divider
+    </ion-item-divider>
+
+    <button ion-item detail-none (click)="buttonClick()">
+      Button Item with no Detail Arrow
+    </button>
+
+    <a ion-item href="https://www.ionicframework.com">
+      Anchor Item
+    </a>
+
+    <ion-item no-lines>
+      Item with no border
+    </ion-item>
+
+    <ion-item text-wrap>
+      Multiline text that should wrap when it is too long to fit on one line in the item.
+    </ion-item>
+
+  </ion-list>
 </ion-content>

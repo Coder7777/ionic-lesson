@@ -1,8 +1,9 @@
 import { Component, ViewChild } from '@angular/core';
-import { IonicPage, NavController, NavParams, Content } from 'ionic-angular';
+import { IonicPage, MenuController, NavController, NavParams, Content } from 'ionic-angular';
 import * as moment from 'moment';
 import { SecondHandHouse } from '../../providers/webapi/webapi';
 import { HttpClient } from '@angular/common/http';
+import { transition } from '@angular/core/src/animation/dsl';
 
 /**
  * Generated class for the SecondHandHousePage page.
@@ -35,6 +36,7 @@ export class SecondHandHousePage {
 
   constructor(public navCtrl: NavController,
     public http: HttpClient,
+    public menu: MenuController,
     public navParams: NavParams) {
     this.initXsListItemFilter();
     this.pullSecondHandHouseList("?_page=" + this.pageNum + "&_limit=" + this.pageCount);
@@ -81,7 +83,7 @@ export class SecondHandHousePage {
       callback: function (data) {
         that.secondHandHouses.splice(0);
         that.pageNum = 1;
-        that.main.scrollToTop();        
+        that.main.scrollToTop();
         that.districtQueryString = "district=" + data.value.district;
         let queryString: string = that.generateQueryString();
         that.pullSecondHandHouseList(queryString);
@@ -139,7 +141,7 @@ export class SecondHandHousePage {
       callback: function (data) {
         that.secondHandHouses.splice(0);
         that.pageNum = 1;
-        that.main.scrollToTop();        
+        that.main.scrollToTop();
         that.totalPriceQueryString = "_sort=totalPrice&_order=" + data.tag.orderby;
         let queryString: string = that.generateQueryString();
         that.pullSecondHandHouseList(queryString);
@@ -156,13 +158,13 @@ export class SecondHandHousePage {
         that.secondHandHouses.splice(0);
         that.pageNum = 1;
         that.main.scrollToTop();
-        let queryString: string = that.generateQueryString();
         if (data.value.compare == "equal") {
           that.roomHallQueryString = "room=" + data.value.room + "&hall=" + data.value.hall;
         }
         else {
           that.roomHallQueryString = "room_gte=" + data.value.room + "&hall_gte=" + data.value.hall;
         }
+        let queryString: string = that.generateQueryString();
         that.pullSecondHandHouseList(queryString);
       },
       items: [
@@ -207,11 +209,11 @@ export class SecondHandHousePage {
       text: "更多",
       type: "button",
       tag: {
-        page: "XsListItemFilterMorePopoverPage"
+        page: "AppointmentPage"
       },
       active: false,
       callback: function (data) {
-        that.status = data.value;
+        that.navCtrl.push("AppointmentPage");
       },
       items: [
       ]
@@ -228,6 +230,10 @@ export class SecondHandHousePage {
         }
       );
     });
+  }
+
+  pushSecondHandHouseDetailPage(secondHandHouse: any) {
+    this.navCtrl.push("SecondHandHouseDetailPage", { secondHandHouse: secondHandHouse });
   }
 
   search(event) {

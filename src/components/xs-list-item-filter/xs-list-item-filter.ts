@@ -42,9 +42,10 @@ export class XsListItemFilterComponent {
   }
 
   show(ev, category: XsDataFilterModel) {
-    let modal = this.modalCtrl.create(category.tag.page, { category: category });
-    modal.onDidDismiss(category.callback(category));
-    modal.present();
+    // let modal = this.modalCtrl.create(category.tag.page, { category: category });
+    // modal.onDidDismiss(category.callback(category));
+    // modal.present();
+    category.callback(category);
   }
 
   orderby(ev, category: XsDataFilterModel) {
@@ -59,7 +60,7 @@ export class XsListItemFilterComponent {
     }
     category.selected = category.text;
     category.callback(category);
-  } 
+  }
 
   popover(ev, category: XsDataFilterModel) {
     this.categories.forEach((value, index, array) => {

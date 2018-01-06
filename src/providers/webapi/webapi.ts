@@ -10,7 +10,7 @@ import { Injector, Injectable } from '@angular/core';
 */
 @Injectable()
 export class WebapiProvider {
-  private baseUrl: string = "http://192.168.0.53:3000/";
+  private baseUrl: string = "http://localhost:3000/";
   protected controller: string = "";
   constructor(public http: HttpClient) {
     console.log('Hello WebapiProvider Provider');
