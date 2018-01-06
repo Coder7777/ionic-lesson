@@ -364,6 +364,72 @@
         }
       ],
       "id": 6
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "description": "电梯豪装小三房，首付121万",
+      "projectName": "夏鑫博世园2期",
+      "location": "349 思源 路 Suite 680",
+      "projectID": 222,
+      "face": "朝南",
+      "totalPrice": "2500000",
+      "unitPrice": 8434,
+      "room": 4,
+      "washRoom": 3,
+      "hall": 1,
+      "buildArea": 113,
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "description": "电梯豪装小三房，首付121万",
+      "projectName": "夏鑫博世园2期",
+      "location": "349 思源 路 Suite 680",
+      "projectID": 222,
+      "face": "朝南",
+      "totalPrice": "2500000",
+      "unitPrice": 8434,
+      "room": 4,
+      "washRoom": 3,
+      "hall": 1,
+      "buildArea": 113,
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ],
+      "id": 8
     }
   ]
 }
