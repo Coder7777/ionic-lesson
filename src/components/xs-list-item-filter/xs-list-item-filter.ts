@@ -45,7 +45,10 @@ export class XsListItemFilterComponent {
     // let modal = this.modalCtrl.create(category.tag.page, { category: category });
     // modal.onDidDismiss(category.callback(category));
     // modal.present();
+
     category.callback(category);
+    let popover = this.popoverCtrl.create(category.tag.page, {}, { cssClass: "xs-popover-slide" });
+    popover.present({ ev: ev });
   }
 
   orderby(ev, category: XsDataFilterModel) {

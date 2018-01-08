@@ -1,3 +1,32 @@
 page-xs-list-item-filter-more-popover {
-
+    .category-title {
+        font-size: 1.6rem;
+        color: #666666;
+    }
+    .grid {
+        margin: 0;
+        padding: 0;
+        .row {
+            margin: 0;
+            padding: 0;
+        }
+        .col {
+            margin: 6px 4px;
+            padding: 0;
+        }
+    }
+    .category-item {
+        display: inline-block;
+        border-radius: 4px;
+        width: 100%;
+        text-align: center;
+        padding: 2px 3px;
+        background-color: #f1f2f6;
+        color: #2b2b2b;
+    }
+    .active {
+        background-color: #fff;
+        border: 0.55px solid color($colors, primary);
+        color: color($colors, primary);
+    }
 }

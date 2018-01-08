@@ -209,11 +209,11 @@ export class SecondHandHousePage {
       text: "更多",
       type: "button",
       tag: {
-        page: "AppointmentPage"
+        page: "XsListItemFilterMorePopoverPage"  
       },
       active: false,
       callback: function (data) {
-        that.navCtrl.push("AppointmentPage");
+
       },
       items: [
       ]

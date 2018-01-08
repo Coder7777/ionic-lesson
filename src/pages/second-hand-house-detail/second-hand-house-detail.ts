@@ -24,10 +24,8 @@ export class SecondHandHouseDetailPage {
     this.secondHandHouse = this.navParams.get("secondHandHouse");
   }
 
-  ionViewDidLoad() {
+  ionViewDidEnter() {
     this.height = this.content.contentWidth / (4 / 3);
   }
-
-
 
 }

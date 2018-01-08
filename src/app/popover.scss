@@ -41,3 +41,11 @@
         border-radius: 4px;
     }
 }
+
+.xs-popover-slide {
+    .popover-content {
+        border-radius: 0px !important;
+        width: 84% !important;
+        min-height: calc(100% - 88px);
+    }
+}
