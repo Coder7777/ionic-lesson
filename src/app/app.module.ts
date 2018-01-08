@@ -1,5 +1,5 @@
 import { HttpClientModule } from '@angular/common/http';
-import { NgModule, ErrorHandler } from '@angular/core';
+import { NgModule, ErrorHandler, transition } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
@@ -20,7 +20,8 @@ import { CommonProvider } from '../providers/common/common';
     CommonModule,
     HttpModule,
     HttpClientModule,
-    IonicModule.forRoot(MyApp,{
+    IonicModule.forRoot(MyApp, {
+      tabsHideOnSubPages: true,
       backButtonText: ""
     })
   ],

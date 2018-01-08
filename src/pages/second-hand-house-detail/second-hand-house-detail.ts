@@ -22,10 +22,14 @@ export class SecondHandHouseDetailPage {
   constructor(public navCtrl: NavController,
     public navParams: NavParams) {
     this.secondHandHouse = this.navParams.get("secondHandHouse");
+    console.log(this.secondHandHouse);
   }
 
   ionViewDidEnter() {
     this.height = this.content.contentWidth / (4 / 3);
   }
 
+  popToRoot() {
+    this.navCtrl.popToRoot();
+  }
 }

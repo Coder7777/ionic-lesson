@@ -3,9 +3,115 @@ page-second-hand-house-detail {
         margin-top: 0 !important;
     }
     .slide-zoom {
-        height: 100%；
+        height: 100%;
     }
-    // ion-slides {
-    //     height: calc(100% / 2.35);
-    // }
+    .grid {
+        margin: 0;
+        padding: 0;
+        .row {
+            margin: 0;
+            padding: 0;
+            .col {
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+    .house-detail-wrapper {
+        .title {
+            font-size: 1.6rem;
+            color: #333;
+            padding: 8px 0;
+        }
+        .sub-title {
+            font-size: 1.4rem;
+            color: #999;
+        }
+        .adv-descript {
+            color: #333;
+            h1 {
+                font-size: 2.0rem !important;
+                margin: 0;
+                padding: 8px 0;
+            }
+        }
+        .key-descript {
+            .col {
+                margin: 0 8px;
+                border-right: 0.55px solid #e5e5e5;
+            }
+            .col:last-child {
+                border-right: none;
+            }
+            padding: 8px 0;
+            text-align: left;
+            .key {
+                font-size: 1.4rem;
+                color: #999;
+                margin: 0;
+            }
+            .value {
+                font-size: 1.7rem;
+                color: #fa462e;
+                margin: 0;
+            }
+        }
+        .house-detail {
+            .feature {}
+            .col {
+                font-size: 1.5rem;
+                padding: 5px 0;
+                span {
+                    color: #999;
+                }
+                span:last-child {
+                    color: #333;
+                }
+            }
+        }
+    }
+    .surround-descript {
+        .content {
+            line-height: 22px;
+            font-size: 1.5rem;
+            margin: 0;
+        }
+        .same-community-house {
+            display: inline-block;
+            margin-right: 10px;
+            .layout-descript {
+                color: #333;
+            }
+            .total-price {
+                color: #fa462e;
+                font-size: 1.4rem;
+            }
+            .unit-price {
+                color: #999;
+                font-size: 1.2rem;
+            }
+        }
+    }
+    .surround-advise {
+        .advise-house {
+            display: inline-block;
+            margin-right: 10px;
+            .layout-descript {
+                color: #333;
+            }
+            .total-price {
+                color: #fa462e;
+                font-size: 1.4rem;
+            }
+            .unit-price,
+            .community-name {
+                color: #999;
+                font-size: 1.2rem;
+            }
+        }
+    }
+    ion-scroll {
+        white-space: nowrap;
+        height: 146px;
+    }
 }

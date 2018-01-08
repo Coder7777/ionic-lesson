@@ -203,7 +203,7 @@ export class SecondHandHousePage {
             room: 3,
             hall: 2
           }
-        }]
+        }] 
     });
     this.categories.push({
       text: "更多",
