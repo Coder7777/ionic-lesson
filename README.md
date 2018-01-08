@@ -174,11 +174,11 @@ export class TabsPage {
 ```bash
 // tabs.html
 <ion-tabs>
-  <ion-tab tabIcon="home" tabTitle="首页" [root]="tab1"></ion-tab>
-  <ion-tab tabIcon="mail" tabTitle="消息" [root]="tab2"></ion-tab>
-  <ion-tab tabIcon="bell" tabTitle="看房" [root]="tab3"></ion-tab>
-  <ion-tab tabIcon="contact" tabTitle="我的" [root]="tab4"></ion-tab>
-</ion-tabs>`
+  <ion-tab tabIcon="home" tabTitle="首页" [root]="tab1" tabUrlPath="home"></ion-tab>
+  <ion-tab tabIcon="mail" tabTitle="消息" [root]="tab2" tabUrlPath="message"></ion-tab>
+  <ion-tab tabIcon="alarm" tabTitle="看房" [root]="tab3" tabUrlPath="appointment"></ion-tab>
+  <ion-tab tabIcon="contact" tabTitle="我的" [root]="tab4" tabUrlPath="my-center"></ion-tab>
+</ion-tabs> 
 ```
 
 ## Step8
@@ -263,8 +263,31 @@ import { HttpClientModule } from '@angular/common/http';
 <br>
 `备注：ionic g 命令会根据大小写将文件名用减号分隔如过取名为WebApi,最后将会生成一个web-api.ts文件`
 
+## Step11
+我们使用[json-server](https://github.com/typicode/json-server)为项目提供mock数据，在`.\ionic-lesson`目录下，执行以下代码
+```bash
+npm install json-server --dev-save
+```
+<br>
+安装完成后，进入`.\ionic-lession\json-server`目录，启动服务
+```bash
+json-server --watch db.json
+```
+<br>
+由于我已在项目里创建了db.json，所以直接启动即可。[json-server](https://github.com/typicode/json-server)不是本教程重点，关于他的高级用法，还请自行查阅其官方的github。
 
-## Step10
+## Step12
+json-server 与 ionic分别跑在不同的端口上，在浏览器内请求数据就涉及到了跨域的问题。
+<br>
+在开发环境下，解决这个问题的方法很多，找一个适合自己的。
+<br>
+处理这个问题最简单的办法就是通过浏览器插件，让浏览器允许跨域，这里我使用的是[Allow-Control-Allow-Origin: *](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi)。
+<br>
+在实际的生产环境，一般后端的webapi与前端的ionic页面是一起部署的，跑在同一个域下，不会有跨域问题。
+<br>
+若打包成了app，app调用服务器端的webapi，也不会有跨域的问题。
+
+## Step11
 
 根据设计稿，实现"首页"效果。具体详见`.\src\home`文件夹。
 <br>
