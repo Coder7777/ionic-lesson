@@ -1,0 +1,5150 @@
+{
+  "secondHandHouse": [
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "description": "电梯豪装小三房，首付83万",
+      "projectName": "夏鑫博世园4期",
+      "location": "30584 鹏飞 中心 Suite 281",
+      "projectID": 0,
+      "id": 0,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商品房",
+      "finishYear": 2014,
+      "houseFloor": 2,
+      "publishDate": "2017-10-02T14:01:05.881Z",
+      "district": "鼓楼区",
+      "totalPrice": 1831022,
+      "unitPrice": 8093,
+      "room": 3,
+      "washRoom": 3,
+      "hall": 1,
+      "buildArea": 145,
+      "address": "650 晓博 街 Suite 038",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "description": "电梯豪装小三房，首付84万",
+      "projectName": "夏鑫博世园1期",
+      "location": "058 智辉 侬 Suite 932",
+      "projectID": 1,
+      "id": 1,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商住两用",
+      "finishYear": 2015,
+      "houseFloor": 13,
+      "publishDate": "2017-11-21T12:46:21.569Z",
+      "district": "马尾区",
+      "totalPrice": 1765393,
+      "unitPrice": 10653,
+      "room": 3,
+      "washRoom": 1,
+      "hall": 1,
+      "buildArea": 149,
+      "address": "33129 秦 栋 Apt. 273",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "description": "电梯豪装小三房，首付137万",
+      "projectName": "夏鑫博世园4期",
+      "location": "80771 弘文 中心 Suite 578",
+      "projectID": 2,
+      "id": 2,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商品房",
+      "finishYear": 2014,
+      "houseFloor": 31,
+      "publishDate": "2017-10-29T01:46:29.513Z",
+      "district": "仓山区",
+      "totalPrice": 2288286,
+      "unitPrice": 9372,
+      "room": 1,
+      "washRoom": 3,
+      "hall": 1,
+      "buildArea": 149,
+      "address": "404 郑 旁 Apt. 977",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "description": "电梯豪装小三房，首付58万",
+      "projectName": "夏鑫博世园1期",
+      "location": "7877 袁 巷 Apt. 094",
+      "projectID": 3,
+      "id": 3,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "finishYear": 2011,
+      "houseFloor": 25,
+      "publishDate": "2017-10-04T19:38:49.395Z",
+      "district": "晋安区",
+      "totalPrice": 1865899,
+      "unitPrice": 10502,
+      "room": 1,
+      "washRoom": 1,
+      "hall": 3,
+      "buildArea": 123,
+      "address": "6930 邵 桥 Apt. 292",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "description": "电梯豪装小三房，首付113万",
+      "projectName": "夏鑫博世园2期",
+      "location": "46876 鑫磊 巷 Apt. 034",
+      "projectID": 4,
+      "id": 4,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商品房",
+      "finishYear": 2012,
+      "houseFloor": 15,
+      "publishDate": "2017-10-26T12:58:49.037Z",
+      "district": "台江区",
+      "totalPrice": 2046287,
+      "unitPrice": 12691,
+      "room": 2,
+      "washRoom": 1,
+      "hall": 1,
+      "buildArea": 118,
+      "address": "36522 靖琪 街 Suite 629",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "description": "电梯豪装小三房，首付86万",
+      "projectName": "夏鑫博世园1期",
+      "location": "2222 尹 侬 Suite 641",
+      "projectID": 5,
+      "id": 5,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商住两用",
+      "finishYear": 2015,
+      "houseFloor": 30,
+      "publishDate": "2017-11-17T09:50:48.113Z",
+      "district": "鼓楼区",
+      "totalPrice": 1687520,
+      "unitPrice": 11277,
+      "room": 1,
+      "washRoom": 4,
+      "hall": 3,
+      "buildArea": 82,
+      "address": "1754 戴 街 Apt. 367",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "description": "电梯豪装小三房，首付105万",
+      "projectName": "夏鑫博世园2期",
+      "location": "810 果 侬 Apt. 264",
+      "projectID": 6,
+      "id": 6,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商品房",
+      "finishYear": 2012,
+      "houseFloor": 22,
+      "publishDate": "2017-10-06T12:25:48.670Z",
+      "district": "马尾区",
+      "totalPrice": 1968524,
+      "unitPrice": 11417,
+      "room": 1,
+      "washRoom": 1,
+      "hall": 4,
+      "buildArea": 54,
+      "address": "569 陈 桥 Suite 432",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付134万",
+      "projectName": "夏鑫博世园1期",
+      "location": "712 子轩 路 Apt. 137",
+      "projectID": 7,
+      "id": 7,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商住两用",
+      "finishYear": 2011,
+      "houseFloor": 33,
+      "publishDate": "2017-11-06T09:10:51.597Z",
+      "district": "仓山区",
+      "totalPrice": 2006675,
+      "unitPrice": 9746,
+      "room": 4,
+      "washRoom": 4,
+      "hall": 3,
+      "buildArea": 93,
+      "address": "0130 洪 街 Suite 643",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "description": "电梯豪装小三房，首付140万",
+      "projectName": "夏鑫博世园2期",
+      "location": "696 孟 旁 Suite 266",
+      "projectID": 8,
+      "id": 8,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商品房",
+      "finishYear": 2016,
+      "houseFloor": 23,
+      "publishDate": "2017-11-10T21:58:44.370Z",
+      "district": "晋安区",
+      "totalPrice": 1830771,
+      "unitPrice": 12765,
+      "room": 4,
+      "washRoom": 4,
+      "hall": 3,
+      "buildArea": 140,
+      "address": "4630 涛 路 Suite 809",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "description": "电梯豪装小三房，首付65万",
+      "projectName": "夏鑫博世园4期",
+      "location": "01906 秦 栋 Suite 434",
+      "projectID": 9,
+      "id": 9,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "finishYear": 2012,
+      "houseFloor": 14,
+      "publishDate": "2017-11-25T00:29:31.137Z",
+      "district": "台江区",
+      "totalPrice": 2455343,
+      "unitPrice": 10376,
+      "room": 4,
+      "washRoom": 3,
+      "hall": 2,
+      "buildArea": 63,
+      "address": "5909 郑 旁 Apt. 151",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "description": "电梯豪装小三房，首付114万",
+      "projectName": "夏鑫博世园4期",
+      "location": "8822 周 巷 Apt. 841",
+      "projectID": 10,
+      "id": 10,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商品房",
+      "finishYear": 2015,
+      "houseFloor": 18,
+      "publishDate": "2017-11-26T15:27:48.254Z",
+      "district": "鼓楼区",
+      "totalPrice": 1816390,
+      "unitPrice": 8239,
+      "room": 4,
+      "washRoom": 3,
+      "hall": 1,
+      "buildArea": 105,
+      "address": "85248 伟泽 街 Suite 310",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "description": "电梯豪装小三房，首付107万",
+      "projectName": "夏鑫博世园1期",
+      "location": "3598 丁 侬 Suite 653",
+      "projectID": 11,
+      "id": 11,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商住两用",
+      "finishYear": 2013,
+      "houseFloor": 19,
+      "publishDate": "2017-10-12T09:04:22.657Z",
+      "district": "马尾区",
+      "totalPrice": 2149727,
+      "unitPrice": 12729,
+      "room": 2,
+      "washRoom": 4,
+      "hall": 2,
+      "buildArea": 126,
+      "address": "32529 笑愚 街 Suite 138",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付140万",
+      "projectName": "夏鑫博世园1期",
+      "location": "40389 江 巷 Suite 779",
+      "projectID": 12,
+      "id": 12,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商品房",
+      "finishYear": 2015,
+      "houseFloor": 17,
+      "publishDate": "2017-10-10T01:29:44.885Z",
+      "district": "仓山区",
+      "totalPrice": 2167587,
+      "unitPrice": 12135,
+      "room": 2,
+      "washRoom": 1,
+      "hall": 3,
+      "buildArea": 126,
+      "address": "932 聪健 旁 Apt. 344",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付106万",
+      "projectName": "夏鑫博世园4期",
+      "location": "0769 董 栋 Suite 205",
+      "projectID": 13,
+      "id": 13,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商住两用",
+      "finishYear": 2011,
+      "houseFloor": 17,
+      "publishDate": "2017-11-13T21:58:43.621Z",
+      "district": "晋安区",
+      "totalPrice": 2183481,
+      "unitPrice": 10433,
+      "room": 3,
+      "washRoom": 2,
+      "hall": 1,
+      "buildArea": 143,
+      "address": "41784 邓 侬 Apt. 534",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付66万",
+      "projectName": "夏鑫博世园2期",
+      "location": "584 旭尧 侬 Apt. 941",
+      "projectID": 14,
+      "id": 14,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商品房",
+      "finishYear": 2010,
+      "houseFloor": 5,
+      "publishDate": "2017-11-03T23:27:33.765Z",
+      "district": "台江区",
+      "totalPrice": 1679188,
+      "unitPrice": 10198,
+      "room": 3,
+      "washRoom": 4,
+      "hall": 2,
+      "buildArea": 143,
+      "address": "7308 孙 街 Suite 714",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付129万",
+      "projectName": "夏鑫博世园2期",
+      "location": "3054 叶 中心 Apt. 238",
+      "projectID": 15,
+      "id": 15,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "finishYear": 2013,
+      "houseFloor": 28,
+      "publishDate": "2017-11-11T19:39:29.727Z",
+      "district": "鼓楼区",
+      "totalPrice": 1591473,
+      "unitPrice": 8185,
+      "room": 4,
+      "washRoom": 1,
+      "hall": 2,
+      "buildArea": 120,
+      "address": "42054 顾 旁 Apt. 709",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "description": "电梯豪装小三房，首付98万",
+      "projectName": "夏鑫博世园1期",
+      "location": "978 煜城 街 Suite 427",
+      "projectID": 16,
+      "id": 16,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商品房",
+      "finishYear": 2010,
+      "houseFloor": 15,
+      "publishDate": "2017-11-01T05:06:20.304Z",
+      "district": "马尾区",
+      "totalPrice": 2005212,
+      "unitPrice": 11988,
+      "room": 1,
+      "washRoom": 3,
+      "hall": 2,
+      "buildArea": 70,
+      "address": "0815 程 桥 Apt. 231",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "description": "电梯豪装小三房，首付58万",
+      "projectName": "夏鑫博世园1期",
+      "location": "22891 丁 巷 Apt. 353",
+      "projectID": 17,
+      "id": 17,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商住两用",
+      "finishYear": 2016,
+      "houseFloor": 18,
+      "publishDate": "2017-11-27T17:13:26.138Z",
+      "district": "仓山区",
+      "totalPrice": 2281699,
+      "unitPrice": 11139,
+      "room": 3,
+      "washRoom": 4,
+      "hall": 2,
+      "buildArea": 103,
+      "address": "4262 靖琪 街 Apt. 021",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "description": "电梯豪装小三房，首付110万",
+      "projectName": "夏鑫博世园3期",
+      "location": "3988 郭 路 Apt. 377",
+      "projectID": 18,
+      "id": 18,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商品房",
+      "finishYear": 2011,
+      "houseFloor": 25,
+      "publishDate": "2017-11-24T11:45:19.909Z",
+      "district": "晋安区",
+      "totalPrice": 2026894,
+      "unitPrice": 8237,
+      "room": 2,
+      "washRoom": 3,
+      "hall": 3,
+      "buildArea": 52,
+      "address": "5853 程 栋 Apt. 400",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "description": "电梯豪装小三房，首付52万",
+      "projectName": "夏鑫博世园1期",
+      "location": "6084 思聪 栋 Suite 164",
+      "projectID": 19,
+      "id": 19,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商住两用",
+      "finishYear": 2015,
+      "houseFloor": 26,
+      "publishDate": "2017-11-03T21:18:11.994Z",
+      "district": "台江区",
+      "totalPrice": 2436192,
+      "unitPrice": 8706,
+      "room": 1,
+      "washRoom": 1,
+      "hall": 1,
+      "buildArea": 82,
+      "address": "67976 志强 街 Apt. 166",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付130万",
+      "projectName": "夏鑫博世园2期",
+      "location": "0168 彭 栋 Suite 899",
+      "projectID": 20,
+      "id": 20,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商品房",
+      "finishYear": 2010,
+      "houseFloor": 33,
+      "publishDate": "2017-11-17T21:37:53.545Z",
+      "district": "鼓楼区",
+      "totalPrice": 1860371,
+      "unitPrice": 12172,
+      "room": 2,
+      "washRoom": 3,
+      "hall": 4,
+      "buildArea": 148,
+      "address": "96216 田 侬 Apt. 227",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "description": "电梯豪装小三房，首付88万",
+      "projectName": "夏鑫博世园3期",
+      "location": "176 荣轩 路 Apt. 646",
+      "projectID": 21,
+      "id": 21,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "finishYear": 2010,
+      "houseFloor": 6,
+      "publishDate": "2017-10-28T15:18:01.130Z",
+      "district": "马尾区",
+      "totalPrice": 2340587,
+      "unitPrice": 9239,
+      "room": 2,
+      "washRoom": 3,
+      "hall": 4,
+      "buildArea": 74,
+      "address": "76294 万 栋 Suite 372",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "description": "电梯豪装小三房，首付81万",
+      "projectName": "夏鑫博世园4期",
+      "location": "17720 邓 路 Suite 734",
+      "projectID": 22,
+      "id": 22,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商品房",
+      "finishYear": 2016,
+      "houseFloor": 13,
+      "publishDate": "2017-11-28T08:54:22.079Z",
+      "district": "仓山区",
+      "totalPrice": 1752767,
+      "unitPrice": 8675,
+      "room": 3,
+      "washRoom": 4,
+      "hall": 2,
+      "buildArea": 114,
+      "address": "670 何 中心 Apt. 065",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "description": "电梯豪装小三房，首付138万",
+      "projectName": "夏鑫博世园3期",
+      "location": "8303 嘉熙 栋 Apt. 489",
+      "projectID": 23,
+      "id": 23,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商住两用",
+      "finishYear": 2013,
+      "houseFloor": 16,
+      "publishDate": "2017-11-02T19:19:22.504Z",
+      "district": "晋安区",
+      "totalPrice": 2365609,
+      "unitPrice": 11952,
+      "room": 2,
+      "washRoom": 1,
+      "hall": 1,
+      "buildArea": 113,
+      "address": "7785 昊焱 巷 Apt. 357",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "description": "电梯豪装小三房，首付84万",
+      "projectName": "夏鑫博世园4期",
+      "location": "860 秦 中心 Apt. 421",
+      "projectID": 24,
+      "id": 24,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商品房",
+      "finishYear": 2014,
+      "houseFloor": 24,
+      "publishDate": "2017-11-04T23:24:41.793Z",
+      "district": "台江区",
+      "totalPrice": 2121534,
+      "unitPrice": 11042,
+      "room": 2,
+      "washRoom": 3,
+      "hall": 2,
+      "buildArea": 139,
+      "address": "001 林 桥 Apt. 342",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "description": "电梯豪装小三房，首付56万",
+      "projectName": "夏鑫博世园3期",
+      "location": "298 胤祥 路 Suite 816",
+      "projectID": 25,
+      "id": 25,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商住两用",
+      "finishYear": 2010,
+      "houseFloor": 26,
+      "publishDate": "2017-10-18T12:12:24.092Z",
+      "district": "鼓楼区",
+      "totalPrice": 2029765,
+      "unitPrice": 11562,
+      "room": 4,
+      "washRoom": 4,
+      "hall": 3,
+      "buildArea": 65,
+      "address": "231 宋 中心 Apt. 309",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "description": "电梯豪装小三房，首付98万",
+      "projectName": "夏鑫博世园2期",
+      "location": "011 正豪 中心 Suite 672",
+      "projectID": 26,
+      "id": 26,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商品房",
+      "finishYear": 2011,
+      "houseFloor": 5,
+      "publishDate": "2017-10-17T17:40:03.535Z",
+      "district": "马尾区",
+      "totalPrice": 1900970,
+      "unitPrice": 8386,
+      "room": 2,
+      "washRoom": 2,
+      "hall": 2,
+      "buildArea": 61,
+      "address": "17386 段 路 Apt. 246",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "description": "电梯豪装小三房，首付127万",
+      "projectName": "夏鑫博世园4期",
+      "location": "555 凯瑞 巷 Suite 141",
+      "projectID": 27,
+      "id": 27,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "finishYear": 2010,
+      "houseFloor": 3,
+      "publishDate": "2017-11-11T17:58:39.229Z",
+      "district": "仓山区",
+      "totalPrice": 2218982,
+      "unitPrice": 8209,
+      "room": 1,
+      "washRoom": 3,
+      "hall": 2,
+      "buildArea": 150,
+      "address": "5881 陶 路 Suite 355",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "description": "电梯豪装小三房，首付57万",
+      "projectName": "夏鑫博世园1期",
+      "location": "631 潇然 栋 Suite 563",
+      "projectID": 28,
+      "id": 28,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商品房",
+      "finishYear": 2012,
+      "houseFloor": 2,
+      "publishDate": "2017-10-26T12:34:45.086Z",
+      "district": "晋安区",
+      "totalPrice": 2203436,
+      "unitPrice": 11428,
+      "room": 4,
+      "washRoom": 2,
+      "hall": 2,
+      "buildArea": 52,
+      "address": "981 龚 桥 Suite 324",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "description": "电梯豪装小三房，首付100万",
+      "projectName": "夏鑫博世园2期",
+      "location": "298 金 中心 Apt. 052",
+      "projectID": 29,
+      "id": 29,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商住两用",
+      "finishYear": 2011,
+      "houseFloor": 25,
+      "publishDate": "2017-11-10T18:10:02.283Z",
+      "district": "台江区",
+      "totalPrice": 1802981,
+      "unitPrice": 9543,
+      "room": 1,
+      "washRoom": 3,
+      "hall": 1,
+      "buildArea": 74,
+      "address": "28334 雷 旁 Apt. 999",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "description": "电梯豪装小三房，首付119万",
+      "projectName": "夏鑫博世园2期",
+      "location": "159 龙 侬 Suite 738",
+      "projectID": 30,
+      "id": 30,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商品房",
+      "finishYear": 2011,
+      "houseFloor": 23,
+      "publishDate": "2017-10-03T12:45:36.134Z",
+      "district": "鼓楼区",
+      "totalPrice": 2475064,
+      "unitPrice": 11007,
+      "room": 2,
+      "washRoom": 3,
+      "hall": 1,
+      "buildArea": 116,
+      "address": "051 毛 桥 Suite 134",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "description": "电梯豪装小三房，首付53万",
+      "projectName": "夏鑫博世园3期",
+      "location": "91506 立果 街 Apt. 864",
+      "projectID": 31,
+      "id": 31,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商住两用",
+      "finishYear": 2013,
+      "houseFloor": 7,
+      "publishDate": "2017-10-02T13:49:57.836Z",
+      "district": "马尾区",
+      "totalPrice": 1690676,
+      "unitPrice": 12749,
+      "room": 3,
+      "washRoom": 2,
+      "hall": 4,
+      "buildArea": 75,
+      "address": "781 许 侬 Suite 868",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付65万",
+      "projectName": "夏鑫博世园2期",
+      "location": "83889 健柏 旁 Apt. 598",
+      "projectID": 32,
+      "id": 32,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商品房",
+      "finishYear": 2015,
+      "houseFloor": 25,
+      "publishDate": "2017-10-28T23:39:40.146Z",
+      "district": "仓山区",
+      "totalPrice": 1520233,
+      "unitPrice": 12882,
+      "room": 3,
+      "washRoom": 1,
+      "hall": 4,
+      "buildArea": 64,
+      "address": "84421 旭尧 路 Suite 750",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付128万",
+      "projectName": "夏鑫博世园4期",
+      "location": "893 涛 巷 Apt. 698",
+      "projectID": 33,
+      "id": 33,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "finishYear": 2016,
+      "houseFloor": 32,
+      "publishDate": "2017-10-18T17:53:57.357Z",
+      "district": "晋安区",
+      "totalPrice": 1945669,
+      "unitPrice": 9570,
+      "room": 2,
+      "washRoom": 2,
+      "hall": 2,
+      "buildArea": 50,
+      "address": "553 孙 巷 Apt. 167",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "description": "电梯豪装小三房，首付99万",
+      "projectName": "夏鑫博世园3期",
+      "location": "72370 万 旁 Suite 409",
+      "projectID": 34,
+      "id": 34,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商品房",
+      "finishYear": 2015,
+      "houseFloor": 11,
+      "publishDate": "2017-10-18T00:27:13.471Z",
+      "district": "台江区",
+      "totalPrice": 1660839,
+      "unitPrice": 9936,
+      "room": 1,
+      "washRoom": 4,
+      "hall": 4,
+      "buildArea": 113,
+      "address": "268 鹭洋 街 Apt. 619",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "description": "电梯豪装小三房，首付61万",
+      "projectName": "夏鑫博世园2期",
+      "location": "561 煜城 街 Suite 560",
+      "projectID": 35,
+      "id": 35,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商住两用",
+      "finishYear": 2011,
+      "houseFloor": 31,
+      "publishDate": "2017-11-28T19:06:43.139Z",
+      "district": "鼓楼区",
+      "totalPrice": 2106916,
+      "unitPrice": 10160,
+      "room": 2,
+      "washRoom": 3,
+      "hall": 1,
+      "buildArea": 108,
+      "address": "907 苑博 旁 Suite 656",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "description": "电梯豪装小三房，首付125万",
+      "projectName": "夏鑫博世园2期",
+      "location": "67028 蒋 侬 Suite 085",
+      "projectID": 36,
+      "id": 36,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商品房",
+      "finishYear": 2012,
+      "houseFloor": 26,
+      "publishDate": "2017-11-09T18:48:30.313Z",
+      "district": "马尾区",
+      "totalPrice": 1536843,
+      "unitPrice": 12113,
+      "room": 1,
+      "washRoom": 3,
+      "hall": 1,
+      "buildArea": 124,
+      "address": "351 彭 侬 Apt. 585",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付57万",
+      "projectName": "夏鑫博世园4期",
+      "location": "5999 明辉 路 Apt. 010",
+      "projectID": 37,
+      "id": 37,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商住两用",
+      "finishYear": 2015,
+      "houseFloor": 21,
+      "publishDate": "2017-11-17T07:32:02.023Z",
+      "district": "仓山区",
+      "totalPrice": 1574705,
+      "unitPrice": 10052,
+      "room": 1,
+      "washRoom": 4,
+      "hall": 3,
+      "buildArea": 135,
+      "address": "13485 林 街 Suite 145",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "description": "电梯豪装小三房，首付102万",
+      "projectName": "夏鑫博世园1期",
+      "location": "117 阎 街 Apt. 945",
+      "projectID": 38,
+      "id": 38,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商品房",
+      "finishYear": 2010,
+      "houseFloor": 6,
+      "publishDate": "2017-11-12T13:33:12.937Z",
+      "district": "晋安区",
+      "totalPrice": 2158163,
+      "unitPrice": 11429,
+      "room": 2,
+      "washRoom": 2,
+      "hall": 4,
+      "buildArea": 106,
+      "address": "51922 苑博 桥 Suite 783",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "description": "电梯豪装小三房，首付101万",
+      "projectName": "夏鑫博世园4期",
+      "location": "846 傅 旁 Apt. 155",
+      "projectID": 39,
+      "id": 39,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "finishYear": 2010,
+      "houseFloor": 4,
+      "publishDate": "2017-10-29T20:47:52.748Z",
+      "district": "台江区",
+      "totalPrice": 2381474,
+      "unitPrice": 11400,
+      "room": 4,
+      "washRoom": 1,
+      "hall": 1,
+      "buildArea": 103,
+      "address": "877 洪 栋 Suite 072",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付129万",
+      "projectName": "夏鑫博世园2期",
+      "location": "7545 何 中心 Suite 283",
+      "projectID": 40,
+      "id": 40,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商品房",
+      "finishYear": 2012,
+      "houseFloor": 8,
+      "publishDate": "2017-10-03T04:48:55.936Z",
+      "district": "鼓楼区",
+      "totalPrice": 2173434,
+      "unitPrice": 12506,
+      "room": 1,
+      "washRoom": 4,
+      "hall": 4,
+      "buildArea": 117,
+      "address": "090 烨霖 旁 Suite 160",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "description": "电梯豪装小三房，首付53万",
+      "projectName": "夏鑫博世园2期",
+      "location": "94608 曹 侬 Suite 194",
+      "projectID": 41,
+      "id": 41,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商住两用",
+      "finishYear": 2010,
+      "houseFloor": 31,
+      "publishDate": "2017-11-29T18:47:38.915Z",
+      "district": "马尾区",
+      "totalPrice": 2092421,
+      "unitPrice": 9255,
+      "room": 4,
+      "washRoom": 1,
+      "hall": 4,
+      "buildArea": 70,
+      "address": "171 驰 侬 Suite 597",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "description": "电梯豪装小三房，首付104万",
+      "projectName": "夏鑫博世园3期",
+      "location": "7150 弘文 侬 Suite 592",
+      "projectID": 42,
+      "id": 42,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商品房",
+      "finishYear": 2015,
+      "houseFloor": 3,
+      "publishDate": "2017-11-27T08:31:46.832Z",
+      "district": "仓山区",
+      "totalPrice": 1819344,
+      "unitPrice": 10879,
+      "room": 1,
+      "washRoom": 1,
+      "hall": 1,
+      "buildArea": 58,
+      "address": "27221 智辉 街 Suite 042",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "description": "电梯豪装小三房，首付101万",
+      "projectName": "夏鑫博世园2期",
+      "location": "6116 崔 侬 Apt. 600",
+      "projectID": 43,
+      "id": 43,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商住两用",
+      "finishYear": 2014,
+      "houseFloor": 16,
+      "publishDate": "2017-10-21T17:08:45.715Z",
+      "district": "晋安区",
+      "totalPrice": 2252063,
+      "unitPrice": 11638,
+      "room": 4,
+      "washRoom": 1,
+      "hall": 2,
+      "buildArea": 73,
+      "address": "29295 胡 旁 Apt. 687",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "description": "电梯豪装小三房，首付126万",
+      "projectName": "夏鑫博世园4期",
+      "location": "9433 健雄 巷 Apt. 975",
+      "projectID": 44,
+      "id": 44,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商品房",
+      "finishYear": 2013,
+      "houseFloor": 7,
+      "publishDate": "2017-11-01T13:53:40.839Z",
+      "district": "台江区",
+      "totalPrice": 1906589,
+      "unitPrice": 12011,
+      "room": 3,
+      "washRoom": 4,
+      "hall": 4,
+      "buildArea": 115,
+      "address": "78928 子轩 路 Apt. 935",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "description": "电梯豪装小三房，首付74万",
+      "projectName": "夏鑫博世园3期",
+      "location": "8828 周 中心 Suite 928",
+      "projectID": 45,
+      "id": 45,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "finishYear": 2010,
+      "houseFloor": 2,
+      "publishDate": "2017-10-02T08:55:14.984Z",
+      "district": "鼓楼区",
+      "totalPrice": 1728143,
+      "unitPrice": 8687,
+      "room": 4,
+      "washRoom": 4,
+      "hall": 1,
+      "buildArea": 106,
+      "address": "2038 思 巷 Suite 134",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "description": "电梯豪装小三房，首付55万",
+      "projectName": "夏鑫博世园2期",
+      "location": "2230 语堂 桥 Apt. 805",
+      "projectID": 46,
+      "id": 46,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商品房",
+      "finishYear": 2014,
+      "houseFloor": 13,
+      "publishDate": "2017-10-29T09:18:30.959Z",
+      "district": "马尾区",
+      "totalPrice": 1804385,
+      "unitPrice": 9010,
+      "room": 3,
+      "washRoom": 1,
+      "hall": 1,
+      "buildArea": 117,
+      "address": "958 杜 巷 Suite 569",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "description": "电梯豪装小三房，首付75万",
+      "projectName": "夏鑫博世园1期",
+      "location": "905 远航 中心 Suite 813",
+      "projectID": 47,
+      "id": 47,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商住两用",
+      "finishYear": 2013,
+      "houseFloor": 22,
+      "publishDate": "2017-11-13T08:40:03.695Z",
+      "district": "仓山区",
+      "totalPrice": 2098220,
+      "unitPrice": 8436,
+      "room": 1,
+      "washRoom": 3,
+      "hall": 4,
+      "buildArea": 54,
+      "address": "466 苑博 桥 Suite 759",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "description": "电梯豪装小三房，首付124万",
+      "projectName": "夏鑫博世园3期",
+      "location": "9824 谭 街 Suite 558",
+      "projectID": 48,
+      "id": 48,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商品房",
+      "finishYear": 2011,
+      "houseFloor": 33,
+      "publishDate": "2017-10-03T08:52:46.763Z",
+      "district": "晋安区",
+      "totalPrice": 2260062,
+      "unitPrice": 8700,
+      "room": 2,
+      "washRoom": 2,
+      "hall": 2,
+      "buildArea": 105,
+      "address": "709 荣轩 街 Suite 862",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付128万",
+      "projectName": "夏鑫博世园2期",
+      "location": "66996 浩然 栋 Apt. 049",
+      "projectID": 49,
+      "id": 49,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商住两用",
+      "finishYear": 2012,
+      "houseFloor": 15,
+      "publishDate": "2017-11-06T10:31:33.847Z",
+      "district": "台江区",
+      "totalPrice": 1734116,
+      "unitPrice": 10702,
+      "room": 3,
+      "washRoom": 3,
+      "hall": 2,
+      "buildArea": 100,
+      "address": "847 汪 侬 Apt. 052",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    }
+  ],
+  "newHouse": [
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付108万",
+      "projectName": "夏鑫博世园2期",
+      "location": "6927 明哲 栋 Apt. 303",
+      "projectID": 0,
+      "id": 0,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商品房",
+      "finishYear": 2011,
+      "houseFloor": 12,
+      "publishDate": "2017-11-08T07:59:00.052Z",
+      "district": "鼓楼区",
+      "totalPrice": 2295116,
+      "unitPrice": 8738,
+      "room": 3,
+      "washRoom": 1,
+      "hall": 4,
+      "buildArea": 134,
+      "address": "704 擎宇 中心 Suite 128",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "description": "电梯豪装小三房，首付58万",
+      "projectName": "夏鑫博世园4期",
+      "location": "1784 阎 路 Apt. 887",
+      "projectID": 1,
+      "id": 1,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商住两用",
+      "finishYear": 2010,
+      "houseFloor": 17,
+      "publishDate": "2017-11-23T12:45:46.573Z",
+      "district": "马尾区",
+      "totalPrice": 2103079,
+      "unitPrice": 11987,
+      "room": 3,
+      "washRoom": 2,
+      "hall": 4,
+      "buildArea": 127,
+      "address": "328 陆 中心 Suite 841",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "description": "电梯豪装小三房，首付84万",
+      "projectName": "夏鑫博世园4期",
+      "location": "4909 顾 街 Suite 040",
+      "projectID": 2,
+      "id": 2,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商品房",
+      "finishYear": 2013,
+      "houseFloor": 7,
+      "publishDate": "2017-11-23T16:15:04.096Z",
+      "district": "仓山区",
+      "totalPrice": 1528759,
+      "unitPrice": 11283,
+      "room": 3,
+      "washRoom": 4,
+      "hall": 1,
+      "buildArea": 112,
+      "address": "51067 姜 旁 Suite 044",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "description": "电梯豪装小三房，首付95万",
+      "projectName": "夏鑫博世园3期",
+      "location": "41708 毛 路 Suite 627",
+      "projectID": 3,
+      "id": 3,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "finishYear": 2013,
+      "houseFloor": 21,
+      "publishDate": "2017-10-18T01:01:54.005Z",
+      "district": "晋安区",
+      "totalPrice": 1501223,
+      "unitPrice": 12915,
+      "room": 3,
+      "washRoom": 4,
+      "hall": 4,
+      "buildArea": 91,
+      "address": "73364 徐 中心 Apt. 315",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "description": "电梯豪装小三房，首付89万",
+      "projectName": "夏鑫博世园4期",
+      "location": "6477 方 街 Suite 457",
+      "projectID": 4,
+      "id": 4,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商品房",
+      "finishYear": 2016,
+      "houseFloor": 33,
+      "publishDate": "2017-11-13T02:14:24.343Z",
+      "district": "台江区",
+      "totalPrice": 1519199,
+      "unitPrice": 12559,
+      "room": 2,
+      "washRoom": 3,
+      "hall": 1,
+      "buildArea": 140,
+      "address": "370 任 侬 Apt. 329",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "description": "电梯豪装小三房，首付137万",
+      "projectName": "夏鑫博世园2期",
+      "location": "6845 雨泽 街 Suite 494",
+      "projectID": 5,
+      "id": 5,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商住两用",
+      "finishYear": 2014,
+      "houseFloor": 32,
+      "publishDate": "2017-10-03T05:42:32.080Z",
+      "district": "鼓楼区",
+      "totalPrice": 2043406,
+      "unitPrice": 12944,
+      "room": 2,
+      "washRoom": 2,
+      "hall": 3,
+      "buildArea": 122,
+      "address": "1836 郝 路 Apt. 956",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "description": "电梯豪装小三房，首付95万",
+      "projectName": "夏鑫博世园1期",
+      "location": "7215 郑 桥 Apt. 855",
+      "projectID": 6,
+      "id": 6,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商品房",
+      "finishYear": 2013,
+      "houseFloor": 20,
+      "publishDate": "2017-11-29T19:10:15.868Z",
+      "district": "马尾区",
+      "totalPrice": 2104209,
+      "unitPrice": 12842,
+      "room": 3,
+      "washRoom": 2,
+      "hall": 1,
+      "buildArea": 79,
+      "address": "879 晋鹏 街 Suite 295",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "description": "电梯豪装小三房，首付84万",
+      "projectName": "夏鑫博世园1期",
+      "location": "473 任 栋 Apt. 402",
+      "projectID": 7,
+      "id": 7,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商住两用",
+      "finishYear": 2010,
+      "houseFloor": 13,
+      "publishDate": "2017-11-21T05:13:22.358Z",
+      "district": "仓山区",
+      "totalPrice": 2393659,
+      "unitPrice": 8530,
+      "room": 3,
+      "washRoom": 3,
+      "hall": 3,
+      "buildArea": 133,
+      "address": "1653 志泽 桥 Suite 178",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "description": "电梯豪装小三房，首付128万",
+      "projectName": "夏鑫博世园1期",
+      "location": "984 苏 栋 Apt. 036",
+      "projectID": 8,
+      "id": 8,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商品房",
+      "finishYear": 2013,
+      "houseFloor": 30,
+      "publishDate": "2017-11-28T19:27:20.681Z",
+      "district": "晋安区",
+      "totalPrice": 2023975,
+      "unitPrice": 9763,
+      "room": 3,
+      "washRoom": 2,
+      "hall": 4,
+      "buildArea": 80,
+      "address": "9373 修杰 巷 Suite 029",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "description": "电梯豪装小三房，首付93万",
+      "projectName": "夏鑫博世园2期",
+      "location": "3268 孟 中心 Suite 283",
+      "projectID": 9,
+      "id": 9,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "finishYear": 2010,
+      "houseFloor": 23,
+      "publishDate": "2017-10-31T08:16:08.868Z",
+      "district": "台江区",
+      "totalPrice": 2358544,
+      "unitPrice": 10765,
+      "room": 3,
+      "washRoom": 2,
+      "hall": 4,
+      "buildArea": 100,
+      "address": "85741 乐驹 桥 Suite 367",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付139万",
+      "projectName": "夏鑫博世园3期",
+      "location": "8923 顾 街 Apt. 366",
+      "projectID": 10,
+      "id": 10,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商品房",
+      "finishYear": 2013,
+      "houseFloor": 5,
+      "publishDate": "2017-11-13T00:47:12.343Z",
+      "district": "鼓楼区",
+      "totalPrice": 2306320,
+      "unitPrice": 12584,
+      "room": 3,
+      "washRoom": 4,
+      "hall": 1,
+      "buildArea": 92,
+      "address": "12020 邱 桥 Apt. 996",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "description": "电梯豪装小三房，首付81万",
+      "projectName": "夏鑫博世园2期",
+      "location": "172 鑫鹏 旁 Suite 807",
+      "projectID": 11,
+      "id": 11,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商住两用",
+      "finishYear": 2015,
+      "houseFloor": 16,
+      "publishDate": "2017-11-29T19:58:15.814Z",
+      "district": "马尾区",
+      "totalPrice": 1669413,
+      "unitPrice": 12307,
+      "room": 2,
+      "washRoom": 2,
+      "hall": 2,
+      "buildArea": 88,
+      "address": "9990 志泽 路 Apt. 755",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付123万",
+      "projectName": "夏鑫博世园3期",
+      "location": "82601 耀杰 路 Suite 495",
+      "projectID": 12,
+      "id": 12,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商品房",
+      "finishYear": 2013,
+      "houseFloor": 6,
+      "publishDate": "2017-11-23T07:34:17.790Z",
+      "district": "仓山区",
+      "totalPrice": 2327907,
+      "unitPrice": 11460,
+      "room": 1,
+      "washRoom": 3,
+      "hall": 3,
+      "buildArea": 59,
+      "address": "7802 鹏飞 旁 Suite 062",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "description": "电梯豪装小三房，首付71万",
+      "projectName": "夏鑫博世园4期",
+      "location": "96588 朱 路 Suite 347",
+      "projectID": 13,
+      "id": 13,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商住两用",
+      "finishYear": 2013,
+      "houseFloor": 22,
+      "publishDate": "2017-10-04T19:49:30.121Z",
+      "district": "晋安区",
+      "totalPrice": 2192107,
+      "unitPrice": 12561,
+      "room": 4,
+      "washRoom": 3,
+      "hall": 2,
+      "buildArea": 102,
+      "address": "458 越泽 旁 Suite 666",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付138万",
+      "projectName": "夏鑫博世园4期",
+      "location": "929 孙 侬 Apt. 297",
+      "projectID": 14,
+      "id": 14,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商品房",
+      "finishYear": 2011,
+      "houseFloor": 7,
+      "publishDate": "2017-11-29T03:53:31.106Z",
+      "district": "台江区",
+      "totalPrice": 2013566,
+      "unitPrice": 8501,
+      "room": 1,
+      "washRoom": 3,
+      "hall": 3,
+      "buildArea": 123,
+      "address": "4018 田 巷 Suite 137",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付111万",
+      "projectName": "夏鑫博世园4期",
+      "location": "04859 田 巷 Suite 846",
+      "projectID": 15,
+      "id": 15,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "finishYear": 2016,
+      "houseFloor": 23,
+      "publishDate": "2017-10-22T12:26:58.758Z",
+      "district": "鼓楼区",
+      "totalPrice": 2176401,
+      "unitPrice": 8546,
+      "room": 2,
+      "washRoom": 2,
+      "hall": 4,
+      "buildArea": 97,
+      "address": "535 钱 栋 Apt. 790",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "description": "电梯豪装小三房，首付116万",
+      "projectName": "夏鑫博世园1期",
+      "location": "0305 任 旁 Apt. 168",
+      "projectID": 16,
+      "id": 16,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商品房",
+      "finishYear": 2011,
+      "houseFloor": 29,
+      "publishDate": "2017-10-29T12:46:32.414Z",
+      "district": "马尾区",
+      "totalPrice": 2191425,
+      "unitPrice": 12099,
+      "room": 4,
+      "washRoom": 4,
+      "hall": 2,
+      "buildArea": 66,
+      "address": "33477 郝 街 Apt. 237",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "description": "电梯豪装小三房，首付96万",
+      "projectName": "夏鑫博世园4期",
+      "location": "64133 鹏煊 路 Suite 525",
+      "projectID": 17,
+      "id": 17,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商住两用",
+      "finishYear": 2010,
+      "houseFloor": 27,
+      "publishDate": "2017-11-01T18:56:01.011Z",
+      "district": "仓山区",
+      "totalPrice": 1763779,
+      "unitPrice": 12073,
+      "room": 4,
+      "washRoom": 3,
+      "hall": 1,
+      "buildArea": 79,
+      "address": "06742 哲瀚 旁 Apt. 693",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "description": "电梯豪装小三房，首付82万",
+      "projectName": "夏鑫博世园1期",
+      "location": "146 荣轩 栋 Suite 911",
+      "projectID": 18,
+      "id": 18,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商品房",
+      "finishYear": 2012,
+      "houseFloor": 30,
+      "publishDate": "2017-11-10T01:04:46.812Z",
+      "district": "晋安区",
+      "totalPrice": 2361896,
+      "unitPrice": 9214,
+      "room": 4,
+      "washRoom": 1,
+      "hall": 1,
+      "buildArea": 89,
+      "address": "78422 杜 中心 Apt. 356",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "description": "电梯豪装小三房，首付103万",
+      "projectName": "夏鑫博世园1期",
+      "location": "26715 顾 巷 Apt. 669",
+      "projectID": 19,
+      "id": 19,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商住两用",
+      "finishYear": 2016,
+      "houseFloor": 5,
+      "publishDate": "2017-11-07T18:48:30.089Z",
+      "district": "台江区",
+      "totalPrice": 1743121,
+      "unitPrice": 9492,
+      "room": 3,
+      "washRoom": 4,
+      "hall": 4,
+      "buildArea": 69,
+      "address": "10171 许 旁 Apt. 647",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付66万",
+      "projectName": "夏鑫博世园4期",
+      "location": "309 雪松 桥 Suite 927",
+      "projectID": 20,
+      "id": 20,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商品房",
+      "finishYear": 2015,
+      "houseFloor": 19,
+      "publishDate": "2017-10-19T03:15:04.411Z",
+      "district": "鼓楼区",
+      "totalPrice": 2445246,
+      "unitPrice": 11052,
+      "room": 3,
+      "washRoom": 1,
+      "hall": 4,
+      "buildArea": 132,
+      "address": "428 晋鹏 桥 Apt. 644",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "description": "电梯豪装小三房，首付118万",
+      "projectName": "夏鑫博世园1期",
+      "location": "723 哲瀚 巷 Apt. 277",
+      "projectID": 21,
+      "id": 21,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "finishYear": 2010,
+      "houseFloor": 7,
+      "publishDate": "2017-11-20T18:27:32.216Z",
+      "district": "马尾区",
+      "totalPrice": 2256280,
+      "unitPrice": 9902,
+      "room": 3,
+      "washRoom": 2,
+      "hall": 3,
+      "buildArea": 109,
+      "address": "270 陆 路 Apt. 520",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付75万",
+      "projectName": "夏鑫博世园4期",
+      "location": "020 子默 栋 Apt. 443",
+      "projectID": 22,
+      "id": 22,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商品房",
+      "finishYear": 2015,
+      "houseFloor": 3,
+      "publishDate": "2017-11-29T22:37:52.500Z",
+      "district": "仓山区",
+      "totalPrice": 2077350,
+      "unitPrice": 8176,
+      "room": 4,
+      "washRoom": 3,
+      "hall": 1,
+      "buildArea": 114,
+      "address": "91114 陆 中心 Suite 097",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "description": "电梯豪装小三房，首付66万",
+      "projectName": "夏鑫博世园4期",
+      "location": "723 鸿煊 侬 Apt. 648",
+      "projectID": 23,
+      "id": 23,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商住两用",
+      "finishYear": 2013,
+      "houseFloor": 20,
+      "publishDate": "2017-11-15T04:01:09.875Z",
+      "district": "晋安区",
+      "totalPrice": 2278312,
+      "unitPrice": 10565,
+      "room": 2,
+      "washRoom": 3,
+      "hall": 3,
+      "buildArea": 73,
+      "address": "18606 罗 栋 Suite 510",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "description": "电梯豪装小三房，首付74万",
+      "projectName": "夏鑫博世园2期",
+      "location": "475 俊驰 旁 Suite 343",
+      "projectID": 24,
+      "id": 24,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商品房",
+      "finishYear": 2010,
+      "houseFloor": 25,
+      "publishDate": "2017-11-04T06:32:05.787Z",
+      "district": "台江区",
+      "totalPrice": 2080899,
+      "unitPrice": 11951,
+      "room": 4,
+      "washRoom": 2,
+      "hall": 4,
+      "buildArea": 100,
+      "address": "502 钰轩 巷 Suite 558",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "description": "电梯豪装小三房，首付118万",
+      "projectName": "夏鑫博世园1期",
+      "location": "579 立果 旁 Apt. 586",
+      "projectID": 25,
+      "id": 25,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商住两用",
+      "finishYear": 2012,
+      "houseFloor": 19,
+      "publishDate": "2017-10-03T11:34:50.498Z",
+      "district": "鼓楼区",
+      "totalPrice": 2352919,
+      "unitPrice": 8720,
+      "room": 1,
+      "washRoom": 4,
+      "hall": 1,
+      "buildArea": 51,
+      "address": "6553 蔡 街 Apt. 884",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付129万",
+      "projectName": "夏鑫博世园3期",
+      "location": "695 越彬 侬 Suite 358",
+      "projectID": 26,
+      "id": 26,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商品房",
+      "finishYear": 2010,
+      "houseFloor": 4,
+      "publishDate": "2017-10-08T01:56:50.930Z",
+      "district": "马尾区",
+      "totalPrice": 2365572,
+      "unitPrice": 10258,
+      "room": 1,
+      "washRoom": 2,
+      "hall": 4,
+      "buildArea": 85,
+      "address": "866 曾 栋 Suite 926",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "description": "电梯豪装小三房，首付110万",
+      "projectName": "夏鑫博世园4期",
+      "location": "75058 余 桥 Suite 051",
+      "projectID": 27,
+      "id": 27,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "finishYear": 2010,
+      "houseFloor": 31,
+      "publishDate": "2017-11-21T22:08:00.300Z",
+      "district": "仓山区",
+      "totalPrice": 1594967,
+      "unitPrice": 9870,
+      "room": 2,
+      "washRoom": 2,
+      "hall": 3,
+      "buildArea": 119,
+      "address": "4696 唐 侬 Apt. 066",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付90万",
+      "projectName": "夏鑫博世园3期",
+      "location": "794 高 中心 Apt. 662",
+      "projectID": 28,
+      "id": 28,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商品房",
+      "finishYear": 2010,
+      "houseFloor": 6,
+      "publishDate": "2017-11-25T06:07:33.431Z",
+      "district": "晋安区",
+      "totalPrice": 2445413,
+      "unitPrice": 10537,
+      "room": 4,
+      "washRoom": 2,
+      "hall": 4,
+      "buildArea": 73,
+      "address": "3660 擎宇 旁 Apt. 079",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "description": "电梯豪装小三房，首付55万",
+      "projectName": "夏鑫博世园3期",
+      "location": "478 曾 街 Suite 749",
+      "projectID": 29,
+      "id": 29,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商住两用",
+      "finishYear": 2013,
+      "houseFloor": 13,
+      "publishDate": "2017-10-01T22:13:17.782Z",
+      "district": "台江区",
+      "totalPrice": 1801016,
+      "unitPrice": 8461,
+      "room": 2,
+      "washRoom": 2,
+      "hall": 1,
+      "buildArea": 66,
+      "address": "0651 子轩 旁 Suite 091",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "description": "电梯豪装小三房，首付117万",
+      "projectName": "夏鑫博世园3期",
+      "location": "335 笑愚 路 Apt. 781",
+      "projectID": 30,
+      "id": 30,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商品房",
+      "finishYear": 2011,
+      "houseFloor": 12,
+      "publishDate": "2017-10-25T02:22:15.334Z",
+      "district": "鼓楼区",
+      "totalPrice": 2424667,
+      "unitPrice": 11672,
+      "room": 2,
+      "washRoom": 1,
+      "hall": 1,
+      "buildArea": 134,
+      "address": "3545 姚 桥 Apt. 108",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "description": "电梯豪装小三房，首付107万",
+      "projectName": "夏鑫博世园3期",
+      "location": "68178 天宇 街 Apt. 661",
+      "projectID": 31,
+      "id": 31,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商住两用",
+      "finishYear": 2012,
+      "houseFloor": 24,
+      "publishDate": "2017-10-08T03:11:08.986Z",
+      "district": "马尾区",
+      "totalPrice": 1622336,
+      "unitPrice": 11721,
+      "room": 4,
+      "washRoom": 1,
+      "hall": 1,
+      "buildArea": 146,
+      "address": "695 鹏涛 巷 Apt. 324",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "description": "电梯豪装小三房，首付136万",
+      "projectName": "夏鑫博世园4期",
+      "location": "18718 傅 中心 Apt. 801",
+      "projectID": 32,
+      "id": 32,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商品房",
+      "finishYear": 2015,
+      "houseFloor": 16,
+      "publishDate": "2017-11-26T12:27:03.589Z",
+      "district": "仓山区",
+      "totalPrice": 1735823,
+      "unitPrice": 11509,
+      "room": 2,
+      "washRoom": 2,
+      "hall": 3,
+      "buildArea": 142,
+      "address": "453 罗 旁 Suite 827",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付90万",
+      "projectName": "夏鑫博世园3期",
+      "location": "69778 陈 街 Suite 800",
+      "projectID": 33,
+      "id": 33,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "finishYear": 2016,
+      "houseFloor": 23,
+      "publishDate": "2017-11-01T13:32:07.692Z",
+      "district": "晋安区",
+      "totalPrice": 1759436,
+      "unitPrice": 10173,
+      "room": 1,
+      "washRoom": 3,
+      "hall": 2,
+      "buildArea": 71,
+      "address": "561 谭 中心 Apt. 438",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "description": "电梯豪装小三房，首付104万",
+      "projectName": "夏鑫博世园4期",
+      "location": "90465 烨磊 巷 Suite 220",
+      "projectID": 34,
+      "id": 34,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商品房",
+      "finishYear": 2010,
+      "houseFloor": 2,
+      "publishDate": "2017-10-31T19:31:54.890Z",
+      "district": "台江区",
+      "totalPrice": 2134645,
+      "unitPrice": 9878,
+      "room": 1,
+      "washRoom": 4,
+      "hall": 1,
+      "buildArea": 90,
+      "address": "78193 昊然 街 Suite 783",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付59万",
+      "projectName": "夏鑫博世园2期",
+      "location": "04600 鸿涛 路 Suite 568",
+      "projectID": 35,
+      "id": 35,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商住两用",
+      "finishYear": 2013,
+      "houseFloor": 17,
+      "publishDate": "2017-10-11T19:35:04.342Z",
+      "district": "鼓楼区",
+      "totalPrice": 2342005,
+      "unitPrice": 9614,
+      "room": 4,
+      "washRoom": 4,
+      "hall": 1,
+      "buildArea": 116,
+      "address": "447 越彬 中心 Apt. 625",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "description": "电梯豪装小三房，首付50万",
+      "projectName": "夏鑫博世园2期",
+      "location": "5595 潘 栋 Apt. 889",
+      "projectID": 36,
+      "id": 36,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商品房",
+      "finishYear": 2011,
+      "houseFloor": 9,
+      "publishDate": "2017-10-08T05:07:52.306Z",
+      "district": "马尾区",
+      "totalPrice": 1507085,
+      "unitPrice": 12727,
+      "room": 1,
+      "washRoom": 1,
+      "hall": 1,
+      "buildArea": 72,
+      "address": "15346 越彬 路 Suite 777",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付86万",
+      "projectName": "夏鑫博世园3期",
+      "location": "373 懿轩 巷 Suite 572",
+      "projectID": 37,
+      "id": 37,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商住两用",
+      "finishYear": 2016,
+      "houseFloor": 24,
+      "publishDate": "2017-11-27T22:54:52.448Z",
+      "district": "仓山区",
+      "totalPrice": 1714885,
+      "unitPrice": 12816,
+      "room": 1,
+      "washRoom": 2,
+      "hall": 1,
+      "buildArea": 146,
+      "address": "67750 冯 旁 Suite 562",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "description": "电梯豪装小三房，首付84万",
+      "projectName": "夏鑫博世园1期",
+      "location": "5279 鹤轩 巷 Apt. 487",
+      "projectID": 38,
+      "id": 38,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商品房",
+      "finishYear": 2010,
+      "houseFloor": 5,
+      "publishDate": "2017-10-02T23:33:38.876Z",
+      "district": "晋安区",
+      "totalPrice": 1664459,
+      "unitPrice": 8228,
+      "room": 2,
+      "washRoom": 2,
+      "hall": 1,
+      "buildArea": 87,
+      "address": "79142 振家 栋 Suite 268",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付136万",
+      "projectName": "夏鑫博世园1期",
+      "location": "5757 汪 侬 Apt. 770",
+      "projectID": 39,
+      "id": 39,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "finishYear": 2010,
+      "houseFloor": 16,
+      "publishDate": "2017-10-10T15:14:17.333Z",
+      "district": "台江区",
+      "totalPrice": 2251060,
+      "unitPrice": 8493,
+      "room": 2,
+      "washRoom": 4,
+      "hall": 1,
+      "buildArea": 77,
+      "address": "285 嘉懿 中心 Suite 426",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "description": "电梯豪装小三房，首付120万",
+      "projectName": "夏鑫博世园2期",
+      "location": "6608 李 桥 Suite 131",
+      "projectID": 40,
+      "id": 40,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商品房",
+      "finishYear": 2014,
+      "houseFloor": 9,
+      "publishDate": "2017-10-03T20:52:09.068Z",
+      "district": "鼓楼区",
+      "totalPrice": 2348758,
+      "unitPrice": 12033,
+      "room": 3,
+      "washRoom": 1,
+      "hall": 2,
+      "buildArea": 59,
+      "address": "816 雷 街 Suite 881",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "description": "电梯豪装小三房，首付140万",
+      "projectName": "夏鑫博世园4期",
+      "location": "4558 子涵 侬 Apt. 766",
+      "projectID": 41,
+      "id": 41,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商住两用",
+      "finishYear": 2016,
+      "houseFloor": 7,
+      "publishDate": "2017-11-14T14:00:53.622Z",
+      "district": "马尾区",
+      "totalPrice": 1548019,
+      "unitPrice": 9976,
+      "room": 4,
+      "washRoom": 4,
+      "hall": 3,
+      "buildArea": 51,
+      "address": "96301 黎 侬 Apt. 851",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "description": "电梯豪装小三房，首付117万",
+      "projectName": "夏鑫博世园3期",
+      "location": "72631 许 旁 Apt. 185",
+      "projectID": 42,
+      "id": 42,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商品房",
+      "finishYear": 2011,
+      "houseFloor": 15,
+      "publishDate": "2017-11-27T10:13:23.232Z",
+      "district": "仓山区",
+      "totalPrice": 2244802,
+      "unitPrice": 8386,
+      "room": 1,
+      "washRoom": 3,
+      "hall": 3,
+      "buildArea": 80,
+      "address": "767 杨 栋 Apt. 144",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "description": "电梯豪装小三房，首付116万",
+      "projectName": "夏鑫博世园3期",
+      "location": "179 致远 侬 Apt. 445",
+      "projectID": 43,
+      "id": 43,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商住两用",
+      "finishYear": 2013,
+      "houseFloor": 12,
+      "publishDate": "2017-10-21T12:57:14.938Z",
+      "district": "晋安区",
+      "totalPrice": 1780752,
+      "unitPrice": 9623,
+      "room": 4,
+      "washRoom": 1,
+      "hall": 3,
+      "buildArea": 59,
+      "address": "858 曾 街 Apt. 583",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "description": "电梯豪装小三房，首付97万",
+      "projectName": "夏鑫博世园1期",
+      "location": "127 何 桥 Apt. 505",
+      "projectID": 44,
+      "id": 44,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商品房",
+      "finishYear": 2015,
+      "houseFloor": 25,
+      "publishDate": "2017-10-03T23:19:34.887Z",
+      "district": "台江区",
+      "totalPrice": 2088249,
+      "unitPrice": 8561,
+      "room": 2,
+      "washRoom": 3,
+      "hall": 3,
+      "buildArea": 119,
+      "address": "781 杜 栋 Suite 707",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "description": "电梯豪装小三房，首付133万",
+      "projectName": "夏鑫博世园3期",
+      "location": "67571 洪 旁 Suite 617",
+      "projectID": 45,
+      "id": 45,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "finishYear": 2011,
+      "houseFloor": 19,
+      "publishDate": "2017-10-14T09:13:42.898Z",
+      "district": "鼓楼区",
+      "totalPrice": 2440561,
+      "unitPrice": 10564,
+      "room": 2,
+      "washRoom": 3,
+      "hall": 1,
+      "buildArea": 74,
+      "address": "067 董 旁 Suite 506",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "description": "电梯豪装小三房，首付88万",
+      "projectName": "夏鑫博世园1期",
+      "location": "1430 天磊 侬 Suite 333",
+      "projectID": 46,
+      "id": 46,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商品房",
+      "finishYear": 2012,
+      "houseFloor": 1,
+      "publishDate": "2017-10-29T12:46:06.781Z",
+      "district": "马尾区",
+      "totalPrice": 2446466,
+      "unitPrice": 10180,
+      "room": 1,
+      "washRoom": 1,
+      "hall": 1,
+      "buildArea": 99,
+      "address": "121 熠彤 路 Apt. 311",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "description": "电梯豪装小三房，首付96万",
+      "projectName": "夏鑫博世园2期",
+      "location": "8296 蒋 路 Apt. 056",
+      "projectID": 47,
+      "id": 47,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "简装",
+      "property": "商住两用",
+      "finishYear": 2016,
+      "houseFloor": 28,
+      "publishDate": "2017-11-28T11:08:24.794Z",
+      "district": "仓山区",
+      "totalPrice": 2192778,
+      "unitPrice": 8667,
+      "room": 3,
+      "washRoom": 4,
+      "hall": 3,
+      "buildArea": 89,
+      "address": "5173 范 侬 Suite 487",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "description": "电梯豪装小三房，首付120万",
+      "projectName": "夏鑫博世园3期",
+      "location": "081 秦 旁 Suite 758",
+      "projectID": 48,
+      "id": 48,
+      "face": "朝南",
+      "isElevator": 1,
+      "totalFloor": 33,
+      "decorate": "毛坯",
+      "property": "商品房",
+      "finishYear": 2013,
+      "houseFloor": 31,
+      "publishDate": "2017-11-21T15:45:29.709Z",
+      "district": "晋安区",
+      "totalPrice": 1536386,
+      "unitPrice": 12953,
+      "room": 2,
+      "washRoom": 4,
+      "hall": 1,
+      "buildArea": 118,
+      "address": "9312 郝 巷 Suite 448",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "description": "电梯豪装小三房，首付85万",
+      "projectName": "夏鑫博世园1期",
+      "location": "7044 昊强 旁 Suite 744",
+      "projectID": 49,
+      "id": 49,
+      "face": "朝南",
+      "isElevator": 0,
+      "totalFloor": 33,
+      "decorate": "精装",
+      "property": "商住两用",
+      "finishYear": 2011,
+      "houseFloor": 17,
+      "publishDate": "2017-11-30T08:21:00.510Z",
+      "district": "台江区",
+      "totalPrice": 2499630,
+      "unitPrice": 9645,
+      "room": 3,
+      "washRoom": 3,
+      "hall": 3,
+      "buildArea": 108,
+      "address": "348 晋鹏 旁 Apt. 784",
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ]
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "description": "电梯豪装小三房，首付121万",
+      "projectName": "夏鑫博世园2期",
+      "location": "349 思源 路 Suite 680",
+      "projectID": 222,
+      "face": "朝南",
+      "totalPrice": "2500000",
+      "unitPrice": 8434,
+      "room": 4,
+      "washRoom": 3,
+      "hall": 1,
+      "buildArea": 113,
+      "feature": [
+        {
+          "text": "满五年",
+          "type": "1"
+        },
+        {
+          "text": "认证房源",
+          "type": "2"
+        },
+        {
+          "text": "随时看房",
+          "type": "3"
+        },
+        {
+          "text": "交通便利",
+          "type": "4"
+        }
+      ],
+      "id": 50
+    }
+  ],
+  "project": [
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "projectName": "香江明珠",
+      "id": 0,
+      "district": "鼓楼区",
+      "decorate": "毛坯",
+      "property": "商品房",
+      "address": "19647 擎宇 旁 Apt. 922",
+      "avgPrice": 17903,
+      "finishYear": 2015
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "projectName": "北京金山",
+      "id": 1,
+      "district": "马尾区",
+      "decorate": "精装",
+      "property": "商住两用",
+      "address": "9583 天翊 巷 Apt. 901",
+      "avgPrice": 16659,
+      "finishYear": 2016
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "projectName": "金晓苑",
+      "id": 2,
+      "district": "仓山区",
+      "decorate": "简装",
+      "property": "商品房",
+      "address": "78937 范 中心 Apt. 304",
+      "avgPrice": 13355,
+      "finishYear": 2017
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "projectName": "华信花园",
+      "id": 3,
+      "district": "晋安区",
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "address": "5060 黄 路 Suite 282",
+      "avgPrice": 14570,
+      "finishYear": 2010
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "projectName": "保利香槟国际",
+      "id": 4,
+      "district": "台江区",
+      "decorate": "精装",
+      "property": "商品房",
+      "address": "23363 俊驰 街 Apt. 571",
+      "avgPrice": 11803,
+      "finishYear": 1998
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "projectName": "正祥江滨假日",
+      "id": 5,
+      "district": "鼓楼区",
+      "decorate": "简装",
+      "property": "商住两用",
+      "address": "40717 蒋 巷 Apt. 584",
+      "avgPrice": 13094,
+      "finishYear": 2012
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "projectName": "香江明珠",
+      "id": 6,
+      "district": "马尾区",
+      "decorate": "毛坯",
+      "property": "商品房",
+      "address": "7955 傅 侬 Suite 441",
+      "avgPrice": 16921,
+      "finishYear": 2015
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "projectName": "北京金山",
+      "id": 7,
+      "district": "仓山区",
+      "decorate": "精装",
+      "property": "商住两用",
+      "address": "820 沈 桥 Apt. 907",
+      "avgPrice": 14838,
+      "finishYear": 2016
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "projectName": "金晓苑",
+      "id": 8,
+      "district": "晋安区",
+      "decorate": "简装",
+      "property": "商品房",
+      "address": "24989 昊强 栋 Apt. 408",
+      "avgPrice": 15431,
+      "finishYear": 2013
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "projectName": "华信花园",
+      "id": 9,
+      "district": "台江区",
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "address": "743 鹏飞 中心 Apt. 835",
+      "avgPrice": 14530,
+      "finishYear": 2007
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "projectName": "保利香槟国际",
+      "id": 10,
+      "district": "鼓楼区",
+      "decorate": "精装",
+      "property": "商品房",
+      "address": "8534 徐 栋 Apt. 068",
+      "avgPrice": 11171,
+      "finishYear": 2007
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "projectName": "正祥江滨假日",
+      "id": 11,
+      "district": "马尾区",
+      "decorate": "简装",
+      "property": "商住两用",
+      "address": "134 炎彬 旁 Suite 490",
+      "avgPrice": 11464,
+      "finishYear": 2008
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "projectName": "香江明珠",
+      "id": 12,
+      "district": "仓山区",
+      "decorate": "毛坯",
+      "property": "商品房",
+      "address": "014 振家 栋 Suite 932",
+      "avgPrice": 15544,
+      "finishYear": 2001
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "projectName": "北京金山",
+      "id": 13,
+      "district": "晋安区",
+      "decorate": "精装",
+      "property": "商住两用",
+      "address": "9687 健雄 旁 Apt. 621",
+      "avgPrice": 13597,
+      "finishYear": 2013
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "projectName": "金晓苑",
+      "id": 14,
+      "district": "台江区",
+      "decorate": "简装",
+      "property": "商品房",
+      "address": "55069 于 路 Suite 759",
+      "avgPrice": 13123,
+      "finishYear": 2010
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "projectName": "华信花园",
+      "id": 15,
+      "district": "鼓楼区",
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "address": "3286 邱 街 Suite 266",
+      "avgPrice": 16622,
+      "finishYear": 2004
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "projectName": "保利香槟国际",
+      "id": 16,
+      "district": "马尾区",
+      "decorate": "精装",
+      "property": "商品房",
+      "address": "23844 陆 路 Suite 580",
+      "avgPrice": 17959,
+      "finishYear": 2003
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "projectName": "正祥江滨假日",
+      "id": 17,
+      "district": "仓山区",
+      "decorate": "简装",
+      "property": "商住两用",
+      "address": "24097 戴 巷 Suite 713",
+      "avgPrice": 14250,
+      "finishYear": 2010
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "projectName": "香江明珠",
+      "id": 18,
+      "district": "晋安区",
+      "decorate": "毛坯",
+      "property": "商品房",
+      "address": "245 远航 栋 Apt. 110",
+      "avgPrice": 11088,
+      "finishYear": 2003
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "projectName": "北京金山",
+      "id": 19,
+      "district": "台江区",
+      "decorate": "精装",
+      "property": "商住两用",
+      "address": "1972 毛 侬 Apt. 897",
+      "avgPrice": 15325,
+      "finishYear": 2013
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "projectName": "金晓苑",
+      "id": 20,
+      "district": "鼓楼区",
+      "decorate": "简装",
+      "property": "商品房",
+      "address": "32362 郑 中心 Apt. 774",
+      "avgPrice": 12220,
+      "finishYear": 2017
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "projectName": "华信花园",
+      "id": 21,
+      "district": "马尾区",
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "address": "76587 君浩 巷 Suite 276",
+      "avgPrice": 11726,
+      "finishYear": 2006
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "projectName": "保利香槟国际",
+      "id": 22,
+      "district": "仓山区",
+      "decorate": "精装",
+      "property": "商品房",
+      "address": "7146 绍齐 侬 Apt. 365",
+      "avgPrice": 12614,
+      "finishYear": 2002
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "projectName": "正祥江滨假日",
+      "id": 23,
+      "district": "晋安区",
+      "decorate": "简装",
+      "property": "商住两用",
+      "address": "4165 田 旁 Apt. 653",
+      "avgPrice": 13755,
+      "finishYear": 2008
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "projectName": "香江明珠",
+      "id": 24,
+      "district": "台江区",
+      "decorate": "毛坯",
+      "property": "商品房",
+      "address": "5895 擎宇 栋 Apt. 611",
+      "avgPrice": 15185,
+      "finishYear": 2011
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "projectName": "北京金山",
+      "id": 25,
+      "district": "鼓楼区",
+      "decorate": "精装",
+      "property": "商住两用",
+      "address": "4786 潘 桥 Suite 941",
+      "avgPrice": 17885,
+      "finishYear": 2012
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "projectName": "金晓苑",
+      "id": 26,
+      "district": "马尾区",
+      "decorate": "简装",
+      "property": "商品房",
+      "address": "215 吕 旁 Suite 019",
+      "avgPrice": 14153,
+      "finishYear": 2008
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "projectName": "华信花园",
+      "id": 27,
+      "district": "仓山区",
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "address": "07436 傅 侬 Suite 463",
+      "avgPrice": 12617,
+      "finishYear": 2011
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "projectName": "保利香槟国际",
+      "id": 28,
+      "district": "晋安区",
+      "decorate": "精装",
+      "property": "商品房",
+      "address": "5921 鸿煊 侬 Suite 764",
+      "avgPrice": 10508,
+      "finishYear": 1999
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "projectName": "正祥江滨假日",
+      "id": 29,
+      "district": "台江区",
+      "decorate": "简装",
+      "property": "商住两用",
+      "address": "699 立辉 路 Apt. 163",
+      "avgPrice": 17583,
+      "finishYear": 2013
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "projectName": "香江明珠",
+      "id": 30,
+      "district": "鼓楼区",
+      "decorate": "毛坯",
+      "property": "商品房",
+      "address": "44087 子轩 巷 Apt. 033",
+      "avgPrice": 14132,
+      "finishYear": 2002
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "projectName": "北京金山",
+      "id": 31,
+      "district": "马尾区",
+      "decorate": "精装",
+      "property": "商住两用",
+      "address": "55911 博文 旁 Suite 912",
+      "avgPrice": 15046,
+      "finishYear": 2008
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "projectName": "金晓苑",
+      "id": 32,
+      "district": "仓山区",
+      "decorate": "简装",
+      "property": "商品房",
+      "address": "978 雪松 中心 Suite 508",
+      "avgPrice": 14717,
+      "finishYear": 2004
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "projectName": "华信花园",
+      "id": 33,
+      "district": "晋安区",
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "address": "277 蒋 街 Suite 744",
+      "avgPrice": 14404,
+      "finishYear": 2007
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "projectName": "保利香槟国际",
+      "id": 34,
+      "district": "台江区",
+      "decorate": "精装",
+      "property": "商品房",
+      "address": "567 曹 栋 Apt. 447",
+      "avgPrice": 17992,
+      "finishYear": 2013
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/4.png",
+      "projectName": "正祥江滨假日",
+      "id": 35,
+      "district": "鼓楼区",
+      "decorate": "简装",
+      "property": "商住两用",
+      "address": "3491 浩轩 街 Suite 048",
+      "avgPrice": 13399,
+      "finishYear": 2017
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "projectName": "香江明珠",
+      "id": 36,
+      "district": "马尾区",
+      "decorate": "毛坯",
+      "property": "商品房",
+      "address": "7624 思聪 街 Suite 563",
+      "avgPrice": 17695,
+      "finishYear": 2004
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "projectName": "北京金山",
+      "id": 37,
+      "district": "仓山区",
+      "decorate": "精装",
+      "property": "商住两用",
+      "address": "028 程 街 Suite 980",
+      "avgPrice": 12187,
+      "finishYear": 2001
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "projectName": "金晓苑",
+      "id": 38,
+      "district": "晋安区",
+      "decorate": "简装",
+      "property": "商品房",
+      "address": "610 袁 路 Suite 305",
+      "avgPrice": 11454,
+      "finishYear": 2016
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "projectName": "华信花园",
+      "id": 39,
+      "district": "台江区",
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "address": "2232 傅 侬 Apt. 314",
+      "avgPrice": 13386,
+      "finishYear": 2002
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "projectName": "保利香槟国际",
+      "id": 40,
+      "district": "鼓楼区",
+      "decorate": "精装",
+      "property": "商品房",
+      "address": "5711 魏 栋 Apt. 583",
+      "avgPrice": 11337,
+      "finishYear": 2004
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "projectName": "正祥江滨假日",
+      "id": 41,
+      "district": "马尾区",
+      "decorate": "简装",
+      "property": "商住两用",
+      "address": "872 峻熙 栋 Suite 604",
+      "avgPrice": 17992,
+      "finishYear": 2009
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "projectName": "香江明珠",
+      "id": 42,
+      "district": "仓山区",
+      "decorate": "毛坯",
+      "property": "商品房",
+      "address": "597 正豪 街 Suite 610",
+      "avgPrice": 17644,
+      "finishYear": 2006
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "projectName": "北京金山",
+      "id": 43,
+      "district": "晋安区",
+      "decorate": "精装",
+      "property": "商住两用",
+      "address": "2934 靖琪 巷 Suite 344",
+      "avgPrice": 11499,
+      "finishYear": 2016
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "projectName": "金晓苑",
+      "id": 44,
+      "district": "台江区",
+      "decorate": "简装",
+      "property": "商品房",
+      "address": "75959 正豪 街 Suite 937",
+      "avgPrice": 17171,
+      "finishYear": 2017
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "projectName": "华信花园",
+      "id": 45,
+      "district": "鼓楼区",
+      "decorate": "毛坯",
+      "property": "商住两用",
+      "address": "92515 弘文 中心 Apt. 018",
+      "avgPrice": 14572,
+      "finishYear": 2010
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "projectName": "保利香槟国际",
+      "id": 46,
+      "district": "马尾区",
+      "decorate": "精装",
+      "property": "商品房",
+      "address": "514 孙 巷 Suite 152",
+      "avgPrice": 10811,
+      "finishYear": 2003
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/2.png",
+      "projectName": "正祥江滨假日",
+      "id": 47,
+      "district": "仓山区",
+      "decorate": "简装",
+      "property": "商住两用",
+      "address": "7074 文 中心 Apt. 446",
+      "avgPrice": 14300,
+      "finishYear": 2016
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/1.png",
+      "projectName": "香江明珠",
+      "id": 48,
+      "district": "晋安区",
+      "decorate": "毛坯",
+      "property": "商品房",
+      "address": "5835 曹 中心 Suite 483",
+      "avgPrice": 11268,
+      "finishYear": 2007
+    },
+    {
+      "imgUrl": "assets/ui/second-hand-house-img/3.png",
+      "projectName": "北京金山",
+      "id": 49,
+      "district": "台江区",
+      "decorate": "精装",
+      "property": "商住两用",
+      "address": "48447 越彬 栋 Suite 682",
+      "avgPrice": 12528,
+      "finishYear": 2009
+    }
+  ],
+  "favorite": [
+    {
+      "id": 0,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "香江明珠",
+      "imgUrl": "assets/ui/second-hand-house-img/3.png"
+    },
+    {
+      "id": 1,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "北京金山",
+      "imgUrl": "assets/ui/second-hand-house-img/5.png"
+    },
+    {
+      "id": 2,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "金晓苑",
+      "imgUrl": "assets/ui/second-hand-house-img/5.png"
+    },
+    {
+      "id": 3,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "华信花园",
+      "imgUrl": "assets/ui/second-hand-house-img/3.png"
+    },
+    {
+      "id": 4,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "保利香槟国际",
+      "imgUrl": "assets/ui/second-hand-house-img/1.png"
+    },
+    {
+      "id": 5,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "正祥江滨假日",
+      "imgUrl": "assets/ui/second-hand-house-img/5.png"
+    },
+    {
+      "id": 6,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "香江明珠",
+      "imgUrl": "assets/ui/second-hand-house-img/5.png"
+    },
+    {
+      "id": 7,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "北京金山",
+      "imgUrl": "assets/ui/second-hand-house-img/3.png"
+    },
+    {
+      "id": 8,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "金晓苑",
+      "imgUrl": "assets/ui/second-hand-house-img/5.png"
+    },
+    {
+      "id": 9,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "华信花园",
+      "imgUrl": "assets/ui/second-hand-house-img/5.png"
+    },
+    {
+      "id": 10,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "保利香槟国际",
+      "imgUrl": "assets/ui/second-hand-house-img/5.png"
+    },
+    {
+      "id": 11,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "正祥江滨假日",
+      "imgUrl": "assets/ui/second-hand-house-img/5.png"
+    },
+    {
+      "id": 12,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "香江明珠",
+      "imgUrl": "assets/ui/second-hand-house-img/2.png"
+    },
+    {
+      "id": 13,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "北京金山",
+      "imgUrl": "assets/ui/second-hand-house-img/3.png"
+    },
+    {
+      "id": 14,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "金晓苑",
+      "imgUrl": "assets/ui/second-hand-house-img/5.png"
+    },
+    {
+      "id": 15,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "华信花园",
+      "imgUrl": "assets/ui/second-hand-house-img/4.png"
+    },
+    {
+      "id": 16,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "保利香槟国际",
+      "imgUrl": "assets/ui/second-hand-house-img/3.png"
+    },
+    {
+      "id": 17,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "正祥江滨假日",
+      "imgUrl": "assets/ui/second-hand-house-img/3.png"
+    },
+    {
+      "id": 18,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "香江明珠",
+      "imgUrl": "assets/ui/second-hand-house-img/4.png"
+    },
+    {
+      "id": 19,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "北京金山",
+      "imgUrl": "assets/ui/second-hand-house-img/1.png"
+    },
+    {
+      "id": 20,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "金晓苑",
+      "imgUrl": "assets/ui/second-hand-house-img/1.png"
+    },
+    {
+      "id": 21,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "华信花园",
+      "imgUrl": "assets/ui/second-hand-house-img/2.png"
+    },
+    {
+      "id": 22,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "保利香槟国际",
+      "imgUrl": "assets/ui/second-hand-house-img/4.png"
+    },
+    {
+      "id": 23,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "正祥江滨假日",
+      "imgUrl": "assets/ui/second-hand-house-img/1.png"
+    },
+    {
+      "id": 24,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "香江明珠",
+      "imgUrl": "assets/ui/second-hand-house-img/2.png"
+    },
+    {
+      "id": 25,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "北京金山",
+      "imgUrl": "assets/ui/second-hand-house-img/5.png"
+    },
+    {
+      "id": 26,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "金晓苑",
+      "imgUrl": "assets/ui/second-hand-house-img/5.png"
+    },
+    {
+      "id": 27,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "华信花园",
+      "imgUrl": "assets/ui/second-hand-house-img/2.png"
+    },
+    {
+      "id": 28,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "保利香槟国际",
+      "imgUrl": "assets/ui/second-hand-house-img/5.png"
+    },
+    {
+      "id": 29,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "正祥江滨假日",
+      "imgUrl": "assets/ui/second-hand-house-img/2.png"
+    },
+    {
+      "id": 30,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "香江明珠",
+      "imgUrl": "assets/ui/second-hand-house-img/2.png"
+    },
+    {
+      "id": 31,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "北京金山",
+      "imgUrl": "assets/ui/second-hand-house-img/4.png"
+    },
+    {
+      "id": 32,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "金晓苑",
+      "imgUrl": "assets/ui/second-hand-house-img/5.png"
+    },
+    {
+      "id": 33,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "华信花园",
+      "imgUrl": "assets/ui/second-hand-house-img/4.png"
+    },
+    {
+      "id": 34,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "保利香槟国际",
+      "imgUrl": "assets/ui/second-hand-house-img/4.png"
+    },
+    {
+      "id": 35,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "正祥江滨假日",
+      "imgUrl": "assets/ui/second-hand-house-img/5.png"
+    },
+    {
+      "id": 36,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "香江明珠",
+      "imgUrl": "assets/ui/second-hand-house-img/5.png"
+    },
+    {
+      "id": 37,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "北京金山",
+      "imgUrl": "assets/ui/second-hand-house-img/4.png"
+    },
+    {
+      "id": 38,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "金晓苑",
+      "imgUrl": "assets/ui/second-hand-house-img/5.png"
+    },
+    {
+      "id": 39,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "华信花园",
+      "imgUrl": "assets/ui/second-hand-house-img/4.png"
+    },
+    {
+      "id": 40,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "保利香槟国际",
+      "imgUrl": "assets/ui/second-hand-house-img/3.png"
+    },
+    {
+      "id": 41,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "正祥江滨假日",
+      "imgUrl": "assets/ui/second-hand-house-img/5.png"
+    },
+    {
+      "id": 42,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "香江明珠",
+      "imgUrl": "assets/ui/second-hand-house-img/3.png"
+    },
+    {
+      "id": 43,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "北京金山",
+      "imgUrl": "assets/ui/second-hand-house-img/2.png"
+    },
+    {
+      "id": 44,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "金晓苑",
+      "imgUrl": "assets/ui/second-hand-house-img/3.png"
+    },
+    {
+      "id": 45,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "华信花园",
+      "imgUrl": "assets/ui/second-hand-house-img/5.png"
+    },
+    {
+      "id": 46,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "保利香槟国际",
+      "imgUrl": "assets/ui/second-hand-house-img/1.png"
+    },
+    {
+      "id": 47,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "正祥江滨假日",
+      "imgUrl": "assets/ui/second-hand-house-img/2.png"
+    },
+    {
+      "id": 48,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "香江明珠",
+      "imgUrl": "assets/ui/second-hand-house-img/4.png"
+    },
+    {
+      "id": 49,
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "北京金山",
+      "imgUrl": "assets/ui/second-hand-house-img/5.png"
+    },
+    {
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": "夏鑫博世园4期",
+      "imgUrl": "assets/ui/second-hand-house-img/5.png",
+      "id": 50
+    }
+  ]
+}

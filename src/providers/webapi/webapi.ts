@@ -59,3 +59,10 @@ export class Project extends WebapiProvider {
     this.controller = "Project";
   }
 }
+
+export class Favorite extends WebapiProvider {
+  constructor(public http: HttpClient) {
+    super(http);
+    this.controller = "Favorite";
+  }
+}

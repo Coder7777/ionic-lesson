@@ -1,7 +1,8 @@
 import { Component, NgZone, ViewChild, transition } from '@angular/core';
 import { IonicPage, NavController, NavParams, Content } from 'ionic-angular';
-import { SecondHandHouse, Project } from '../../providers/webapi/webapi';
+import { SecondHandHouse, Project, Favorite } from '../../providers/webapi/webapi';
 import { HttpClient } from '@angular/common/http';
+import { ToastController } from 'ionic-angular/components/toast/toast-controller';
 
 
 /**
@@ -27,6 +28,7 @@ export class SecondHandHouseDetailPage {
 
   constructor(public navCtrl: NavController,
     public zone: NgZone,
+    public toastCtrl: ToastController,
     public http: HttpClient,
     public navParams: NavParams) {
     this.secondHandHouse = this.navParams.get("secondHandHouse");
@@ -62,6 +64,19 @@ export class SecondHandHouseDetailPage {
     );
   }
 
+  addToFavorite() {
+    let that = this;
+    new Favorite(this.http).post({
+      "typeId": "1",
+      "type": "二手房",
+      "projectName": this.secondHandHouse.projectName,
+      "imgUrl": this.secondHandHouse.imgUrl
+    }).then(
+      (data) => {
+        this.toastCtrl.create({ message: "收藏成功", position: "middle", duration: 1000 }).present();
+        console.log(data);
+      });
+  }
 
   ionViewDidEnter() {
     this.height = this.content.contentWidth / (4 / 3);

@@ -79,14 +79,31 @@ function generateProject() {
         });
     }
     return projects;
-    
+
+}
+
+function generateMyFavorite() {
+    var favorites = [];
+    var types = [{ typeId: "1", type: "二手房" }];
+    var projectName = ["香江明珠", "北京金山", "金晓苑", "华信花园", "保利香槟国际", "正祥江滨假日"];
+    for (let id = 0; id < 50; id++) {
+        favorites.push({
+            "id": id,
+            "typeId": types[id % types.length].typeId,
+            "type": types[id % types.length].type,
+            "projectName": projectName[id % projectName.length],
+            "imgUrl": "assets/ui/second-hand-house-img/" + faker.random.number({ min: 1, max: 5 }) + ".png"
+        })
+    }
+    return favorites;
 }
 
 function generateData() {
     var result = {
         secondHandHouse: generateNewHouse(),
         newHouse: generateNewHouse(),
-        project: generateProject()
+        project: generateProject(),
+        favorite: generateMyFavorite()
     };
     return result;
 }
