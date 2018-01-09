@@ -29,7 +29,7 @@
 
 
 <ion-content #main class="xs-bg-content">
-  <ion-slides [style.height.px]='height' pager>
+  <ion-slides class="xs-list-item-bottom-line" [style.height.px]='height' pager>
     <ion-slide>
       <ion-img width="100%" [height]="height" src="assets/ui/second-hand-house-img/d1.jpeg" alt=""></ion-img>
     </ion-slide>
@@ -217,7 +217,7 @@
         <button ion-button color="primary" block>同小区4套在售</button>
       </div>
     </div>
-    <div class="surround-advise">
+    <div class="surround-advise xs-list-item-bottom-line padding-bottom">
       <div class="xs-flex-item">
         <div class="title">
           <span>周边推荐</span>
@@ -227,51 +227,133 @@
         </div>
       </div>
       <ion-scroll scrollX="true">
-        <div class="same-community-house">
+        <div class="advise-house">
           <ion-img width="134" height="103" src="assets/ui/second-hand-house-img/1.png"></ion-img>
           <div>
             <span class="layout-descript">{{secondHandHouse.room}}室{{secondHandHouse.hall}}厅 / {{secondHandHouse.buildArea}}㎡ / {{secondHandHouse.face}}</span>
           </div>
           <div>
-            <span class="total-price">{{secondHandHouse.totalPrice | priceFormat:10000 }}万元</span>
             <span class="community-name">水郡长安</span>
+          </div>
+          <div>
+            <span class="total-price">{{secondHandHouse.totalPrice | priceFormat:10000 }}万元</span>
             <span class="unit-price">{{secondHandHouse.unitPrice}}元/㎡</span>
           </div>
         </div>
-        <div class="same-community-house">
+        <div class="advise-house">
           <ion-img width="134" height="103" src="assets/ui/second-hand-house-img/1.png"></ion-img>
           <div>
             <span class="layout-descript">{{secondHandHouse.room}}室{{secondHandHouse.hall}}厅 / {{secondHandHouse.buildArea}}㎡ / {{secondHandHouse.face}}</span>
           </div>
           <div>
-            <span class="total-price">{{secondHandHouse.totalPrice | priceFormat:10000 }}万元</span>
             <span class="community-name">水郡长安</span>
+          </div>
+          <div>
+            <span class="total-price">{{secondHandHouse.totalPrice | priceFormat:10000 }}万元</span>
             <span class="unit-price">{{secondHandHouse.unitPrice}}元/㎡</span>
           </div>
         </div>
-        <div class="same-community-house">
+        <div class="advise-house">
           <ion-img width="134" height="103" src="assets/ui/second-hand-house-img/1.png"></ion-img>
           <div>
             <span class="layout-descript">{{secondHandHouse.room}}室{{secondHandHouse.hall}}厅 / {{secondHandHouse.buildArea}}㎡ / {{secondHandHouse.face}}</span>
           </div>
           <div>
-            <span class="total-price">{{secondHandHouse.totalPrice | priceFormat:10000 }}万元</span>
             <span class="community-name">水郡长安</span>
+          </div>
+          <div>
+            <span class="total-price">{{secondHandHouse.totalPrice | priceFormat:10000 }}万元</span>
             <span class="unit-price">{{secondHandHouse.unitPrice}}元/㎡</span>
           </div>
         </div>
-        <div class="same-community-house">
+        <div class="advise-house">
           <ion-img width="134" height="103" src="assets/ui/second-hand-house-img/1.png"></ion-img>
           <div>
             <span class="layout-descript">{{secondHandHouse.room}}室{{secondHandHouse.hall}}厅 / {{secondHandHouse.buildArea}}㎡ / {{secondHandHouse.face}}</span>
           </div>
           <div>
+            <span class="community-name">水郡长安</span>
+          </div>
+          <div>
             <span class="total-price">{{secondHandHouse.totalPrice | priceFormat:10000 }}万元</span>
-            <span class="community-name">水郡长安</span>            
             <span class="unit-price">{{secondHandHouse.unitPrice}}元/㎡</span>
+          </div>
+        </div>
+      </ion-scroll>
+    </div>
+    <div class="surround-community xs-list-item-bottom-line padding-bottom">
+      <div class="xs-flex-item">
+        <div class="title">
+          <span>周边小区</span>
+        </div>
+        <div class="sub-title">
+          <span>更多推荐>></span>
+        </div>
+      </div>
+      <ion-scroll scrollX="true">
+        <div class="advise-community">
+          <img width="134" height="103" src="assets/ui/second-hand-house-img/1.png" />
+          <div>
+            <span class="community-name">{{secondHandHouse.projectName}}</span>
+          </div>
+          <div>
+            <span class="avg-price">{{secondHandHouse.unitPrice}}元/㎡</span>
+            <span class="establish-year">2015年</span>
+          </div>
+        </div>
+        <div class="advise-community">
+          <img width="134" height="103" src="assets/ui/second-hand-house-img/1.png" />
+          <div>
+            <span class="community-name">{{secondHandHouse.projectName}}</span>
+          </div>
+          <div>
+            <span class="avg-price">{{secondHandHouse.unitPrice}}元/㎡</span>
+            <span class="establish-year">2015年</span>
+          </div>
+        </div>
+        <div class="advise-community">
+          <img width="134" height="103" src="assets/ui/second-hand-house-img/1.png" />
+          <div>
+            <span class="community-name">{{secondHandHouse.projectName}}</span>
+          </div>
+          <div>
+            <span class="avg-price">{{secondHandHouse.unitPrice}}元/㎡</span>
+            <span class="establish-year">2015年</span>
+          </div>
+        </div>
+        <div class="advise-community">
+          <img width="134" height="103" src="assets/ui/second-hand-house-img/1.png" />
+          <div>
+            <span class="community-name">{{secondHandHouse.projectName}}</span>
+          </div>
+          <div>
+            <span class="avg-price">{{secondHandHouse.unitPrice}}元/㎡</span>
+            <span class="establish-year">2015年</span>
           </div>
         </div>
       </ion-scroll>
     </div>
   </div>
 </ion-content>
+
+<ion-footer color="light">
+  <ion-toolbar>
+    <div class="broker-wrapper">
+      <div class="avatar">
+        <img width="36" height="36" src="assets/ui/avatar/avatar.png" alt="">
+      </div>
+      <div class="broker">
+        <p>卢万洲
+          <span>(绿色鑫家园)</span>
+        </p>
+        <p>13800001235</p>
+      </div>
+    </div>
+    <ion-buttons end>
+      <button ion-button icon-right color="primary">
+        打电话
+        <ion-icon name="ios-call-outline"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

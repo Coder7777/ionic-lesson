@@ -91,6 +91,10 @@ page-second-hand-house-detail {
                 font-size: 1.2rem;
             }
         }
+        ion-scroll {
+            white-space: nowrap;
+            height: 146px;
+        }
     }
     .surround-advise {
         .advise-house {
@@ -109,9 +113,48 @@ page-second-hand-house-detail {
                 font-size: 1.2rem;
             }
         }
+        ion-scroll {
+            white-space: nowrap;
+            height: 158px;
+        }
     }
-    ion-scroll {
-        white-space: nowrap;
-        height: 146px;
+    .surround-community {
+        .advise-community {
+            display: inline-block;
+            margin-right: 10px;
+            .community-name {
+                color: #999;
+                font-size: 1.4rem;
+            }
+            .establish-year {
+                color: #333;
+                font-size: 1.4rem;
+            }
+            .avg-price {
+                color: #fa462e;
+                font-size: 1.4rem;
+            }
+        }
+        ion-scroll {
+            white-space: nowrap;
+            height: 143px;
+        }
+    }
+    ion-footer {
+        .broker-wrapper {
+            position: relative;
+        }
+        .avatar {
+            top: 5px;
+            position: absolute;
+        }
+        .broker {
+            margin-left: 46px;
+        }
+        p {
+            margin: 0;
+            color: #999;
+            padding: 3px 0;
+        }
     }
 }

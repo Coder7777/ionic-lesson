@@ -20,7 +20,7 @@
 </ion-header>
 
 <ion-content #main class="xs-bg-content">
-  <ion-slides [style.height.px]='height' zoom=true pager>
+  <ion-slides [style.height.px]='height' loop=true pager>
     <ion-slide>
       <ion-img width="100%" [height]="height" src="assets/ui/slides/slide1.png"></ion-img>
     </ion-slide>
@@ -38,7 +38,7 @@
         <img src="assets/ui/module-icon/1.png" alt="">
         <p>二手房</p>
       </ion-col>
-      <ion-col>
+      <ion-col (click)="pushTest()">
         <img src="assets/ui/module-icon/2.png" alt="">
         <p>新房</p>
       </ion-col>

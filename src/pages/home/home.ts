@@ -43,7 +43,7 @@ export class HomePage {
     );
   }
 
-  pushSecondHandHousePage(){
+  pushSecondHandHousePage() {
     this.navCtrl.push("SecondHandHousePage");
   }
 
@@ -100,5 +100,9 @@ export class HomePage {
   ionViewDidLoad() {
 
     console.log('ionViewDidLoad HomePage');
+  }
+
+  pushTest() {
+    this.navCtrl.push("TestPage", { userName: "Soarway", age: 18 });
   }
 }
