@@ -1,8 +1,11 @@
 import { NgModule } from '@angular/core';
 import { PriceFormatPipe } from './price-format/price-format';
+import { DateFormatPipe } from './date-format/date-format';
 @NgModule({
-	declarations: [PriceFormatPipe],
+	declarations: [PriceFormatPipe,
+    DateFormatPipe],
 	imports: [],
-	exports: [PriceFormatPipe]
+	exports: [PriceFormatPipe,
+    DateFormatPipe]
 })
 export class PipesModule {}

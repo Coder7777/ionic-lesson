@@ -6,7 +6,8 @@
 -->
 <ion-header no-border>
 
-  <ion-navbar color="transparent">
+  <ion-navbar color="{{showNavBar?'primary':'transparent'}}">
+    <ion-title *ngIf="showNavBar">{{secondHandHouse.projectName}}</ion-title>
     <ion-buttons start>
       <button ion-button icon-only (click)="popToRoot()">
         <ion-icon color="light" name="md-close"></ion-icon>
@@ -28,28 +29,28 @@
 </ion-header>
 
 
-<ion-content #main class="xs-bg-content">
+<ion-content #main class="xs-bg-content" (ionScrollEnd)="scrollHandler($event)">
   <ion-slides class="xs-list-item-bottom-line" [style.height.px]='height' pager>
     <ion-slide>
-      <ion-img width="100%" [height]="height" src="assets/ui/second-hand-house-img/d1.jpeg" alt=""></ion-img>
+      <ion-img width="100%" [height]="height" src="assets/ui/second-hand-house-img/d1.jpg" alt=""></ion-img>
     </ion-slide>
     <ion-slide>
-      <ion-img width="100%" [height]="height" src="assets/ui/second-hand-house-img/d2.jpeg" alt=""></ion-img>
+      <ion-img width="100%" [height]="height" src="assets/ui/second-hand-house-img/d2.jpg" alt=""></ion-img>
     </ion-slide>
     <ion-slide>
-      <ion-img width="100%" [height]="height" src="assets/ui/second-hand-house-img/d3.jpeg" alt=""></ion-img>
+      <ion-img width="100%" [height]="height" src="assets/ui/second-hand-house-img/d3.jpg" alt=""></ion-img>
     </ion-slide>
     <ion-slide>
-      <ion-img width="100%" [height]="height" src="assets/ui/second-hand-house-img/d4.jpeg" alt=""></ion-img>
+      <ion-img width="100%" [height]="height" src="assets/ui/second-hand-house-img/d4.jpg" alt=""></ion-img>
     </ion-slide>
     <ion-slide>
-      <ion-img width="100%" [height]="height" src="assets/ui/second-hand-house-img/d5.jpeg" alt=""></ion-img>
+      <ion-img width="100%" [height]="height" src="assets/ui/second-hand-house-img/d5.jpg" alt=""></ion-img>
     </ion-slide>
     <ion-slide>
-      <ion-img width="100%" [height]="height" src="assets/ui/second-hand-house-img/d6.jpeg" alt=""></ion-img>
+      <ion-img width="100%" [height]="height" src="assets/ui/second-hand-house-img/d6.jpg" alt=""></ion-img>
     </ion-slide>
     <ion-slide>
-      <ion-img width="100%" [height]="height" src="assets/ui/second-hand-house-img/d7.jpeg" alt=""></ion-img>
+      <ion-img width="100%" [height]="height" src="assets/ui/second-hand-house-img/d7.jpg" alt=""></ion-img>
     </ion-slide>
   </ion-slides>
   <div class="house-detail-wrapper xs-bg-component padding-horizontal">
@@ -94,7 +95,7 @@
           </ion-col>
           <ion-col>
             <span>挂牌:</span>
-            <span>2017.06.14</span>
+            <span>{{secondHandHouse.publishDate | dateFormat:"YYYY-MM-DD"}}</span>
           </ion-col>
         </ion-row>
         <ion-row>
@@ -104,7 +105,7 @@
           </ion-col>
           <ion-col>
             <span>楼层:</span>
-            <span>高层(共33层)</span>
+            <span>{{secondHandHouse.houseFloor}} / {{secondHandHouse.totalFloor}}层</span>
           </ion-col>
         </ion-row>
         <ion-row>
@@ -114,17 +115,17 @@
           </ion-col>
           <ion-col>
             <span>电梯:</span>
-            <span>有</span>
+            <span>{{secondHandHouse.isElevator==1?'有':'无'}}</span>
           </ion-col>
         </ion-row>
         <ion-row>
           <ion-col>
             <span>装修:</span>
-            <span>简装</span>
+            <span>{{secondHandHouse.decorate}}</span>
           </ion-col>
           <ion-col>
             <span>年代:</span>
-            <span>2012年</span>
+            <span>{{secondHandHouse.finishYear}}年</span>
           </ion-col>
         </ion-row>
         <ion-row>
@@ -133,18 +134,14 @@
             <span>普通住宅</span>
           </ion-col>
           <ion-col>
-            <span>
-              产权性质:
-            </span>
-            <span>
-              商品房
-            </span>
+            <span>产权性质:</span>
+            <span>{{secondHandHouse.property}}</span>
           </ion-col>
         </ion-row>
         <ion-row>
           <ion-col col-6>
             <span>小区:</span>
-            <span>紫金花园</span>
+            <span>{{secondHandHouse.projectName}}</span>
           </ion-col>
         </ion-row>
       </ion-grid>
@@ -159,7 +156,7 @@
       <div class="title">
         <span>楼盘地址</span>
       </div>
-      <p class="content">福州市仓山区金达路130号大榕树创意园</p>
+      <p class="content">{{secondHandHouse.address}}</p>
     </div>
     <div class="surround-descript xs-list-item-bottom-line">
       <div class="title">
@@ -172,49 +169,19 @@
         <span>同小区房源</span>
       </div>
       <ion-scroll scrollX="true">
-        <div class="same-community-house">
-          <ion-img width="134" height="103" src="assets/ui/second-hand-house-img/1.png"></ion-img>
+        <div class="same-community-house" *ngFor="let house of sameCommunityHouses;">
+          <ion-img width="134" height="103" src="{{house.imgUrl}}"></ion-img>
           <div>
-            <span class="layout-descript">{{secondHandHouse.room}}室{{secondHandHouse.hall}}厅 / {{secondHandHouse.buildArea}}㎡ / {{secondHandHouse.face}}</span>
+            <span class="layout-descript">{{house.room}}室{{house.hall}}厅 / {{house.buildArea}}㎡ / {{house.face}}</span>
           </div>
           <div>
-            <span class="total-price">{{secondHandHouse.totalPrice | priceFormat:10000 }}万元</span>
-            <span class="unit-price">{{secondHandHouse.unitPrice}}元/㎡</span>
-          </div>
-        </div>
-        <div class="same-community-house">
-          <ion-img width="134" height="103" src="assets/ui/second-hand-house-img/1.png"></ion-img>
-          <div>
-            <span class="layout-descript">{{secondHandHouse.room}}室{{secondHandHouse.hall}}厅 / {{secondHandHouse.buildArea}}㎡ / {{secondHandHouse.face}}</span>
-          </div>
-          <div>
-            <span class="total-price">{{secondHandHouse.totalPrice | priceFormat:10000 }}万元</span>
-            <span class="unit-price">{{secondHandHouse.unitPrice}}元/㎡</span>
-          </div>
-        </div>
-        <div class="same-community-house">
-          <ion-img width="134" height="103" src="assets/ui/second-hand-house-img/1.png"></ion-img>
-          <div>
-            <span class="layout-descript">{{secondHandHouse.room}}室{{secondHandHouse.hall}}厅 / {{secondHandHouse.buildArea}}㎡ / {{secondHandHouse.face}}</span>
-          </div>
-          <div>
-            <span class="total-price">{{secondHandHouse.totalPrice | priceFormat:10000 }}万元</span>
-            <span class="unit-price">{{secondHandHouse.unitPrice}}元/㎡</span>
-          </div>
-        </div>
-        <div class="same-community-house">
-          <ion-img width="134" height="103" src="assets/ui/second-hand-house-img/1.png"></ion-img>
-          <div>
-            <span class="layout-descript">{{secondHandHouse.room}}室{{secondHandHouse.hall}}厅 / {{secondHandHouse.buildArea}}㎡ / {{secondHandHouse.face}}</span>
-          </div>
-          <div>
-            <span class="total-price">{{secondHandHouse.totalPrice | priceFormat:10000 }}万元</span>
-            <span class="unit-price">{{secondHandHouse.unitPrice}}元/㎡</span>
+            <span class="total-price">{{house.totalPrice | priceFormat:10000 }}万元</span>
+            <span class="unit-price">{{house.unitPrice}}元/㎡</span>
           </div>
         </div>
       </ion-scroll>
       <div class="padding">
-        <button ion-button color="primary" block>同小区4套在售</button>
+        <button ion-button color="primary" block>同小区{{sameCommunityHouses.length}}套在售</button>
       </div>
     </div>
     <div class="surround-advise xs-list-item-bottom-line padding-bottom">
@@ -227,56 +194,17 @@
         </div>
       </div>
       <ion-scroll scrollX="true">
-        <div class="advise-house">
-          <ion-img width="134" height="103" src="assets/ui/second-hand-house-img/1.png"></ion-img>
+        <div class="advise-house" *ngFor="let house of surroundAdviseHouses;">
+          <ion-img width="134" height="103" src="{{house.imgUrl}}"></ion-img>
           <div>
-            <span class="layout-descript">{{secondHandHouse.room}}室{{secondHandHouse.hall}}厅 / {{secondHandHouse.buildArea}}㎡ / {{secondHandHouse.face}}</span>
+            <span class="layout-descript">{{house.room}}室{{house.hall}}厅 / {{house.buildArea}}㎡ / {{house.face}}</span>
           </div>
           <div>
-            <span class="community-name">水郡长安</span>
+            <span class="community-name">{{house.projectName}}</span>
           </div>
           <div>
-            <span class="total-price">{{secondHandHouse.totalPrice | priceFormat:10000 }}万元</span>
-            <span class="unit-price">{{secondHandHouse.unitPrice}}元/㎡</span>
-          </div>
-        </div>
-        <div class="advise-house">
-          <ion-img width="134" height="103" src="assets/ui/second-hand-house-img/1.png"></ion-img>
-          <div>
-            <span class="layout-descript">{{secondHandHouse.room}}室{{secondHandHouse.hall}}厅 / {{secondHandHouse.buildArea}}㎡ / {{secondHandHouse.face}}</span>
-          </div>
-          <div>
-            <span class="community-name">水郡长安</span>
-          </div>
-          <div>
-            <span class="total-price">{{secondHandHouse.totalPrice | priceFormat:10000 }}万元</span>
-            <span class="unit-price">{{secondHandHouse.unitPrice}}元/㎡</span>
-          </div>
-        </div>
-        <div class="advise-house">
-          <ion-img width="134" height="103" src="assets/ui/second-hand-house-img/1.png"></ion-img>
-          <div>
-            <span class="layout-descript">{{secondHandHouse.room}}室{{secondHandHouse.hall}}厅 / {{secondHandHouse.buildArea}}㎡ / {{secondHandHouse.face}}</span>
-          </div>
-          <div>
-            <span class="community-name">水郡长安</span>
-          </div>
-          <div>
-            <span class="total-price">{{secondHandHouse.totalPrice | priceFormat:10000 }}万元</span>
-            <span class="unit-price">{{secondHandHouse.unitPrice}}元/㎡</span>
-          </div>
-        </div>
-        <div class="advise-house">
-          <ion-img width="134" height="103" src="assets/ui/second-hand-house-img/1.png"></ion-img>
-          <div>
-            <span class="layout-descript">{{secondHandHouse.room}}室{{secondHandHouse.hall}}厅 / {{secondHandHouse.buildArea}}㎡ / {{secondHandHouse.face}}</span>
-          </div>
-          <div>
-            <span class="community-name">水郡长安</span>
-          </div>
-          <div>
-            <span class="total-price">{{secondHandHouse.totalPrice | priceFormat:10000 }}万元</span>
-            <span class="unit-price">{{secondHandHouse.unitPrice}}元/㎡</span>
+            <span class="total-price">{{house.totalPrice | priceFormat:10000 }}万元</span>
+            <span class="unit-price">{{house.unitPrice}}元/㎡</span>
           </div>
         </div>
       </ion-scroll>
@@ -291,44 +219,14 @@
         </div>
       </div>
       <ion-scroll scrollX="true">
-        <div class="advise-community">
-          <img width="134" height="103" src="assets/ui/second-hand-house-img/1.png" />
+        <div class="advise-community" *ngFor="let community of surroundAdviseCommunities">
+          <img width="134" height="103" src="{{community.imgUrl}}" />
           <div>
-            <span class="community-name">{{secondHandHouse.projectName}}</span>
+            <span class="community-name">{{community.projectName}}</span>
           </div>
           <div>
-            <span class="avg-price">{{secondHandHouse.unitPrice}}元/㎡</span>
-            <span class="establish-year">2015年</span>
-          </div>
-        </div>
-        <div class="advise-community">
-          <img width="134" height="103" src="assets/ui/second-hand-house-img/1.png" />
-          <div>
-            <span class="community-name">{{secondHandHouse.projectName}}</span>
-          </div>
-          <div>
-            <span class="avg-price">{{secondHandHouse.unitPrice}}元/㎡</span>
-            <span class="establish-year">2015年</span>
-          </div>
-        </div>
-        <div class="advise-community">
-          <img width="134" height="103" src="assets/ui/second-hand-house-img/1.png" />
-          <div>
-            <span class="community-name">{{secondHandHouse.projectName}}</span>
-          </div>
-          <div>
-            <span class="avg-price">{{secondHandHouse.unitPrice}}元/㎡</span>
-            <span class="establish-year">2015年</span>
-          </div>
-        </div>
-        <div class="advise-community">
-          <img width="134" height="103" src="assets/ui/second-hand-house-img/1.png" />
-          <div>
-            <span class="community-name">{{secondHandHouse.projectName}}</span>
-          </div>
-          <div>
-            <span class="avg-price">{{secondHandHouse.unitPrice}}元/㎡</span>
-            <span class="establish-year">2015年</span>
+            <span class="avg-price">{{community.avgPrice}}元/㎡</span>
+            <span class="establish-year">{{community.finishYear}}</span>
           </div>
         </div>
       </ion-scroll>
