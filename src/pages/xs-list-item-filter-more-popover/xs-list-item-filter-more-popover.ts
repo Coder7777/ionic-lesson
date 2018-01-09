@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, ViewController, NavController, NavParams } from 'ionic-angular';
 
 /**
  * Generated class for the XsListItemFilterMorePopoverPage page.
@@ -14,12 +14,19 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'xs-list-item-filter-more-popover.html',
 })
 export class XsListItemFilterMorePopoverPage {
+  private callback: Function = null;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController,
+    public viewCtrl: ViewController,
+    public navParams: NavParams) {
+    this.callback = this.navParams.get("callback");
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad XsListItemFilterMorePopoverPage');
   }
 
+  submit() {
+    this.viewCtrl.dismiss({ result: "hi" });
+  }
 }

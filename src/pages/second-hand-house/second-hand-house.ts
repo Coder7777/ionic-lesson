@@ -203,17 +203,17 @@ export class SecondHandHousePage {
             room: 3,
             hall: 2
           }
-        }] 
+        }]
     });
     this.categories.push({
       text: "更多",
       type: "button",
       tag: {
-        page: "XsListItemFilterMorePopoverPage"  
+        page: "XsListItemFilterMorePopoverPage"
       },
       active: false,
       callback: function (data) {
-
+        console.log(data);
       },
       items: [
       ]

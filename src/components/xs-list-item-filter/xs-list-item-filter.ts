@@ -46,9 +46,16 @@ export class XsListItemFilterComponent {
     // modal.onDidDismiss(category.callback(category));
     // modal.present();
 
-    category.callback(category);
-    let popover = this.popoverCtrl.create(category.tag.page, {}, { cssClass: "xs-popover-slide" });
+    // category.callback(category);
+    debugger;
+    let popover = this.popoverCtrl.create(category.tag.page, { callback: category.callback }, { cssClass: "xs-popover-slide" });
     popover.present({ ev: ev });
+    popover.onDidDismiss((data) => {
+      if (data) {
+        debugger;
+        category.callback(data);
+      }
+    });
   }
 
   orderby(ev, category: XsDataFilterModel) {
