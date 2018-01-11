@@ -1,0 +1,14 @@
+xs-list-item-filter-input {
+    .xs-input {
+        border: 0.55px solid #e5e5e5;
+        padding: 4px;
+        border-radius: 4px;
+        input {
+            text-indent: 5px;
+            margin: 0;
+        }
+         ::-webkit-input-placeholder {
+            text-align: center;
+        }
+    }
+}

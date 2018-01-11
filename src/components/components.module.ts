@@ -5,10 +5,18 @@ import { XsHouseItemComponent } from './xs-house-item/xs-house-item';
 import { PipesModule } from '../pipes/pipes.module';
 import { XsTagComponent } from './xs-tag/xs-tag';
 import { XsListItemFilterComponent } from './xs-list-item-filter/xs-list-item-filter';
+import { XsListItemFilterItemComponent } from './xs-list-item-filter-item/xs-list-item-filter-item';
+import { XsListItemFilterBoxComponent } from './xs-list-item-filter-box/xs-list-item-filter-box';
+import { XsListItemFilterInputComponent } from './xs-list-item-filter-input/xs-list-item-filter-input';
+import { XsListItemFilterSplitComponent } from './xs-list-item-filter-split/xs-list-item-filter-split';
 @NgModule({
 	declarations: [XsHouseItemComponent,
 		XsTagComponent,
-		XsListItemFilterComponent],
+		XsListItemFilterComponent,
+    XsListItemFilterItemComponent,
+    XsListItemFilterBoxComponent,
+    XsListItemFilterInputComponent,
+    XsListItemFilterSplitComponent],
 	imports: [
 		CommonModule,
 		PipesModule,
@@ -16,7 +24,11 @@ import { XsListItemFilterComponent } from './xs-list-item-filter/xs-list-item-fi
 	],
 	exports: [XsHouseItemComponent,
 		XsTagComponent,
-		XsListItemFilterComponent]
+		XsListItemFilterComponent,
+    XsListItemFilterItemComponent,
+    XsListItemFilterBoxComponent,
+    XsListItemFilterInputComponent,
+    XsListItemFilterSplitComponent]
 })
 export class ComponentsModule { }
 

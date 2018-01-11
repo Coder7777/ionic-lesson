@@ -203,7 +203,8 @@ export class SecondHandHousePage {
             room: 3,
             hall: 2
           }
-        }]
+        }
+      ]
     });
     this.categories.push({
       text: "更多",
@@ -216,6 +217,151 @@ export class SecondHandHousePage {
         console.log(data);
       },
       items: [
+        {
+          text: "区域",
+          type: "list",
+          items: [
+            [
+              {
+                categoryText: "鼓楼",
+                listItemText: "鼓楼区",
+                value: {
+                  id: "1",
+                  district: "鼓楼区"
+                }
+              },
+              {
+                categoryText: "仓山",
+                listItemText: "仓山区",
+                value: {
+                  id: "2",
+                  district: "仓山区"
+                }
+              },
+              {
+                categoryText: "晋安",
+                listItemText: "晋安区",
+                value: {
+                  id: "3",
+                  district: "晋安区"
+                }
+              }
+            ],
+            [
+              {
+                categoryText: "台江",
+                listItemText: "台江区",
+                value: {
+                  id: "4",
+                  district: "台江区"
+                }
+              },
+              {
+                categoryText: "马尾",
+                listItemText: "马尾区",
+                value: {
+                  id: "5",
+                  district: "马尾区"
+                }
+              },
+              {}
+            ]
+          ]
+        },
+        {
+          text: "价格范围",
+          type: "range",
+          items: [
+            [
+              {
+                listItemText: "1万-100万",
+                value: {
+                  min: 1,
+                  max: 100
+                }
+              },
+              {
+                listItemText: "1万-180万",
+                value: {
+                  min: 1,
+                  max: 180
+                }
+              },
+              {
+                listItemText: "1万-300万",
+                value: {
+                  min: 1,
+                  max: 300
+                }
+              },
+            ],
+            [
+              {
+                placeholder: "最小值",
+                value: {
+                }
+              },
+              { 
+                type: "split",
+                value: {
+                }
+              },
+              {
+                placeholder: "最大值",
+                value: {
+                }
+              }
+            ]
+          ]
+        },
+        {
+          text: "房型",
+          type: "list",
+          items: [
+            [
+              {
+                listItemText: "1房1厅",
+                categoryText: "1房1厅",
+                value: {
+                  compare: "equal",
+                  room: 1,
+                  hall: 1
+                }
+              },
+              {
+                listItemText: "2房2厅",
+                categoryText: "2房2厅",
+                value: {
+                  compare: "equal",
+                  room: 2,
+                  hall: 2
+                }
+              },
+              {
+                listItemText: "3房2厅",
+                categoryText: "3房2厅",
+                value: {
+                  compare: "equal",
+                  room: 3,
+                  hall: 2
+                }
+              }
+            ],
+            [
+              {
+                listItemText: "3房2厅及以上",
+                categoryText: "3房2厅+",
+                value: {
+                  compare: "more",
+                  room: 3,
+                  hall: 2
+                }
+              },
+              {},
+              {}
+            ]
+          ]
+        }
       ]
     });
   }

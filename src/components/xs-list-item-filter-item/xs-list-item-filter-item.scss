@@ -1,0 +1,22 @@
+xs-list-item-filter-item {
+    .category-item {
+        display: inline-block;
+        border: 1.0px solid #f0f2f5;
+        border-radius: 4px;
+        width: 100%;
+        text-align: center;
+        background-color: #f0f2f5;
+        color: #2b2b2b;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        line-height: 25px;
+        height: 24px;
+    }
+    .active {
+        color: color($colors, primary);
+        border: 1.0px solid color($colors, primary);
+        border-radius: 4px;
+        background-color: transparent;
+    }
+}

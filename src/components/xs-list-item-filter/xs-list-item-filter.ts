@@ -42,17 +42,10 @@ export class XsListItemFilterComponent {
   }
 
   show(ev, category: XsDataFilterModel) {
-    // let modal = this.modalCtrl.create(category.tag.page, { category: category });
-    // modal.onDidDismiss(category.callback(category));
-    // modal.present();
-
-    // category.callback(category);
-    debugger;
-    let popover = this.popoverCtrl.create(category.tag.page, { callback: category.callback }, { cssClass: "xs-popover-slide" });
+    let popover = this.popoverCtrl.create(category.tag.page, { data: category }, { cssClass: "xs-popover-slide" });
     popover.present({ ev: ev });
     popover.onDidDismiss((data) => {
       if (data) {
-        debugger;
         category.callback(data);
       }
     });

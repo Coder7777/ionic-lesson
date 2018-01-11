@@ -1,32 +1,19 @@
 page-xs-list-item-filter-more-popover {
-    .category-title {
-        font-size: 1.6rem;
-        color: #666666;
-    }
-    .grid {
-        margin: 0;
-        padding: 0;
-        .row {
-            margin: 0;
-            padding: 0;
-        }
-        .col {
-            margin: 6px 4px;
-            padding: 0;
-        }
-    }
-    .category-item {
-        display: inline-block;
-        border-radius: 4px;
+    ion-scroll {
         width: 100%;
-        text-align: center;
-        padding: 2px 3px;
-        background-color: #f1f2f6;
-        color: #2b2b2b;
+        .scroll-content {
+            height: calc(100% - 44px)
+        }
     }
-    .active {
-        background-color: #fff;
-        border: 0.55px solid color($colors, primary);
-        color: color($colors, primary);
+    .footer-button {
+        width: calc(50% - 8px);
+        display: inline-block;
+        text-align: center;
+        color: #fff;
+        font-size: 1.6rem;
+        border-right: 0.55px solid #fff;
+    }
+    .footer-button:last-child {
+        border: none;
     }
 }

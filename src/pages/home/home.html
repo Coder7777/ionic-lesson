@@ -145,7 +145,7 @@
           </span>
         </div>
         <div>
-          <span class="section-sub-title">
+          <span class="section-sub-title" tappable (click)="pushSecondHandHousePage()">
             更多>>
           </span>
         </div>
@@ -153,7 +153,7 @@
     </div>
     <div class="section-body">
       <ion-list no-margin>
-        <xs-house-item [item]="secondHandHouse" *ngFor="let secondHandHouse of secondHandHouses;"></xs-house-item>
+        <xs-house-item [item]="secondHandHouse" *ngFor="let secondHandHouse of secondHandHouses;" (click)="pushSecondHandHouseDetailPage(secondHandHouse);"></xs-house-item>
       </ion-list>
     </div>
   </div>

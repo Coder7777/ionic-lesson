@@ -96,6 +96,10 @@ export class HomePage {
       }
     );
   }
+  
+  pushSecondHandHouseDetailPage(secondHandHouse: any) {
+    this.navCtrl.push("SecondHandHouseDetailPage", { secondHandHouse: secondHandHouse });
+  }
 
   ionViewDidLoad() {
 
