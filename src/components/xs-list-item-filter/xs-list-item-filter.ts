@@ -1,4 +1,4 @@
-import { Component, ViewChild, Input, ElementRef } from '@angular/core';
+import { Component, ViewChild, Input, ElementRef, transition } from '@angular/core';
 import { NavParams, ViewController, PopoverController, ModalController, MenuController } from 'ionic-angular'
 import { XsDataFilterItemModel, XsDataFilterModel } from '../components.module';
 
@@ -28,7 +28,7 @@ export class XsListItemFilterComponent {
   categoryClick(ev, category: XsDataFilterModel) {
     switch (category.type) {
       case "list":
-        this.popover(ev, category);
+        this.list(ev, category);
         break;
       case "orderby":
         this.orderby(ev, category);
@@ -46,8 +46,12 @@ export class XsListItemFilterComponent {
     popover.present({ ev: ev });
     popover.onDidDismiss((data) => {
       if (data) {
-        category.callback(data);
+        category.selected = category.text;
       }
+      else {
+        category.selected = "";
+      }
+      category.callback(data);
     });
   }
 
@@ -65,7 +69,7 @@ export class XsListItemFilterComponent {
     category.callback(category);
   }
 
-  popover(ev, category: XsDataFilterModel) {
+  list(ev, category: XsDataFilterModel) {
     this.categories.forEach((value, index, array) => {
       value.active = false;
     });
@@ -74,7 +78,7 @@ export class XsListItemFilterComponent {
     let popover = this.popoverCtrl.create("XsListItemFilterPopoverPage", { contentEle: this.popContent.nativeElement, category: category, categoryItems: category.items }, { cssClass: "xs-popover-full" });
     popover.onDidDismiss((data) => {
       if (data) {
-        if (data.item.text != "全部" && data.item.text != "重置")
+        if (data.item.categoryText != category.text)
           data.category.selected = data.item.categoryText;
         else
           data.category.selected = null;

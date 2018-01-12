@@ -4,8 +4,7 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<div style="position:relative;margin-bottom:52px;">
-  <ion-list class="xs-bg-content">
+<xs-list-item-filter-container (dismiss)="dismiss()" (reset)="reset()">
     <xs-list-item-filter-box class="margin-bottom" [title]="filter.category" *ngFor="let filter of filters;">
       <ion-grid>
         <ion-row *ngFor="let items of filter.items">
@@ -19,19 +18,18 @@
       <ion-grid>
         <ion-row *ngFor="let price of prices.items;">
           <ion-col col-4 *ngFor="let item of price">
-            <xs-list-item-filter-item [text]="item.text"></xs-list-item-filter-item>
+            <xs-list-item-filter-item [text]="item.text" [id]="item.id" [(isActive)]="item.isActive" [category]="prices.category"></xs-list-item-filter-item>
           </ion-col>
         </ion-row>
-
         <ion-row>
           <ion-col>
-            <xs-list-item-filter-input placeholder="最小值"></xs-list-item-filter-input>
+            <xs-list-item-filter-input text="最小值"></xs-list-item-filter-input>
           </ion-col>
           <ion-col col-auto>
             <xs-list-item-filter-split text="-"></xs-list-item-filter-split>
           </ion-col>
           <ion-col>
-            <xs-list-item-filter-input placeholder="最大值"></xs-list-item-filter-input>
+            <xs-list-item-filter-input text="最大值"></xs-list-item-filter-input>
           </ion-col>
         </ion-row>
       </ion-grid>
@@ -40,33 +38,20 @@
       <ion-grid>
         <ion-row *ngFor="let layout of layouts.items">
           <ion-col col-4 *ngFor="let item of layout">
-            <xs-list-item-filter-item [text]="item.text"></xs-list-item-filter-item>
+            <xs-list-item-filter-item [text]="item.text" [id]="item.id" [(isActive)]="item.isActive" [category]="layouts.category"></xs-list-item-filter-item>
           </ion-col>
         </ion-row>
         <ion-row>
           <ion-col>
-            <xs-list-item-filter-input placeholder="房"></xs-list-item-filter-input>
+            <xs-list-item-filter-input text="房"></xs-list-item-filter-input>
           </ion-col>
           <ion-col>
-            <xs-list-item-filter-input placeholder="厅"></xs-list-item-filter-input>
+            <xs-list-item-filter-input text="厅"></xs-list-item-filter-input>
           </ion-col>
           <ion-col>
-            <xs-list-item-filter-input placeholder="卫"></xs-list-item-filter-input>
+            <xs-list-item-filter-input text="卫"></xs-list-item-filter-input>
           </ion-col>
         </ion-row>
       </ion-grid>
     </xs-list-item-filter-box>
-  </ion-list>
-  <ion-footer style="position:fixed;bottom:0;margin-left:calc(16% - 2px);width:84%;" no-padding>
-    <ion-toolbar color="primary">
-      <div>
-        <div class="footer-button" tappable (click)="submit()">
-          <span>确定</span>
-        </div>
-        <div class="footer-button" tappable (click)="reset()">
-          <span>重置</span>
-        </div>
-      </div>
-    </ion-toolbar>
-  </ion-footer>
-</div>
+</xs-list-item-filter-container>

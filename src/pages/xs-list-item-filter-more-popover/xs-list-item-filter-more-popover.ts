@@ -1,7 +1,6 @@
-import { Component, ViewChild, ViewChildren } from '@angular/core';
-import { IonicPage, ViewController, NavController, NavParams } from 'ionic-angular';
+import { Component, ViewChildren } from '@angular/core';
+import { IonicPage, ToastController, ViewController, NavController, NavParams } from 'ionic-angular';
 import { XsListItemFilterItemComponent } from '../../components/xs-list-item-filter-item/xs-list-item-filter-item';
-import { XsListItemFilterBoxComponent } from '../../components/xs-list-item-filter-box/xs-list-item-filter-box';
 
 /**
  * Generated class for the XsListItemFilterMorePopoverPage page.
@@ -17,6 +16,7 @@ import { XsListItemFilterBoxComponent } from '../../components/xs-list-item-filt
 })
 export class XsListItemFilterMorePopoverPage {
   @ViewChildren(XsListItemFilterItemComponent) items: Array<XsListItemFilterItemComponent>;
+
   private data: any = {};
   private filters: Array<any> = new Array<any>();
   private districts: any = {
@@ -88,14 +88,17 @@ export class XsListItemFilterMorePopoverPage {
     items: [
       [
         {
+          id: "1",
           text: "1万-100万",
           isActive: false
         },
         {
+          id: "2",
           text: "1万-180万",
           isActive: false
         },
         {
+          id: "3",
           text: "1万-300万",
           isActive: false
         }
@@ -129,8 +132,17 @@ export class XsListItemFilterMorePopoverPage {
   }
   constructor(public navCtrl: NavController,
     public viewCtrl: ViewController,
+    public toastCtrl: ToastController,
     public navParams: NavParams) {
+
     this.data = this.navParams.get("data");
+    if (this.data.tag.data) {
+      this.districts = this.data.tag.data.districts;
+      this.sources = this.data.tag.data.sources;
+      this.prices = this.data.tag.data.prices;
+      this.layouts = this.data.tag.data.layouts;
+    }
+
     this.filters.push(this.districts);
     this.filters.push(this.sources);
   }
@@ -139,19 +151,35 @@ export class XsListItemFilterMorePopoverPage {
     console.log('ionViewDidLoad XsListItemFilterMorePopoverPage');
   }
 
-  submit() {
-    let selectedItems: Array<any> = new Array<any>();
-    this.items.forEach((value: XsListItemFilterItemComponent, index, array) => {
+  dismiss(data) {
+    let result: Array<XsListItemFilterItemComponent> = new Array<XsListItemFilterItemComponent>();
+    this.items.forEach((value: XsListItemFilterItemComponent, index) => {
       if (value.isActive) {
-        selectedItems.push(value);
+        result.push(value);
       }
     });
-    this.viewCtrl.dismiss(selectedItems);
+    let src = {
+      districts: this.districts,
+      sources: this.sources,
+      prices: this.prices,
+      layouts: this.layouts
+    };
+    let des = result;
+    this.viewCtrl.dismiss({ src: src, des: des }).then(
+      () => {
+        this.toastCtrl.create({
+          message: "'更多'的筛选功能与其他相似，这里不进行实际编码，可在Console里查看接收到的参数！",
+          duration: 4500,
+          position: "middle"
+        }).present();
+      }
+    );
   }
 
-  reset() {
-    this.items.forEach((value, index, array) => {
+  reset(data) {
+    this.items.map((value: XsListItemFilterItemComponent, index) => {
       value.isActive = false;
     });
+    this.viewCtrl.dismiss(null);
   }
 } 

@@ -43,6 +43,10 @@ export class HomePage {
     );
   }
 
+  pushNewHousePage() {
+    this.navCtrl.push("NewHousePage");
+  }
+  
   pushSecondHandHousePage() {
     this.navCtrl.push("SecondHandHousePage");
   }
@@ -96,7 +100,7 @@ export class HomePage {
       }
     );
   }
-  
+
   pushSecondHandHouseDetailPage(secondHandHouse: any) {
     this.navCtrl.push("SecondHandHouseDetailPage", { secondHandHouse: secondHandHouse });
   }
@@ -104,9 +108,5 @@ export class HomePage {
   ionViewDidLoad() {
 
     console.log('ionViewDidLoad HomePage');
-  }
-
-  pushTest() {
-    this.navCtrl.push("TestPage", { userName: "Soarway", age: 18 });
   }
 }

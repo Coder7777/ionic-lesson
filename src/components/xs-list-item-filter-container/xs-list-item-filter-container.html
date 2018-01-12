@@ -1,0 +1,19 @@
+<!-- Generated template for the XsListItemFilterContainerComponent component -->
+
+<div style="position:relative;margin-bottom:52px;" class="xs-bg-content">
+  <ion-list>
+    <ng-content select="xs-list-item-filter-box,ion-gril,ion-row,ion-col,xs-list-item-filter-item"></ng-content>
+  </ion-list>
+  <ion-footer style="position:fixed;bottom:0;margin-left:calc(16% - 2px);width:84%;" no-padding>
+    <ion-toolbar color="primary">
+      <div>
+        <div class="footer-button" tappable (click)="dismissHandler()">
+          <span>确定</span>
+        </div>
+        <div class="footer-button" tappable (click)="resetHandler()">
+          <span>重置</span>
+        </div>
+      </div>
+    </ion-toolbar>
+  </ion-footer>
+</div>

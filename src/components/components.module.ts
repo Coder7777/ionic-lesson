@@ -9,14 +9,16 @@ import { XsListItemFilterItemComponent } from './xs-list-item-filter-item/xs-lis
 import { XsListItemFilterBoxComponent } from './xs-list-item-filter-box/xs-list-item-filter-box';
 import { XsListItemFilterInputComponent } from './xs-list-item-filter-input/xs-list-item-filter-input';
 import { XsListItemFilterSplitComponent } from './xs-list-item-filter-split/xs-list-item-filter-split';
+import { XsListItemFilterContainerComponent } from './xs-list-item-filter-container/xs-list-item-filter-container';
 @NgModule({
 	declarations: [XsHouseItemComponent,
 		XsTagComponent,
 		XsListItemFilterComponent,
-    XsListItemFilterItemComponent,
-    XsListItemFilterBoxComponent,
-    XsListItemFilterInputComponent,
-    XsListItemFilterSplitComponent],
+		XsListItemFilterItemComponent,
+		XsListItemFilterBoxComponent,
+		XsListItemFilterInputComponent,
+		XsListItemFilterSplitComponent,
+		XsListItemFilterContainerComponent],
 	imports: [
 		CommonModule,
 		PipesModule,
@@ -25,26 +27,27 @@ import { XsListItemFilterSplitComponent } from './xs-list-item-filter-split/xs-l
 	exports: [XsHouseItemComponent,
 		XsTagComponent,
 		XsListItemFilterComponent,
-    XsListItemFilterItemComponent,
-    XsListItemFilterBoxComponent,
-    XsListItemFilterInputComponent,
-    XsListItemFilterSplitComponent]
+		XsListItemFilterItemComponent,
+		XsListItemFilterBoxComponent,
+		XsListItemFilterInputComponent,
+		XsListItemFilterSplitComponent,
+		XsListItemFilterContainerComponent]
 })
 export class ComponentsModule { }
 
-export class XsDataFilterModel {
-	public text: string = "";
-	public selected: string = "";
-	public type: string = "list"; //list/orderby/button
-	public tag: any = {};
-	public active: boolean = false;
-	public callback?: Function = null;
-	public items: Array<XsDataFilterItemModel> = new Array<XsDataFilterItemModel>();
+export interface XsDataFilterModel {
+	text: string;
+	selected?: string;
+	type: string; //list/orderby/button
+	tag?: any;
+	active: boolean;
+	callback?: Function;
+	items?: Array<XsDataFilterItemModel>;
 }
 
-export class XsDataFilterItemModel {
-	public categoryText: string = "";
-	public listItemText: string = "";
-	public active: boolean = false;
-	public value?: any = {};
+export interface XsDataFilterItemModel {
+	categoryText: string;
+	listItemText: string;
+	active?: boolean;
+	value?: any;
 }

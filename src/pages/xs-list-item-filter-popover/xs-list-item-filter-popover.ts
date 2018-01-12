@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, IonicPage, NavParams, ViewController } from 'ionic-angular';
-import { XsDataFilterItemModel } from '../../components/components.module';
+import { XsDataFilterItemModel, XsDataFilterModel } from '../../components/components.module';
 
 /**
  * Generated class for the XsListItemFilterPopoverPage page.
@@ -16,7 +16,7 @@ import { XsDataFilterItemModel } from '../../components/components.module';
 })
 export class XsListItemFilterPopoverPage {
   private categoryItems: Array<any> = new Array<any>();
-  private category: any = null;
+  private category: XsDataFilterModel = null;
 
   constructor(public navCtrl: NavController,
     public viewCtrl: ViewController,
@@ -38,7 +38,7 @@ export class XsListItemFilterPopoverPage {
       item.active = true;
     }
     if (this.category.callback) {
-      this.category.callback(item);
+        this.category.callback(item);
     }
     this.viewCtrl.dismiss({ item: item, category: this.category });
   }

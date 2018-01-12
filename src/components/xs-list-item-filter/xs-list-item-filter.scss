@@ -40,6 +40,9 @@ xs-list-item-filter {
     .item-actived {
         position: relative;
         color: color($colors, primary);
+        .fa-caret-down {
+            color: color($colors, primary);
+        }
     }
     .item-unactived {
         position: relative;

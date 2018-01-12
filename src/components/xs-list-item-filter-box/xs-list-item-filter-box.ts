@@ -1,4 +1,4 @@
-import { Input, Component, ViewChildren } from '@angular/core';
+import { Input, Component, ContentChildren, ViewChildren, AfterContentInit } from '@angular/core';
 import { XsListItemFilterItemComponent } from '../xs-list-item-filter-item/xs-list-item-filter-item';
 
 /**
@@ -12,6 +12,8 @@ import { XsListItemFilterItemComponent } from '../xs-list-item-filter-item/xs-li
   templateUrl: 'xs-list-item-filter-box.html'
 })
 export class XsListItemFilterBoxComponent {
+  @ContentChildren(XsListItemFilterItemComponent) items: Array<XsListItemFilterItemComponent>;
+
   @Input("title") title: string;
 
   constructor() {

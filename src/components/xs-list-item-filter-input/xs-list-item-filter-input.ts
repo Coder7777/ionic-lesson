@@ -11,10 +11,10 @@ import { Input, Component } from '@angular/core';
   templateUrl: 'xs-list-item-filter-input.html'
 })
 export class XsListItemFilterInputComponent {
-  @Input("placeholder") placeholder: string;
-
+  @Input("text") text: string;
+ 
   constructor() {
-    console.log('Hello XsListItemFilterInputComponent Component');
+    console.log('Hello XsListItemFilterInputComponent Component'); 
   }
 
 }
