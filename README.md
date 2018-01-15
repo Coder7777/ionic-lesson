@@ -12,7 +12,6 @@
 
 ## Step1
 
-<br>
 ```bash
 ionic g page SecondHandHouse
 ```
