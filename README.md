@@ -38,6 +38,8 @@ Lazy Load 优点
 
 ## Step2
 列表页里涉及了两个公共的组件`xs-list-item-filter`和`xs-tag`如图所示：
+<img width="300px" src="https://github.com/Coder7777/ionic-lesson/blob/lesson-2/UI/second-hand-house-detail_spec.png" style="max-width:100%">
+
 <br>
 具体的页面逻辑代码及样式修改请自行查看`.\src\components\xs-list-item-filter`及`.\src\components\xs-tag`文件夹内的项目源码。
 <br>
@@ -89,7 +91,7 @@ export class XxxPageModule { }
 ```
 
 ## Step3
-<img width="300px" src="https://github.com/Coder7777/ionic-lesson/blob/lesson-2/UI/second-hand-house-list.png" style="max-width:100%">
+<img width="300px" src="https://github.com/Coder7777/ionic-lesson/blob/lesson-2/UI/second-hand-house-detail.png" style="max-width:100%">
 
 ```bash
 ionic g page SecondHandHouseDetail
