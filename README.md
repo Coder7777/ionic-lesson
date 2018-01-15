@@ -45,6 +45,7 @@ Lazy Load 优点
 
 ## Step2
 列表页里涉及了两个公共的组件`xs-list-item-filter`和`xs-tag`如图所示：
+<br>
 <img width="300px" src="https://github.com/Coder7777/ionic-lesson/blob/lesson-2/UI/second-hand-house-list_spec.png" style="max-width:100%">
 
 <br>
