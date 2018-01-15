@@ -3,8 +3,8 @@
 
 根据设计稿，实现"二手房列表"和'二手房详情'效果。具体详见`.\src\seoond-hand-house`及`.\src\seoond-hand-house-detail`文件夹。
 <br>
-<img width="300px" src="https://github.com/Coder7777/ionic-lesson/blob/lesson-2/UI/seoond-hand-house.png" style="max-width:100%;">
-<img width="300px" src="https://github.com/Coder7777/ionic-lesson/blob/lesson-2/UI/seoond-hand-house-detail.png" style="max-width:100%;">
+<img width="300px" src="https://github.com/Coder7777/ionic-lesson/blob/lesson-2/UI/second-hand-house-list.png" style="max-width:100%;">
+<img width="300px" src="https://github.com/Coder7777/ionic-lesson/blob/lesson-2/UI/second-hand-house-detail.png" style="max-width:100%;">
 
 ## Step1
 
