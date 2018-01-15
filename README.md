@@ -5,7 +5,7 @@
 <br>
 
 ## Step1
-<img width="100%" src="https://github.com/Coder7777/ionic-lesson/blob/lesson-2/UI/second-hand-house-list.png" style="max-width:100%">
+<img width="300px" src="https://github.com/Coder7777/ionic-lesson/blob/lesson-2/UI/second-hand-house-list.png" style="max-width:100%">
 
 ```bash
 ionic g page SecondHandHouse
@@ -26,18 +26,18 @@ second-hand-house.ts  //逻辑代码
 <br>
 关于Lazy Load,ionic官方博客有两篇文章做了详尽的介绍[Lazy Load Part1](https://blog.ionicframework.com/ionic-and-lazy-loading-pt-1/)、[Lazy Load Part2](https://blog.ionicframework.com/ionic-and-lazy-loading-pt-2/)。
 <br>
-简而言之有了Lazy Load，我们可以直接以字符串的形式来加载各个页面，并且实现了`按需加载`。而无需像`ionic 2`框架时代时，在多个地方进行import和声明，然后再以强类型的方式加载，这种方式在使用及后期重构时显得特别不方便，且`ionci 2`时代，会在应用首次启动时，加载全部的页面资源。
+简而言之有了Lazy Load，我们可以直接以字符串的形式来加载各个页面，并且实现了`按需加载`。而无需像`ionic 2`框架时代时，在多个地方进行import和声明，然后再以强类型的方式加载，这种方式在使用及后期重构时显得特别不方便，且`ionci 2`时代，会在应用首次启动时，加载全部的页面资源。
 
 ```bash
 Lazy Load 优点
 
 1、按需加载，每次只加载部分模块。
-2、以字符串形式进行调用，代码更易维护、更加灵活。
+2、以字符串形式进行调用，代码更易维护、更加灵活。
 3、可在xxx.module.ts内对component、pipe等组件的统一管理。
 ```
 
 ## Step2
-列表页里涉及了两个公共的组件`xs-list-item-filter`和`xs-tag`如图所示：
+列表页里涉及了两个公共的组件`xs-list-item-filter`和`xs-tag`如图所示：
 <br>
 具体的页面逻辑代码及样式修改请自行查看`.\src\components\xs-list-item-filter`及`.\src\components\xs-tag`文件夹内的项目源码。
 <br>
@@ -61,13 +61,13 @@ import { IonicModule } from 'ionic-angular';
 export class ComponentsModule { }
 ```
 <br>
-若某一个区块的UI及逻辑都较为常用，则应该考虑将其抽取成一个个`component`(组件)，适当的暴露部分属性及方法，用于外部传参。组件化也是现代主流MV*都具有功能。
+若某一个区块的UI及逻辑都较为常用，则应该考虑将其抽取成一个个`component`(组件)，适当的暴露部分属性及方法，用于外部传参。组件化也是现代主流MV*都具有功能。
 
 ```bash
 component 的优点
-1、使用方便，将样式和代码封装成组件，使用时只需传入相应的参数即可，具体过程对使用者透明。
+1、使用方便，将样式和代码封装成组件，使用时只需传入相应的参数即可，具体过程对使用者透明。
 2、易于维护，只需在一处维护代码，即可全局更新。
-3、快速开发，各组件可嵌套、组合使用，如同乐高积木，千变万化，可通过不同组件的搭配使用应对不同的业务场景。
+3、快速开发，各组件可嵌套、组合使用，如同乐高积木，千变万化，可通过不同组件的搭配使用应对不同的业务场景。
 ```
 <br>
 最后，在页面内使用组件时，需要在页面自身的`xxx.module.ts`文件内，导入`component.module.ts`的引用，否则在程序运行需要加载该组件的时候浏览器会抛出无法识别自定义组件的异常。
@@ -89,7 +89,7 @@ export class XxxPageModule { }
 ```
 
 ## Step3
-<img width="300px" src="https://github.com/Coder7777/ionic-lesson/blob/lesson-2/UI/second-hand-house-list_spec.png" style="max-width:100%">
+<img width="500px" src="https://github.com/Coder7777/ionic-lesson/blob/lesson-2/UI/second-hand-house-list.png" style="max-width:100%">
 
 ```bash
 ionic g page SecondHandHouseDetail
