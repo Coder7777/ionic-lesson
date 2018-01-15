@@ -4,7 +4,7 @@
 根据设计稿，实现"二手房列表"和'二手房详情'效果。具体详见`.\src\seoond-hand-house`及`.\src\seoond-hand-house-detail`文件夹。
 <br>
 
-<img width="300px" src="https://github.com/Coder7777/ionic-lesson/blob/lesson-2/UI/second-hand-house-list.png" style="max-width:100%;padding-right:30px;">
+<img width="300px" src="https://github.com/Coder7777/ionic-lesson/blob/lesson-2/UI/second-hand-house-list.png" style="max-width:100%">
 
 <img width="300px" src="https://github.com/Coder7777/ionic-lesson/blob/lesson-2/UI/second-hand-house-detail.png" style="max-width:100%;">
 
@@ -19,9 +19,7 @@ ionic g page SecondHandHouse
 <br>
 
 创建二手房列表页，待命令执行完毕，`.\src\page`目录下会生成对应`second-hand-house`目录，内含四个文件分别是：
-
 <br>
-
 ```bash
 second-hand-house.html //视图模板
 second-hand-house.module.ts //用于Lazy Load
@@ -29,36 +27,26 @@ second-hand-house.scss //页面样式
 second-hand-house.ts  //逻辑代码
 ```
 <br>
-接下来就可以安装[ionic开发环境](https://ionicframework.com/getting-started)了，
-```bash
-npm install -g cordova ionic
-```
+`具体的页面逻辑代码及样式修改请自行查看项目源码。`
+<br>
 
-利用[ionic-cli](https://ionicframework.com/docs/cli/)工具，创建tabs模板骨架。
+这里介绍一下`second-hand-house.module.ts`文件，在`ionic 3`框架里，推荐使用的是Lazy Load方式来加载页面，任意一个页面，只要有了`xxx.module.ts`文件，就能够被其他页面以[Lozy Load]方式加载。
+<br>
+
+关于Lazy Load,ionic官方博客有两篇文章做了详尽的介绍[Lazy Load Part1](https://blog.ionicframework.com/ionic-and-lazy-loading-pt-1/)、[Lazy Load Part2](https://blog.ionicframework.com/ionic-and-lazy-loading-pt-2/)。
+<br>
+
+简而言之有了Lazy Load，我们可以直接以字符串的形式来加载各个页面，并且实现了`按需加载`。而无需像`ionic 2`框架时代时，在多个地方进行import和声明，然后再以强类型的方式加载，这种方式在使用及后期重构时显得特别不方便，且`ionci 2`时代，会在应用首次启动时，加载全部的页面资源。
+
 ```bash
-ionic start ionic-lesson tabs
+Lazy Load 优点
+
+1、按需加载，每次只加载部分模块。
+2、以字符串形式进行调用，代码更易维护、更加灵活。
+3、可在xxx.module.ts内对component、pipe等组件的统一管理。
 ```
-等待tabs模板下载完成。
 
 ## Step2
-```bash
-cd .\ionic-lesson
-
-npm install
-```
-进入项目目录，执行`npm install`,请开启vpn，静待安装完成。若中途安装失败，可删除`.\ionic-lesson`目录下的`node_module`文件夹，然后重新执行`npm install`,总有一次会成功的 `-_-|||`
-
-`此处有坑,高能预警!`
-<br>
-由于macOS的权限控制原因，`npm install`安装过程可能会出现`没有权限`的异常，导致安装中断。使用`--unsafe-prem`参数，可以顺利的安装完成。
-
-```bash
-cd .\ionic-lesson
-
-sudo npm install --unsafe-prem
-```
-
-## Step3
 删除`tabs`模板默认的强类型页面加载方式，改为通过页面名称的字符串常量来加载页面。
 <br>这么做的好处在于降低各页面间的耦合，降低页面变动时要修改的代码量,使用时不需要再通过`import`，可直接使用类名。
 <br>
