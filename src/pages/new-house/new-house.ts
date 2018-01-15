@@ -16,12 +16,19 @@ import { XsDataFilterModel } from '../../components/components.module';
 })
 export class NewHousePage {
   private categories: Array<XsDataFilterModel> = new Array<XsDataFilterModel>();
+  private test: boolean = false;
 
   constructor(public navCtrl: NavController,
     public navParams: NavParams) {
     this.initCategroy();
   }
+  updateCucumber() {
+    console.log(this.test);
+  }
 
+  click() {
+    this.test = !this.test;
+  }
   initCategroy() {
     this.categories.push({
       text: "区域",

@@ -25,4 +25,11 @@
   <div ion-fixed style="width:100%;">
     <xs-list-item-filter [categories]="categories"></xs-list-item-filter>
   </div>
+  <div class="xs-list-item-margin-top">
+    <ion-item>
+      <ion-label>Cucumber</ion-label>
+      <ion-checkbox [(ngModel)]="test" (ionChange)="updateCucumber()"></ion-checkbox>
+    </ion-item>
+    <button ion-button block (click)="click()">测试</button>
+  </div>
 </ion-content>
