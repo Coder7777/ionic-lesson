@@ -11,7 +11,7 @@
 ionic g page SecondHandHouse
 ```
 <br>
-创建二手房列表页，待命令执行完毕，`.\src\page`目录下会生成对应`second-hand-house`目录，内含四个文件分别是：
+创建二手房列表页，待命令执行完毕，`.\src\pages`目录下会生成对应`second-hand-house`目录，内含四个文件分别是：
 <br>
 
 ```bash
