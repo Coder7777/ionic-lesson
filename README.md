@@ -22,7 +22,7 @@ second-hand-house.ts  //逻辑代码
 <br>
 具体的页面逻辑代码及样式修改请自行查看`.\src\pages\second-hand-house`文件夹内的项目源码。
 <br>
-这里介绍一下`second-hand-house.module.ts`文件，在`ionic 3`框架里，推荐使用的是 `Lazy Load` 方式来加载页面，任意一个页面，只要有了`xxx.module.ts`文件，就能够被其他页面以Lozy Load方式加载。
+这里介绍一下`second-hand-house.module.ts`文件，在`ionic 3`框架里，推荐使用的是`Lazy Load` 方式来加载页面，任意一个页面，只要有了`xxx.module.ts`文件，就能够被其他页面以Lozy Load方式加载。
 <br>
 关于Lazy Load,ionic官方博客有两篇文章做了详尽的介绍[Lazy Load Part1](https://blog.ionicframework.com/ionic-and-lazy-loading-pt-1/)、[Lazy Load Part2](https://blog.ionicframework.com/ionic-and-lazy-loading-pt-2/)。
 <br>
@@ -89,7 +89,7 @@ export class XxxPageModule { }
 ```
 
 ## Step3
-<img width="500px" src="https://github.com/Coder7777/ionic-lesson/blob/lesson-2/UI/second-hand-house-list.png" style="max-width:100%">
+<img width="300px" src="https://github.com/Coder7777/ionic-lesson/blob/lesson-2/UI/second-hand-house-list.png" style="max-width:100%">
 
 ```bash
 ionic g page SecondHandHouseDetail
