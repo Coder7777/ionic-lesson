@@ -1,14 +1,29 @@
 # Lesson-1
-本节课主要完成组件化及HTTP请求。
+本节课主要完成'二手房列表'和'二手房详情'
 
+根据设计稿，实现"二手房列表"和'二手房详情'效果。具体详见`.\src\seoond-hand-house`及`.\src\seoond-hand-house-detail`文件夹。
+<br>
+<img width="300px" src="https://github.com/Coder7777/ionic-lesson/blob/lesson-2/UI/seoond-hand-house.png" style="max-width:100%;">
+<img width="300px" src="https://github.com/Coder7777/ionic-lesson/blob/lesson-2/UI/seoond-hand-house-detail.png" style="max-width:100%;">
 
 ## Step1
-首先下载[nodejs](https://nodejs.org/en/)并安装LTS版本，安装完毕，若在你的cmd或者终端内输入以下代码。
+
 <br>
 ```bash
-node -v
+ionic g page SecondHandHouse
 ```
-若能打印出当前nodejs的版本号，即表示环境安装成功。
+<br>
+
+创建二手房列表页，待命令执行完毕，`.\src\page`目录下会生成对应`second-hand-house`目录，内含四个文件分别是：
+
+<br>
+
+```bash
+second-hand-house.html //视图模板
+second-hand-house.module.ts //用于Lazy Load
+second-hand-house.scss //页面样式
+second-hand-house.ts  //逻辑代码
+```
 <br>
 接下来就可以安装[ionic开发环境](https://ionicframework.com/getting-started)了，
 ```bash
